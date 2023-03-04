@@ -1,0 +1,3 @@
+# how to create one packate
+ros2 pkg create hello_world_node --build-type ament_cmake --dependencies rclcpp --node-name hello_world
+

@@ -1,0 +1,10 @@
+/home/gdtr/ros2/colcon_mk/build/hello_world_node/CMakeFiles/uninstall.dir
+/home/gdtr/ros2/colcon_mk/build/hello_world_node/CMakeFiles/hello_world_node_uninstall.dir
+/home/gdtr/ros2/colcon_mk/build/hello_world_node/CMakeFiles/hello_world.dir
+/home/gdtr/ros2/colcon_mk/build/hello_world_node/CMakeFiles/test.dir
+/home/gdtr/ros2/colcon_mk/build/hello_world_node/CMakeFiles/edit_cache.dir
+/home/gdtr/ros2/colcon_mk/build/hello_world_node/CMakeFiles/rebuild_cache.dir
+/home/gdtr/ros2/colcon_mk/build/hello_world_node/CMakeFiles/list_install_components.dir
+/home/gdtr/ros2/colcon_mk/build/hello_world_node/CMakeFiles/install.dir
+/home/gdtr/ros2/colcon_mk/build/hello_world_node/CMakeFiles/install/local.dir
+/home/gdtr/ros2/colcon_mk/build/hello_world_node/CMakeFiles/install/strip.dir

@@ -1,0 +1,25 @@
+[0.088s] Invoking command in '/home/gdtr/ros2/colcon_mk/build/hello_world_node': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --build /home/gdtr/ros2/colcon_mk/build/hello_world_node -- -j8 -l8
+[0.447s] [ 50%] [32mBuilding CXX object CMakeFiles/hello_world.dir/src/hello_world.cpp.o[0m
+[10.451s] [100%] [32m[1mLinking CXX executable hello_world[0m
+[11.111s] [100%] Built target hello_world
+[11.167s] Invoked command in '/home/gdtr/ros2/colcon_mk/build/hello_world_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --build /home/gdtr/ros2/colcon_mk/build/hello_world_node -- -j8 -l8
+[11.273s] Invoking command in '/home/gdtr/ros2/colcon_mk/build/hello_world_node': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --install /home/gdtr/ros2/colcon_mk/build/hello_world_node
+[11.295s] -- Install configuration: ""
+[11.297s] -- Installing: /home/gdtr/ros2/colcon_mk/install/hello_world_node/lib/hello_world_node/hello_world
+[11.299s] -- Set runtime path of "/home/gdtr/ros2/colcon_mk/install/hello_world_node/lib/hello_world_node/hello_world" to ""
+[11.300s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/hello_world_node/share/ament_index/resource_index/package_run_dependencies/hello_world_node
+[11.300s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/hello_world_node/share/ament_index/resource_index/parent_prefix_path/hello_world_node
+[11.301s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/hello_world_node/share/hello_world_node/environment/ament_prefix_path.sh
+[11.304s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/hello_world_node/share/hello_world_node/environment/ament_prefix_path.dsv
+[11.304s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/hello_world_node/share/hello_world_node/environment/path.sh
+[11.304s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/hello_world_node/share/hello_world_node/environment/path.dsv
+[11.305s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/hello_world_node/share/hello_world_node/local_setup.bash
+[11.305s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/hello_world_node/share/hello_world_node/local_setup.sh
+[11.305s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/hello_world_node/share/hello_world_node/local_setup.zsh
+[11.305s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/hello_world_node/share/hello_world_node/local_setup.dsv
+[11.305s] -- Installing: /home/gdtr/ros2/colcon_mk/install/hello_world_node/share/hello_world_node/package.dsv
+[11.308s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/hello_world_node/share/ament_index/resource_index/packages/hello_world_node
+[11.308s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/hello_world_node/share/hello_world_node/cmake/hello_world_nodeConfig.cmake
+[11.308s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/hello_world_node/share/hello_world_node/cmake/hello_world_nodeConfig-version.cmake
+[11.309s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/hello_world_node/share/hello_world_node/package.xml
+[11.309s] Invoked command in '/home/gdtr/ros2/colcon_mk/build/hello_world_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --install /home/gdtr/ros2/colcon_mk/build/hello_world_node

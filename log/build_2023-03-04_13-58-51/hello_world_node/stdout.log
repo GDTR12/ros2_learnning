@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target hello_world[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/hello_world.dir/src/hello_world.cpp.o[0m
+[100%] [32m[1mLinking CXX executable hello_world[0m
+[100%] Built target hello_world
+-- Install configuration: ""
+-- Installing: /home/gdtr/ros2/colcon_mk/install/hello_world_node/lib/hello_world_node/hello_world
+-- Set runtime path of "/home/gdtr/ros2/colcon_mk/install/hello_world_node/lib/hello_world_node/hello_world" to ""
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/hello_world_node/share/ament_index/resource_index/package_run_dependencies/hello_world_node
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/hello_world_node/share/ament_index/resource_index/parent_prefix_path/hello_world_node
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/hello_world_node/share/hello_world_node/environment/ament_prefix_path.sh
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/hello_world_node/share/hello_world_node/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/hello_world_node/share/hello_world_node/environment/path.sh
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/hello_world_node/share/hello_world_node/environment/path.dsv
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/hello_world_node/share/hello_world_node/local_setup.bash
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/hello_world_node/share/hello_world_node/local_setup.sh
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/hello_world_node/share/hello_world_node/local_setup.zsh
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/hello_world_node/share/hello_world_node/local_setup.dsv
+-- Installing: /home/gdtr/ros2/colcon_mk/install/hello_world_node/share/hello_world_node/package.dsv
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/hello_world_node/share/ament_index/resource_index/packages/hello_world_node
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/hello_world_node/share/hello_world_node/cmake/hello_world_nodeConfig.cmake
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/hello_world_node/share/hello_world_node/cmake/hello_world_nodeConfig-version.cmake
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/hello_world_node/share/hello_world_node/package.xml

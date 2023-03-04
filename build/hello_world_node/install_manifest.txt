@@ -1,0 +1,16 @@
+/home/gdtr/ros2/colcon_mk/install/hello_world_node/lib/hello_world_node/hello_world
+/home/gdtr/ros2/colcon_mk/install/hello_world_node/share/ament_index/resource_index/package_run_dependencies/hello_world_node
+/home/gdtr/ros2/colcon_mk/install/hello_world_node/share/ament_index/resource_index/parent_prefix_path/hello_world_node
+/home/gdtr/ros2/colcon_mk/install/hello_world_node/share/hello_world_node/environment/ament_prefix_path.sh
+/home/gdtr/ros2/colcon_mk/install/hello_world_node/share/hello_world_node/environment/ament_prefix_path.dsv
+/home/gdtr/ros2/colcon_mk/install/hello_world_node/share/hello_world_node/environment/path.sh
+/home/gdtr/ros2/colcon_mk/install/hello_world_node/share/hello_world_node/environment/path.dsv
+/home/gdtr/ros2/colcon_mk/install/hello_world_node/share/hello_world_node/local_setup.bash
+/home/gdtr/ros2/colcon_mk/install/hello_world_node/share/hello_world_node/local_setup.sh
+/home/gdtr/ros2/colcon_mk/install/hello_world_node/share/hello_world_node/local_setup.zsh
+/home/gdtr/ros2/colcon_mk/install/hello_world_node/share/hello_world_node/local_setup.dsv
+/home/gdtr/ros2/colcon_mk/install/hello_world_node/share/hello_world_node/package.dsv
+/home/gdtr/ros2/colcon_mk/install/hello_world_node/share/ament_index/resource_index/packages/hello_world_node
+/home/gdtr/ros2/colcon_mk/install/hello_world_node/share/hello_world_node/cmake/hello_world_nodeConfig.cmake
+/home/gdtr/ros2/colcon_mk/install/hello_world_node/share/hello_world_node/cmake/hello_world_nodeConfig-version.cmake
+/home/gdtr/ros2/colcon_mk/install/hello_world_node/share/hello_world_node/package.xml

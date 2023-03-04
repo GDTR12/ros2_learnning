@@ -1,0 +1,20 @@
+colcon build
+colcon build --packages-select [包名称...] 
+
+
+ros2 run
+
+
+ros2 pkg
+ros2 pkg create [包名] --build-type [cmake, ament_cmake or ament_python] --node-name [可执行程序名称]
+ros2 pkg executables    :列出可执行的节点
+ros2 pkg executables [指定包名称]   :列出指定包名的节点   
+ros2 pkg list                       :列出功能包名称
+ros2 pkg prefix [包名]          :打印包路径
+ros2 pkg xml [包名]     :相当于cat xml文件
+
+apt install ros-ros版本代号-包名称
+
+
+
+
