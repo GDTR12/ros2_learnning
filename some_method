@@ -16,5 +16,5 @@ ros2 pkg xml [包名]     :相当于cat xml文件
 apt install ros-ros版本代号-包名称
 
 
-
+ros2 topic /[话题名称] ：查看话题的发布数据
 

@@ -1,0 +1,31 @@
+[0.033s] Invoking command in '/home/gdtr/ros2/colcon_mk/build/topic_demo': AMENT_PREFIX_PATH=/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo:/opt/ros/rolling /usr/bin/cmake --build /home/gdtr/ros2/colcon_mk/build/topic_demo -- -j8 -l8
+[0.113s] [35m[1mConsolidate compiler generated dependencies of target topic_listener[0m
+[0.132s] [ 25%] [32mBuilding CXX object CMakeFiles/topic_talker.dir/src/topic_talker.cpp.o[0m
+[0.153s] [ 50%] [32mBuilding CXX object CMakeFiles/topic_listener.dir/src/topic_listener.cpp.o[0m
+[5.500s] [ 75%] [32m[1mLinking CXX executable topic_talker[0m
+[5.774s] [ 75%] Built target topic_talker
+[9.203s] [100%] [32m[1mLinking CXX executable topic_listener[0m
+[9.595s] [100%] Built target topic_listener
+[9.606s] Invoked command in '/home/gdtr/ros2/colcon_mk/build/topic_demo' returned '0': AMENT_PREFIX_PATH=/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo:/opt/ros/rolling /usr/bin/cmake --build /home/gdtr/ros2/colcon_mk/build/topic_demo -- -j8 -l8
+[9.647s] Invoking command in '/home/gdtr/ros2/colcon_mk/build/topic_demo': AMENT_PREFIX_PATH=/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo:/opt/ros/rolling /usr/bin/cmake --install /home/gdtr/ros2/colcon_mk/build/topic_demo
+[9.656s] -- Install configuration: ""
+[9.657s] -- Installing: /home/gdtr/ros2/colcon_mk/install/topic_demo/lib/topic_demo/topic_talker
+[9.659s] -- Set runtime path of "/home/gdtr/ros2/colcon_mk/install/topic_demo/lib/topic_demo/topic_talker" to ""
+[9.659s] -- Installing: /home/gdtr/ros2/colcon_mk/install/topic_demo/lib/topic_demo/topic_listener
+[9.665s] -- Set runtime path of "/home/gdtr/ros2/colcon_mk/install/topic_demo/lib/topic_demo/topic_listener" to ""
+[9.665s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/topic_demo/share/ament_index/resource_index/package_run_dependencies/topic_demo
+[9.665s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/topic_demo/share/ament_index/resource_index/parent_prefix_path/topic_demo
+[9.666s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/topic_demo/share/topic_demo/environment/ament_prefix_path.sh
+[9.666s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/topic_demo/share/topic_demo/environment/ament_prefix_path.dsv
+[9.666s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/topic_demo/share/topic_demo/environment/path.sh
+[9.666s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/topic_demo/share/topic_demo/environment/path.dsv
+[9.666s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/topic_demo/share/topic_demo/local_setup.bash
+[9.666s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/topic_demo/share/topic_demo/local_setup.sh
+[9.666s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/topic_demo/share/topic_demo/local_setup.zsh
+[9.666s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/topic_demo/share/topic_demo/local_setup.dsv
+[9.667s] -- Installing: /home/gdtr/ros2/colcon_mk/install/topic_demo/share/topic_demo/package.dsv
+[9.667s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/topic_demo/share/ament_index/resource_index/packages/topic_demo
+[9.667s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/topic_demo/share/topic_demo/cmake/topic_demoConfig.cmake
+[9.667s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/topic_demo/share/topic_demo/cmake/topic_demoConfig-version.cmake
+[9.667s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/topic_demo/share/topic_demo/package.xml
+[9.673s] Invoked command in '/home/gdtr/ros2/colcon_mk/build/topic_demo' returned '0': AMENT_PREFIX_PATH=/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo:/opt/ros/rolling /usr/bin/cmake --install /home/gdtr/ros2/colcon_mk/build/topic_demo

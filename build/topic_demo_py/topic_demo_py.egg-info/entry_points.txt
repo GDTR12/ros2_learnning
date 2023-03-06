@@ -1,0 +1,4 @@
+[console_scripts]
+topic_listener_py = topic_demo_py.topic_listener_py:main
+topic_talker_py = topic_demo_py.topic_talker_py:main
+

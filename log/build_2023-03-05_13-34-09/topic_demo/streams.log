@@ -1,0 +1,28 @@
+[0.019s] Invoking command in '/home/gdtr/ros2/colcon_mk/build/topic_demo': CMAKE_PREFIX_PATH=/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo:/home/gdtr/ros2/colcon_mk/install/topic_demo:/home/gdtr/ros2/colcon_mk/install/topic_talker_demo:/home/gdtr/ros2/colcon_mk/install/plumbing_demo:/home/gdtr/ros2/colcon_mk/install/hello_world_node:/opt/ros/rolling /usr/bin/cmake --build /home/gdtr/ros2/colcon_mk/build/topic_demo -- -j8 -l8
+[0.065s] [35m[1mConsolidate compiler generated dependencies of target topic_listener[0m
+[0.082s] [ 50%] Built target topic_talker
+[0.086s] [ 75%] [32mBuilding CXX object CMakeFiles/topic_listener.dir/src/topic_listener.cpp.o[0m
+[8.182s] [100%] [32m[1mLinking CXX executable topic_listener[0m
+[8.585s] [100%] Built target topic_listener
+[8.598s] Invoked command in '/home/gdtr/ros2/colcon_mk/build/topic_demo' returned '0': CMAKE_PREFIX_PATH=/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo:/home/gdtr/ros2/colcon_mk/install/topic_demo:/home/gdtr/ros2/colcon_mk/install/topic_talker_demo:/home/gdtr/ros2/colcon_mk/install/plumbing_demo:/home/gdtr/ros2/colcon_mk/install/hello_world_node:/opt/ros/rolling /usr/bin/cmake --build /home/gdtr/ros2/colcon_mk/build/topic_demo -- -j8 -l8
+[8.639s] Invoking command in '/home/gdtr/ros2/colcon_mk/build/topic_demo': CMAKE_PREFIX_PATH=/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo:/home/gdtr/ros2/colcon_mk/install/topic_demo:/home/gdtr/ros2/colcon_mk/install/topic_talker_demo:/home/gdtr/ros2/colcon_mk/install/plumbing_demo:/home/gdtr/ros2/colcon_mk/install/hello_world_node:/opt/ros/rolling /usr/bin/cmake --install /home/gdtr/ros2/colcon_mk/build/topic_demo
+[8.648s] -- Install configuration: ""
+[8.648s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/topic_demo/lib/topic_demo/topic_talker
+[8.649s] -- Installing: /home/gdtr/ros2/colcon_mk/install/topic_demo/lib/topic_demo/topic_listener
+[8.657s] -- Set runtime path of "/home/gdtr/ros2/colcon_mk/install/topic_demo/lib/topic_demo/topic_listener" to ""
+[8.657s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/topic_demo/share/ament_index/resource_index/package_run_dependencies/topic_demo
+[8.657s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/topic_demo/share/ament_index/resource_index/parent_prefix_path/topic_demo
+[8.658s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/topic_demo/share/topic_demo/environment/ament_prefix_path.sh
+[8.658s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/topic_demo/share/topic_demo/environment/ament_prefix_path.dsv
+[8.658s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/topic_demo/share/topic_demo/environment/path.sh
+[8.658s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/topic_demo/share/topic_demo/environment/path.dsv
+[8.658s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/topic_demo/share/topic_demo/local_setup.bash
+[8.658s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/topic_demo/share/topic_demo/local_setup.sh
+[8.659s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/topic_demo/share/topic_demo/local_setup.zsh
+[8.659s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/topic_demo/share/topic_demo/local_setup.dsv
+[8.659s] -- Installing: /home/gdtr/ros2/colcon_mk/install/topic_demo/share/topic_demo/package.dsv
+[8.659s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/topic_demo/share/ament_index/resource_index/packages/topic_demo
+[8.659s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/topic_demo/share/topic_demo/cmake/topic_demoConfig.cmake
+[8.659s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/topic_demo/share/topic_demo/cmake/topic_demoConfig-version.cmake
+[8.659s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/topic_demo/share/topic_demo/package.xml
+[8.662s] Invoked command in '/home/gdtr/ros2/colcon_mk/build/topic_demo' returned '0': CMAKE_PREFIX_PATH=/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo:/home/gdtr/ros2/colcon_mk/install/topic_demo:/home/gdtr/ros2/colcon_mk/install/topic_talker_demo:/home/gdtr/ros2/colcon_mk/install/plumbing_demo:/home/gdtr/ros2/colcon_mk/install/hello_world_node:/opt/ros/rolling /usr/bin/cmake --install /home/gdtr/ros2/colcon_mk/build/topic_demo

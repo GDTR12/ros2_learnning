@@ -1,0 +1,17 @@
+/home/gdtr/ros2/colcon_mk/install/topic_demo/lib/topic_demo/topic_talker
+/home/gdtr/ros2/colcon_mk/install/topic_demo/lib/topic_demo/topic_listener
+/home/gdtr/ros2/colcon_mk/install/topic_demo/share/ament_index/resource_index/package_run_dependencies/topic_demo
+/home/gdtr/ros2/colcon_mk/install/topic_demo/share/ament_index/resource_index/parent_prefix_path/topic_demo
+/home/gdtr/ros2/colcon_mk/install/topic_demo/share/topic_demo/environment/ament_prefix_path.sh
+/home/gdtr/ros2/colcon_mk/install/topic_demo/share/topic_demo/environment/ament_prefix_path.dsv
+/home/gdtr/ros2/colcon_mk/install/topic_demo/share/topic_demo/environment/path.sh
+/home/gdtr/ros2/colcon_mk/install/topic_demo/share/topic_demo/environment/path.dsv
+/home/gdtr/ros2/colcon_mk/install/topic_demo/share/topic_demo/local_setup.bash
+/home/gdtr/ros2/colcon_mk/install/topic_demo/share/topic_demo/local_setup.sh
+/home/gdtr/ros2/colcon_mk/install/topic_demo/share/topic_demo/local_setup.zsh
+/home/gdtr/ros2/colcon_mk/install/topic_demo/share/topic_demo/local_setup.dsv
+/home/gdtr/ros2/colcon_mk/install/topic_demo/share/topic_demo/package.dsv
+/home/gdtr/ros2/colcon_mk/install/topic_demo/share/ament_index/resource_index/packages/topic_demo
+/home/gdtr/ros2/colcon_mk/install/topic_demo/share/topic_demo/cmake/topic_demoConfig.cmake
+/home/gdtr/ros2/colcon_mk/install/topic_demo/share/topic_demo/cmake/topic_demoConfig-version.cmake
+/home/gdtr/ros2/colcon_mk/install/topic_demo/share/topic_demo/package.xml

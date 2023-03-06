@@ -1,0 +1,10 @@
+/home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles/uninstall.dir
+/home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles/plumbing_interface_demo_uninstall.dir
+/home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles/plumbing_interface_node.dir
+/home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles/test.dir
+/home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles/edit_cache.dir
+/home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles/rebuild_cache.dir
+/home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles/list_install_components.dir
+/home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles/install.dir
+/home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles/install/local.dir
+/home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles/install/strip.dir
