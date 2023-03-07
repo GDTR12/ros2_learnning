@@ -1,0 +1,17 @@
+/home/gdtr/ros2/colcon_mk/install/service_demo/lib/service_demo/service_server
+/home/gdtr/ros2/colcon_mk/install/service_demo/lib/service_demo/service_client
+/home/gdtr/ros2/colcon_mk/install/service_demo/share/ament_index/resource_index/package_run_dependencies/service_demo
+/home/gdtr/ros2/colcon_mk/install/service_demo/share/ament_index/resource_index/parent_prefix_path/service_demo
+/home/gdtr/ros2/colcon_mk/install/service_demo/share/service_demo/environment/ament_prefix_path.sh
+/home/gdtr/ros2/colcon_mk/install/service_demo/share/service_demo/environment/ament_prefix_path.dsv
+/home/gdtr/ros2/colcon_mk/install/service_demo/share/service_demo/environment/path.sh
+/home/gdtr/ros2/colcon_mk/install/service_demo/share/service_demo/environment/path.dsv
+/home/gdtr/ros2/colcon_mk/install/service_demo/share/service_demo/local_setup.bash
+/home/gdtr/ros2/colcon_mk/install/service_demo/share/service_demo/local_setup.sh
+/home/gdtr/ros2/colcon_mk/install/service_demo/share/service_demo/local_setup.zsh
+/home/gdtr/ros2/colcon_mk/install/service_demo/share/service_demo/local_setup.dsv
+/home/gdtr/ros2/colcon_mk/install/service_demo/share/service_demo/package.dsv
+/home/gdtr/ros2/colcon_mk/install/service_demo/share/ament_index/resource_index/packages/service_demo
+/home/gdtr/ros2/colcon_mk/install/service_demo/share/service_demo/cmake/service_demoConfig.cmake
+/home/gdtr/ros2/colcon_mk/install/service_demo/share/service_demo/cmake/service_demoConfig-version.cmake
+/home/gdtr/ros2/colcon_mk/install/service_demo/share/service_demo/package.xml

@@ -1,0 +1,44 @@
+[0.000000] (-) TimerEvent: {}
+[0.000141] (-) JobUnselected: {'identifier': 'hello_world_node'}
+[0.000729] (-) JobUnselected: {'identifier': 'plumbing_interface_demo'}
+[0.001092] (-) JobUnselected: {'identifier': 'service_demo'}
+[0.001157] (-) JobUnselected: {'identifier': 'topic_demo'}
+[0.001245] (-) JobUnselected: {'identifier': 'topic_demo_py'}
+[0.001289] (service_demo_py) JobQueued: {'identifier': 'service_demo_py', 'dependencies': OrderedDict([('plumbing_interface_demo', '/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo')])}
+[0.002331] (service_demo_py) JobStarted: {'identifier': 'service_demo_py'}
+[0.099751] (-) TimerEvent: {}
+[0.200073] (-) TimerEvent: {}
+[0.300409] (-) TimerEvent: {}
+[0.400740] (-) TimerEvent: {}
+[0.501259] (-) TimerEvent: {}
+[0.602052] (-) TimerEvent: {}
+[0.702369] (-) TimerEvent: {}
+[0.802680] (-) TimerEvent: {}
+[0.899817] (service_demo_py) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/service_demo_py', 'build', '--build-base', '/home/gdtr/ros2/colcon_mk/build/service_demo_py/build', 'install', '--record', '/home/gdtr/ros2/colcon_mk/build/service_demo_py/install.log', '--single-version-externally-managed'], 'cwd': '/home/gdtr/ros2/colcon_mk/src/service_demo_py', 'env': {'TMUX': '/tmp/tmux-1000/default,539,0', 'LANGUAGE': 'zh_CN:zh:en_US:en', 'LC_TIME': 'en_US.UTF-8', 'SSH_CLIENT': '172.17.0.1 60344 22', 'USER': 'gdtr', 'LD_LIBRARY_PATH': '/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/lib', 'SHLVL': '2', 'HOME': '/home/gdtr', 'LESS': '-R', 'MOTD_SHOWN': 'pam', 'OLDPWD': '/home/gdtr/ros2/colcon_mk/src', 'SSH_TTY': '/dev/pts/5', 'TERM_PROGRAM_VERSION': '3.2a', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'ZSH': '/home/gdtr/.oh-my-zsh', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', '_ZSH_TMUX_FIXED_CONFIG': '/home/gdtr/.oh-my-zsh/plugins/tmux/tmux.extra.conf', 'LC_MONETARY': 'en_US.UTF-8', 'P9K_TTY': 'old', 'ROS_DISTRO': 'rolling', 'LOGNAME': 'gdtr', '_': '/usr/bin/colcon', '_P9K_SSH_TTY': '/dev/pts/7', 'ROS_VERSION': '2', 'TERM': 'screen', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LC_ADDRESS': 'en_US.UTF-8', 'DISPLAY': ':0', 'LANG': 'zh_CN.UTF-8', 'LC_TELEPHONE': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'TERM_PROGRAM': 'tmux', 'ZSH_TMUX_TERM': 'screen', 'AMENT_PREFIX_PATH': '/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo:/opt/ros/rolling', 'LC_NAME': 'en_US.UTF-8', 'SHELL': '/usr/bin/zsh', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'P9K_SSH': '1', 'PWD': '/home/gdtr/ros2/colcon_mk/build/service_demo_py', 'SSH_CONNECTION': '172.17.0.1 60344 172.17.0.2 22', 'ZSH_TMUX_CONFIG': '/home/gdtr/.tmux.conf', '_P9K_TTY': '/dev/pts/7', 'LC_NUMERIC': 'en_US.UTF-8', 'PYTHONPATH': '/home/gdtr/ros2/colcon_mk/build/service_demo_py/prefix_override:/home/gdtr/ros2/colcon_mk/install/service_demo_py/lib/python3.10/site-packages:/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/local/lib/python3.10/dist-packages:/opt/ros/rolling/lib/python3.10/site-packages:/opt/ros/rolling/local/lib/python3.10/dist-packages', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'TMUX_PANE': '%1', 'CMAKE_PREFIX_PATH': '/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo'}, 'shell': False}
+[0.903068] (-) TimerEvent: {}
+[1.003757] (-) TimerEvent: {}
+[1.104088] (-) TimerEvent: {}
+[1.204381] (-) TimerEvent: {}
+[1.247937] (service_demo_py) StdoutLine: {'line': b'running egg_info\n'}
+[1.248743] (service_demo_py) StdoutLine: {'line': b'writing ../../build/service_demo_py/service_demo_py.egg-info/PKG-INFO\n'}
+[1.248993] (service_demo_py) StdoutLine: {'line': b'writing dependency_links to ../../build/service_demo_py/service_demo_py.egg-info/dependency_links.txt\n'}
+[1.249239] (service_demo_py) StdoutLine: {'line': b'writing entry points to ../../build/service_demo_py/service_demo_py.egg-info/entry_points.txt\n'}
+[1.249459] (service_demo_py) StdoutLine: {'line': b'writing requirements to ../../build/service_demo_py/service_demo_py.egg-info/requires.txt\n'}
+[1.249615] (service_demo_py) StdoutLine: {'line': b'writing top-level names to ../../build/service_demo_py/service_demo_py.egg-info/top_level.txt\n'}
+[1.251636] (service_demo_py) StdoutLine: {'line': b"reading manifest file '../../build/service_demo_py/service_demo_py.egg-info/SOURCES.txt'\n"}
+[1.252746] (service_demo_py) StdoutLine: {'line': b"writing manifest file '../../build/service_demo_py/service_demo_py.egg-info/SOURCES.txt'\n"}
+[1.252982] (service_demo_py) StdoutLine: {'line': b'running build\n'}
+[1.253145] (service_demo_py) StdoutLine: {'line': b'running build_py\n'}
+[1.253477] (service_demo_py) StdoutLine: {'line': b'running install\n'}
+[1.253932] (service_demo_py) StdoutLine: {'line': b'running install_lib\n'}
+[1.255296] (service_demo_py) StdoutLine: {'line': b'running install_data\n'}
+[1.255882] (service_demo_py) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.257564] (service_demo_py) StdoutLine: {'line': b"removing '/home/gdtr/ros2/colcon_mk/install/service_demo_py/lib/python3.10/site-packages/service_demo_py-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.258130] (service_demo_py) StdoutLine: {'line': b'Copying ../../build/service_demo_py/service_demo_py.egg-info to /home/gdtr/ros2/colcon_mk/install/service_demo_py/lib/python3.10/site-packages/service_demo_py-0.0.0-py3.10.egg-info\n'}
+[1.259369] (service_demo_py) StdoutLine: {'line': b'running install_scripts\n'}
+[1.282701] (service_demo_py) StdoutLine: {'line': b'Installing service_server = service_demo_py.service_server:mainservice_client script to /home/gdtr/ros2/colcon_mk/install/service_demo_py/lib/service_demo_py\n'}
+[1.283145] (service_demo_py) StdoutLine: {'line': b"writing list of installed files to '/home/gdtr/ros2/colcon_mk/build/service_demo_py/install.log'\n"}
+[1.304531] (-) TimerEvent: {}
+[1.314590] (service_demo_py) CommandEnded: {'returncode': 0}
+[1.344058] (service_demo_py) JobEnded: {'identifier': 'service_demo_py', 'rc': 0}
+[1.345106] (-) EventReactorShutdown: {}

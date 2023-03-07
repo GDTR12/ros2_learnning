@@ -1,0 +1,16 @@
+/home/gdtr/ros2/colcon_mk/install/service_demo_py/lib/service_demo_py/service_server_py
+/home/gdtr/ros2/colcon_mk/install/service_demo_py/share/ament_index/resource_index/package_run_dependencies/service_demo_py
+/home/gdtr/ros2/colcon_mk/install/service_demo_py/share/ament_index/resource_index/parent_prefix_path/service_demo_py
+/home/gdtr/ros2/colcon_mk/install/service_demo_py/share/service_demo_py/environment/ament_prefix_path.sh
+/home/gdtr/ros2/colcon_mk/install/service_demo_py/share/service_demo_py/environment/ament_prefix_path.dsv
+/home/gdtr/ros2/colcon_mk/install/service_demo_py/share/service_demo_py/environment/path.sh
+/home/gdtr/ros2/colcon_mk/install/service_demo_py/share/service_demo_py/environment/path.dsv
+/home/gdtr/ros2/colcon_mk/install/service_demo_py/share/service_demo_py/local_setup.bash
+/home/gdtr/ros2/colcon_mk/install/service_demo_py/share/service_demo_py/local_setup.sh
+/home/gdtr/ros2/colcon_mk/install/service_demo_py/share/service_demo_py/local_setup.zsh
+/home/gdtr/ros2/colcon_mk/install/service_demo_py/share/service_demo_py/local_setup.dsv
+/home/gdtr/ros2/colcon_mk/install/service_demo_py/share/service_demo_py/package.dsv
+/home/gdtr/ros2/colcon_mk/install/service_demo_py/share/ament_index/resource_index/packages/service_demo_py
+/home/gdtr/ros2/colcon_mk/install/service_demo_py/share/service_demo_py/cmake/service_demo_pyConfig.cmake
+/home/gdtr/ros2/colcon_mk/install/service_demo_py/share/service_demo_py/cmake/service_demo_pyConfig-version.cmake
+/home/gdtr/ros2/colcon_mk/install/service_demo_py/share/service_demo_py/package.xml

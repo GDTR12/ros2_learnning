@@ -223,6 +223,32 @@ topic_listener/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/topic_listener.dir/build.make CMakeFiles/topic_listener.dir/build
 .PHONY : topic_listener/fast
 
+#=============================================================================
+# Target rules for targets named topic_talker_custom
+
+# Build rule for target.
+topic_talker_custom: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 topic_talker_custom
+.PHONY : topic_talker_custom
+
+# fast build rule for target.
+topic_talker_custom/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/topic_talker_custom.dir/build.make CMakeFiles/topic_talker_custom.dir/build
+.PHONY : topic_talker_custom/fast
+
+#=============================================================================
+# Target rules for targets named topic_listener_custom
+
+# Build rule for target.
+topic_listener_custom: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 topic_listener_custom
+.PHONY : topic_listener_custom
+
+# fast build rule for target.
+topic_listener_custom/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/topic_listener_custom.dir/build.make CMakeFiles/topic_listener_custom.dir/build
+.PHONY : topic_listener_custom/fast
+
 src/topic_listener.o: src/topic_listener.cpp.o
 .PHONY : src/topic_listener.o
 
@@ -246,6 +272,30 @@ src/topic_listener.s: src/topic_listener.cpp.s
 src/topic_listener.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/topic_listener.dir/build.make CMakeFiles/topic_listener.dir/src/topic_listener.cpp.s
 .PHONY : src/topic_listener.cpp.s
+
+src/topic_listener_custom.o: src/topic_listener_custom.cpp.o
+.PHONY : src/topic_listener_custom.o
+
+# target to build an object file
+src/topic_listener_custom.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/topic_listener_custom.dir/build.make CMakeFiles/topic_listener_custom.dir/src/topic_listener_custom.cpp.o
+.PHONY : src/topic_listener_custom.cpp.o
+
+src/topic_listener_custom.i: src/topic_listener_custom.cpp.i
+.PHONY : src/topic_listener_custom.i
+
+# target to preprocess a source file
+src/topic_listener_custom.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/topic_listener_custom.dir/build.make CMakeFiles/topic_listener_custom.dir/src/topic_listener_custom.cpp.i
+.PHONY : src/topic_listener_custom.cpp.i
+
+src/topic_listener_custom.s: src/topic_listener_custom.cpp.s
+.PHONY : src/topic_listener_custom.s
+
+# target to generate assembly for a file
+src/topic_listener_custom.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/topic_listener_custom.dir/build.make CMakeFiles/topic_listener_custom.dir/src/topic_listener_custom.cpp.s
+.PHONY : src/topic_listener_custom.cpp.s
 
 src/topic_talker.o: src/topic_talker.cpp.o
 .PHONY : src/topic_talker.o
@@ -271,6 +321,30 @@ src/topic_talker.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/topic_talker.dir/build.make CMakeFiles/topic_talker.dir/src/topic_talker.cpp.s
 .PHONY : src/topic_talker.cpp.s
 
+src/topic_talker_custom.o: src/topic_talker_custom.cpp.o
+.PHONY : src/topic_talker_custom.o
+
+# target to build an object file
+src/topic_talker_custom.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/topic_talker_custom.dir/build.make CMakeFiles/topic_talker_custom.dir/src/topic_talker_custom.cpp.o
+.PHONY : src/topic_talker_custom.cpp.o
+
+src/topic_talker_custom.i: src/topic_talker_custom.cpp.i
+.PHONY : src/topic_talker_custom.i
+
+# target to preprocess a source file
+src/topic_talker_custom.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/topic_talker_custom.dir/build.make CMakeFiles/topic_talker_custom.dir/src/topic_talker_custom.cpp.i
+.PHONY : src/topic_talker_custom.cpp.i
+
+src/topic_talker_custom.s: src/topic_talker_custom.cpp.s
+.PHONY : src/topic_talker_custom.s
+
+# target to generate assembly for a file
+src/topic_talker_custom.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/topic_talker_custom.dir/build.make CMakeFiles/topic_talker_custom.dir/src/topic_talker_custom.cpp.s
+.PHONY : src/topic_talker_custom.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -287,13 +361,21 @@ help:
 	@echo "... topic_demo_uninstall"
 	@echo "... uninstall"
 	@echo "... topic_listener"
+	@echo "... topic_listener_custom"
 	@echo "... topic_talker"
+	@echo "... topic_talker_custom"
 	@echo "... src/topic_listener.o"
 	@echo "... src/topic_listener.i"
 	@echo "... src/topic_listener.s"
+	@echo "... src/topic_listener_custom.o"
+	@echo "... src/topic_listener_custom.i"
+	@echo "... src/topic_listener_custom.s"
 	@echo "... src/topic_talker.o"
 	@echo "... src/topic_talker.i"
 	@echo "... src/topic_talker.s"
+	@echo "... src/topic_talker_custom.o"
+	@echo "... src/topic_talker_custom.i"
+	@echo "... src/topic_talker_custom.s"
 .PHONY : help
 
 

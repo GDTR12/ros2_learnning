@@ -16,5 +16,8 @@ ros2 pkg xml [包名]     :相当于cat xml文件
 apt install ros-ros版本代号-包名称
 
 
-ros2 topic /[话题名称] ：查看话题的发布数据
 
+ros2 interface show [包名/[srv/msg]/数据类名称]  : 查看数据类型
+ros2 topic echo /[话题名称] ：查看话题的发布数据
+ros2 service call /[服务话题名称] [包名/[srv/msg]/数据类名称] [json格式数据] : 想服务端请求数据
+ros2 action send_goal /[动作话题名称] [包名/[srv/msg]/数据类名称] -f [json格式数据] : 向服务端请求数据

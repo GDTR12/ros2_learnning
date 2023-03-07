@@ -1,0 +1,3 @@
+/home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/rosidl_adapter/plumbing_interface_demo:msg/CustomMsg.idl
+/home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/rosidl_adapter/plumbing_interface_demo:srv/ServiceMsg.idl
+/home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/rosidl_adapter/plumbing_interface_demo:action/ActionMsg.idl

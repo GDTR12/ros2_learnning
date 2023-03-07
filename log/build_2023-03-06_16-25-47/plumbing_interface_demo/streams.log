@@ -1,0 +1,24 @@
+[0.017s] Invoking command in '/home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gdtr/ros2/colcon_mk/install/topic_demo_py:/opt/ros/rolling /usr/bin/cmake --build /home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo -- -j8 -l8
+[0.064s] -- Found ament_cmake: 1.5.2 (/opt/ros/rolling/share/ament_cmake/cmake)
+[0.273s] -- Found rosidl_default_generators: 1.4.0 (/opt/ros/rolling/share/rosidl_default_generators/cmake)
+[0.277s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.341s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.399s] -- Found rosidl_adapter: 3.3.1 (/opt/ros/rolling/share/rosidl_adapter/cmake)
+[0.894s] -- Found ament_cmake_ros: 0.11.1 (/opt/ros/rolling/share/ament_cmake_ros/cmake)
+[1.117s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.409s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.437s] -- Found python_cmake_module: 0.10.1 (/opt/ros/rolling/share/python_cmake_module/cmake)
+[1.464s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.465s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.465s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.479s] [31mCMake Error at /opt/ros/rolling/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[1.479s]   ament_target_dependencies() the passed package name 'rclcpp' was not found
+[1.479s]   before
+[1.479s] Call Stack (most recent call first):
+[1.479s]   CMakeLists.txt:25 (ament_target_dependencies)
+[1.479s] 
+[1.479s] [0m
+[1.479s] -- Configuring incomplete, errors occurred!
+[1.480s] See also "/home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles/CMakeOutput.log".
+[1.484s] gmake: *** [Makefile:788: cmake_check_build_system] Error 1
+[1.487s] Invoked command in '/home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gdtr/ros2/colcon_mk/install/topic_demo_py:/opt/ros/rolling /usr/bin/cmake --build /home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo -- -j8 -l8

@@ -63,18 +63,63 @@ CMAKE_BINARY_DIR = /home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/plumbing_interface_demo.dir/all
+all: CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/all
+all: CMakeFiles/plumbing_interface_demo__rosidl_typesupport_fastrtps_c.dir/all
+all: CMakeFiles/plumbing_interface_demo__rosidl_typesupport_fastrtps_cpp.dir/all
+all: CMakeFiles/plumbing_interface_demo__rosidl_typesupport_introspection_c.dir/all
+all: CMakeFiles/plumbing_interface_demo__rosidl_typesupport_c.dir/all
+all: CMakeFiles/plumbing_interface_demo__rosidl_typesupport_introspection_cpp.dir/all
+all: CMakeFiles/plumbing_interface_demo__rosidl_typesupport_cpp.dir/all
+all: CMakeFiles/ament_cmake_python_build_plumbing_interface_demo_egg.dir/all
+all: CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/all
+all: CMakeFiles/plumbing_interface_demo__rosidl_typesupport_fastrtps_c__pyext.dir/all
+all: CMakeFiles/plumbing_interface_demo__rosidl_typesupport_introspection_c__pyext.dir/all
+all: CMakeFiles/plumbing_interface_demo__rosidl_typesupport_c__pyext.dir/all
 all: CMakeFiles/plumbing_interface_node.dir/all
+all: plumbing_interface_demo__py/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall:
+preinstall: plumbing_interface_demo__py/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/plumbing_interface_demo_uninstall.dir/clean
+clean: CMakeFiles/plumbing_interface_demo.dir/clean
+clean: CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/clean
+clean: CMakeFiles/plumbing_interface_demo__rosidl_typesupport_fastrtps_c.dir/clean
+clean: CMakeFiles/plumbing_interface_demo__cpp.dir/clean
+clean: CMakeFiles/plumbing_interface_demo__rosidl_typesupport_fastrtps_cpp.dir/clean
+clean: CMakeFiles/plumbing_interface_demo__rosidl_typesupport_introspection_c.dir/clean
+clean: CMakeFiles/plumbing_interface_demo__rosidl_typesupport_c.dir/clean
+clean: CMakeFiles/plumbing_interface_demo__rosidl_typesupport_introspection_cpp.dir/clean
+clean: CMakeFiles/plumbing_interface_demo__rosidl_typesupport_cpp.dir/clean
+clean: CMakeFiles/ament_cmake_python_copy_plumbing_interface_demo.dir/clean
+clean: CMakeFiles/ament_cmake_python_build_plumbing_interface_demo_egg.dir/clean
+clean: CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/clean
+clean: CMakeFiles/plumbing_interface_demo__rosidl_typesupport_fastrtps_c__pyext.dir/clean
+clean: CMakeFiles/plumbing_interface_demo__rosidl_typesupport_introspection_c__pyext.dir/clean
+clean: CMakeFiles/plumbing_interface_demo__rosidl_typesupport_c__pyext.dir/clean
 clean: CMakeFiles/plumbing_interface_node.dir/clean
+clean: plumbing_interface_demo__py/clean
 .PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory plumbing_interface_demo__py
+
+# Recursive "all" directory target.
+plumbing_interface_demo__py/all:
+.PHONY : plumbing_interface_demo__py/all
+
+# Recursive "preinstall" directory target.
+plumbing_interface_demo__py/preinstall:
+.PHONY : plumbing_interface_demo__py/preinstall
+
+# Recursive "clean" directory target.
+plumbing_interface_demo__py/clean: plumbing_interface_demo__py/CMakeFiles/plumbing_interface_demo__py.dir/clean
+.PHONY : plumbing_interface_demo__py/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/uninstall.dir
@@ -129,13 +174,423 @@ CMakeFiles/plumbing_interface_demo_uninstall.dir/clean:
 .PHONY : CMakeFiles/plumbing_interface_demo_uninstall.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/plumbing_interface_demo.dir
+
+# All Build rule for target.
+CMakeFiles/plumbing_interface_demo.dir/all: CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/all
+CMakeFiles/plumbing_interface_demo.dir/all: CMakeFiles/plumbing_interface_demo__rosidl_typesupport_fastrtps_c.dir/all
+CMakeFiles/plumbing_interface_demo.dir/all: CMakeFiles/plumbing_interface_demo__cpp.dir/all
+CMakeFiles/plumbing_interface_demo.dir/all: CMakeFiles/plumbing_interface_demo__rosidl_typesupport_fastrtps_cpp.dir/all
+CMakeFiles/plumbing_interface_demo.dir/all: CMakeFiles/plumbing_interface_demo__rosidl_typesupport_introspection_c.dir/all
+CMakeFiles/plumbing_interface_demo.dir/all: CMakeFiles/plumbing_interface_demo__rosidl_typesupport_c.dir/all
+CMakeFiles/plumbing_interface_demo.dir/all: CMakeFiles/plumbing_interface_demo__rosidl_typesupport_introspection_cpp.dir/all
+CMakeFiles/plumbing_interface_demo.dir/all: CMakeFiles/plumbing_interface_demo__rosidl_typesupport_cpp.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plumbing_interface_demo.dir/build.make CMakeFiles/plumbing_interface_demo.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plumbing_interface_demo.dir/build.make CMakeFiles/plumbing_interface_demo.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles --progress-num= "Built target plumbing_interface_demo"
+.PHONY : CMakeFiles/plumbing_interface_demo.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/plumbing_interface_demo.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles 36
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/plumbing_interface_demo.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles 0
+.PHONY : CMakeFiles/plumbing_interface_demo.dir/rule
+
+# Convenience name for target.
+plumbing_interface_demo: CMakeFiles/plumbing_interface_demo.dir/rule
+.PHONY : plumbing_interface_demo
+
+# clean rule for target.
+CMakeFiles/plumbing_interface_demo.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plumbing_interface_demo.dir/build.make CMakeFiles/plumbing_interface_demo.dir/clean
+.PHONY : CMakeFiles/plumbing_interface_demo.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir
+
+# All Build rule for target.
+CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/build.make CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/build.make CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles --progress-num=3,4,5,6,7 "Built target plumbing_interface_demo__rosidl_generator_c"
+.PHONY : CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles 5
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles 0
+.PHONY : CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/rule
+
+# Convenience name for target.
+plumbing_interface_demo__rosidl_generator_c: CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/rule
+.PHONY : plumbing_interface_demo__rosidl_generator_c
+
+# clean rule for target.
+CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/build.make CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/clean
+.PHONY : CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/plumbing_interface_demo__rosidl_typesupport_fastrtps_c.dir
+
+# All Build rule for target.
+CMakeFiles/plumbing_interface_demo__rosidl_typesupport_fastrtps_c.dir/all: CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plumbing_interface_demo__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/plumbing_interface_demo__rosidl_typesupport_fastrtps_c.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plumbing_interface_demo__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/plumbing_interface_demo__rosidl_typesupport_fastrtps_c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles --progress-num=24,25,26,27,28 "Built target plumbing_interface_demo__rosidl_typesupport_fastrtps_c"
+.PHONY : CMakeFiles/plumbing_interface_demo__rosidl_typesupport_fastrtps_c.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/plumbing_interface_demo__rosidl_typesupport_fastrtps_c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles 10
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/plumbing_interface_demo__rosidl_typesupport_fastrtps_c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles 0
+.PHONY : CMakeFiles/plumbing_interface_demo__rosidl_typesupport_fastrtps_c.dir/rule
+
+# Convenience name for target.
+plumbing_interface_demo__rosidl_typesupport_fastrtps_c: CMakeFiles/plumbing_interface_demo__rosidl_typesupport_fastrtps_c.dir/rule
+.PHONY : plumbing_interface_demo__rosidl_typesupport_fastrtps_c
+
+# clean rule for target.
+CMakeFiles/plumbing_interface_demo__rosidl_typesupport_fastrtps_c.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plumbing_interface_demo__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/plumbing_interface_demo__rosidl_typesupport_fastrtps_c.dir/clean
+.PHONY : CMakeFiles/plumbing_interface_demo__rosidl_typesupport_fastrtps_c.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/plumbing_interface_demo__cpp.dir
+
+# All Build rule for target.
+CMakeFiles/plumbing_interface_demo__cpp.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plumbing_interface_demo__cpp.dir/build.make CMakeFiles/plumbing_interface_demo__cpp.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plumbing_interface_demo__cpp.dir/build.make CMakeFiles/plumbing_interface_demo__cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles --progress-num=1 "Built target plumbing_interface_demo__cpp"
+.PHONY : CMakeFiles/plumbing_interface_demo__cpp.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/plumbing_interface_demo__cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/plumbing_interface_demo__cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles 0
+.PHONY : CMakeFiles/plumbing_interface_demo__cpp.dir/rule
+
+# Convenience name for target.
+plumbing_interface_demo__cpp: CMakeFiles/plumbing_interface_demo__cpp.dir/rule
+.PHONY : plumbing_interface_demo__cpp
+
+# clean rule for target.
+CMakeFiles/plumbing_interface_demo__cpp.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plumbing_interface_demo__cpp.dir/build.make CMakeFiles/plumbing_interface_demo__cpp.dir/clean
+.PHONY : CMakeFiles/plumbing_interface_demo__cpp.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/plumbing_interface_demo__rosidl_typesupport_fastrtps_cpp.dir
+
+# All Build rule for target.
+CMakeFiles/plumbing_interface_demo__rosidl_typesupport_fastrtps_cpp.dir/all: CMakeFiles/plumbing_interface_demo__cpp.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plumbing_interface_demo__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/plumbing_interface_demo__rosidl_typesupport_fastrtps_cpp.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plumbing_interface_demo__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/plumbing_interface_demo__rosidl_typesupport_fastrtps_cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles --progress-num=31,32,33,34,35 "Built target plumbing_interface_demo__rosidl_typesupport_fastrtps_cpp"
+.PHONY : CMakeFiles/plumbing_interface_demo__rosidl_typesupport_fastrtps_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/plumbing_interface_demo__rosidl_typesupport_fastrtps_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles 6
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/plumbing_interface_demo__rosidl_typesupport_fastrtps_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles 0
+.PHONY : CMakeFiles/plumbing_interface_demo__rosidl_typesupport_fastrtps_cpp.dir/rule
+
+# Convenience name for target.
+plumbing_interface_demo__rosidl_typesupport_fastrtps_cpp: CMakeFiles/plumbing_interface_demo__rosidl_typesupport_fastrtps_cpp.dir/rule
+.PHONY : plumbing_interface_demo__rosidl_typesupport_fastrtps_cpp
+
+# clean rule for target.
+CMakeFiles/plumbing_interface_demo__rosidl_typesupport_fastrtps_cpp.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plumbing_interface_demo__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/plumbing_interface_demo__rosidl_typesupport_fastrtps_cpp.dir/clean
+.PHONY : CMakeFiles/plumbing_interface_demo__rosidl_typesupport_fastrtps_cpp.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/plumbing_interface_demo__rosidl_typesupport_introspection_c.dir
+
+# All Build rule for target.
+CMakeFiles/plumbing_interface_demo__rosidl_typesupport_introspection_c.dir/all: CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plumbing_interface_demo__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/plumbing_interface_demo__rosidl_typesupport_introspection_c.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plumbing_interface_demo__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/plumbing_interface_demo__rosidl_typesupport_introspection_c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles --progress-num=36,37,38,39,40 "Built target plumbing_interface_demo__rosidl_typesupport_introspection_c"
+.PHONY : CMakeFiles/plumbing_interface_demo__rosidl_typesupport_introspection_c.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/plumbing_interface_demo__rosidl_typesupport_introspection_c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles 10
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/plumbing_interface_demo__rosidl_typesupport_introspection_c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles 0
+.PHONY : CMakeFiles/plumbing_interface_demo__rosidl_typesupport_introspection_c.dir/rule
+
+# Convenience name for target.
+plumbing_interface_demo__rosidl_typesupport_introspection_c: CMakeFiles/plumbing_interface_demo__rosidl_typesupport_introspection_c.dir/rule
+.PHONY : plumbing_interface_demo__rosidl_typesupport_introspection_c
+
+# clean rule for target.
+CMakeFiles/plumbing_interface_demo__rosidl_typesupport_introspection_c.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plumbing_interface_demo__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/plumbing_interface_demo__rosidl_typesupport_introspection_c.dir/clean
+.PHONY : CMakeFiles/plumbing_interface_demo__rosidl_typesupport_introspection_c.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/plumbing_interface_demo__rosidl_typesupport_c.dir
+
+# All Build rule for target.
+CMakeFiles/plumbing_interface_demo__rosidl_typesupport_c.dir/all: CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plumbing_interface_demo__rosidl_typesupport_c.dir/build.make CMakeFiles/plumbing_interface_demo__rosidl_typesupport_c.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plumbing_interface_demo__rosidl_typesupport_c.dir/build.make CMakeFiles/plumbing_interface_demo__rosidl_typesupport_c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles --progress-num=12,13,14,15,16 "Built target plumbing_interface_demo__rosidl_typesupport_c"
+.PHONY : CMakeFiles/plumbing_interface_demo__rosidl_typesupport_c.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/plumbing_interface_demo__rosidl_typesupport_c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles 10
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/plumbing_interface_demo__rosidl_typesupport_c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles 0
+.PHONY : CMakeFiles/plumbing_interface_demo__rosidl_typesupport_c.dir/rule
+
+# Convenience name for target.
+plumbing_interface_demo__rosidl_typesupport_c: CMakeFiles/plumbing_interface_demo__rosidl_typesupport_c.dir/rule
+.PHONY : plumbing_interface_demo__rosidl_typesupport_c
+
+# clean rule for target.
+CMakeFiles/plumbing_interface_demo__rosidl_typesupport_c.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plumbing_interface_demo__rosidl_typesupport_c.dir/build.make CMakeFiles/plumbing_interface_demo__rosidl_typesupport_c.dir/clean
+.PHONY : CMakeFiles/plumbing_interface_demo__rosidl_typesupport_c.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/plumbing_interface_demo__rosidl_typesupport_introspection_cpp.dir
+
+# All Build rule for target.
+CMakeFiles/plumbing_interface_demo__rosidl_typesupport_introspection_cpp.dir/all: CMakeFiles/plumbing_interface_demo__cpp.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plumbing_interface_demo__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/plumbing_interface_demo__rosidl_typesupport_introspection_cpp.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plumbing_interface_demo__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/plumbing_interface_demo__rosidl_typesupport_introspection_cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles --progress-num=43,44,45,46,47 "Built target plumbing_interface_demo__rosidl_typesupport_introspection_cpp"
+.PHONY : CMakeFiles/plumbing_interface_demo__rosidl_typesupport_introspection_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/plumbing_interface_demo__rosidl_typesupport_introspection_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles 6
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/plumbing_interface_demo__rosidl_typesupport_introspection_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles 0
+.PHONY : CMakeFiles/plumbing_interface_demo__rosidl_typesupport_introspection_cpp.dir/rule
+
+# Convenience name for target.
+plumbing_interface_demo__rosidl_typesupport_introspection_cpp: CMakeFiles/plumbing_interface_demo__rosidl_typesupport_introspection_cpp.dir/rule
+.PHONY : plumbing_interface_demo__rosidl_typesupport_introspection_cpp
+
+# clean rule for target.
+CMakeFiles/plumbing_interface_demo__rosidl_typesupport_introspection_cpp.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plumbing_interface_demo__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/plumbing_interface_demo__rosidl_typesupport_introspection_cpp.dir/clean
+.PHONY : CMakeFiles/plumbing_interface_demo__rosidl_typesupport_introspection_cpp.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/plumbing_interface_demo__rosidl_typesupport_cpp.dir
+
+# All Build rule for target.
+CMakeFiles/plumbing_interface_demo__rosidl_typesupport_cpp.dir/all: CMakeFiles/plumbing_interface_demo__cpp.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plumbing_interface_demo__rosidl_typesupport_cpp.dir/build.make CMakeFiles/plumbing_interface_demo__rosidl_typesupport_cpp.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plumbing_interface_demo__rosidl_typesupport_cpp.dir/build.make CMakeFiles/plumbing_interface_demo__rosidl_typesupport_cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles --progress-num=19,20,21,22,23 "Built target plumbing_interface_demo__rosidl_typesupport_cpp"
+.PHONY : CMakeFiles/plumbing_interface_demo__rosidl_typesupport_cpp.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/plumbing_interface_demo__rosidl_typesupport_cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles 6
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/plumbing_interface_demo__rosidl_typesupport_cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles 0
+.PHONY : CMakeFiles/plumbing_interface_demo__rosidl_typesupport_cpp.dir/rule
+
+# Convenience name for target.
+plumbing_interface_demo__rosidl_typesupport_cpp: CMakeFiles/plumbing_interface_demo__rosidl_typesupport_cpp.dir/rule
+.PHONY : plumbing_interface_demo__rosidl_typesupport_cpp
+
+# clean rule for target.
+CMakeFiles/plumbing_interface_demo__rosidl_typesupport_cpp.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plumbing_interface_demo__rosidl_typesupport_cpp.dir/build.make CMakeFiles/plumbing_interface_demo__rosidl_typesupport_cpp.dir/clean
+.PHONY : CMakeFiles/plumbing_interface_demo__rosidl_typesupport_cpp.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ament_cmake_python_copy_plumbing_interface_demo.dir
+
+# All Build rule for target.
+CMakeFiles/ament_cmake_python_copy_plumbing_interface_demo.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_plumbing_interface_demo.dir/build.make CMakeFiles/ament_cmake_python_copy_plumbing_interface_demo.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_plumbing_interface_demo.dir/build.make CMakeFiles/ament_cmake_python_copy_plumbing_interface_demo.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles --progress-num= "Built target ament_cmake_python_copy_plumbing_interface_demo"
+.PHONY : CMakeFiles/ament_cmake_python_copy_plumbing_interface_demo.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ament_cmake_python_copy_plumbing_interface_demo.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ament_cmake_python_copy_plumbing_interface_demo.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles 0
+.PHONY : CMakeFiles/ament_cmake_python_copy_plumbing_interface_demo.dir/rule
+
+# Convenience name for target.
+ament_cmake_python_copy_plumbing_interface_demo: CMakeFiles/ament_cmake_python_copy_plumbing_interface_demo.dir/rule
+.PHONY : ament_cmake_python_copy_plumbing_interface_demo
+
+# clean rule for target.
+CMakeFiles/ament_cmake_python_copy_plumbing_interface_demo.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_plumbing_interface_demo.dir/build.make CMakeFiles/ament_cmake_python_copy_plumbing_interface_demo.dir/clean
+.PHONY : CMakeFiles/ament_cmake_python_copy_plumbing_interface_demo.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ament_cmake_python_build_plumbing_interface_demo_egg.dir
+
+# All Build rule for target.
+CMakeFiles/ament_cmake_python_build_plumbing_interface_demo_egg.dir/all: CMakeFiles/ament_cmake_python_copy_plumbing_interface_demo.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_build_plumbing_interface_demo_egg.dir/build.make CMakeFiles/ament_cmake_python_build_plumbing_interface_demo_egg.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_build_plumbing_interface_demo_egg.dir/build.make CMakeFiles/ament_cmake_python_build_plumbing_interface_demo_egg.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles --progress-num= "Built target ament_cmake_python_build_plumbing_interface_demo_egg"
+.PHONY : CMakeFiles/ament_cmake_python_build_plumbing_interface_demo_egg.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ament_cmake_python_build_plumbing_interface_demo_egg.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ament_cmake_python_build_plumbing_interface_demo_egg.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles 0
+.PHONY : CMakeFiles/ament_cmake_python_build_plumbing_interface_demo_egg.dir/rule
+
+# Convenience name for target.
+ament_cmake_python_build_plumbing_interface_demo_egg: CMakeFiles/ament_cmake_python_build_plumbing_interface_demo_egg.dir/rule
+.PHONY : ament_cmake_python_build_plumbing_interface_demo_egg
+
+# clean rule for target.
+CMakeFiles/ament_cmake_python_build_plumbing_interface_demo_egg.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_build_plumbing_interface_demo_egg.dir/build.make CMakeFiles/ament_cmake_python_build_plumbing_interface_demo_egg.dir/clean
+.PHONY : CMakeFiles/ament_cmake_python_build_plumbing_interface_demo_egg.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir
+
+# All Build rule for target.
+CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/all: CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/all
+CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/all: CMakeFiles/plumbing_interface_demo__rosidl_typesupport_c.dir/all
+CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/all: plumbing_interface_demo__py/CMakeFiles/plumbing_interface_demo__py.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/build.make CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/build.make CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles --progress-num=8,9,10,11 "Built target plumbing_interface_demo__rosidl_generator_py"
+.PHONY : CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles 41
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles 0
+.PHONY : CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/rule
+
+# Convenience name for target.
+plumbing_interface_demo__rosidl_generator_py: CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/rule
+.PHONY : plumbing_interface_demo__rosidl_generator_py
+
+# clean rule for target.
+CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/build.make CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/clean
+.PHONY : CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/plumbing_interface_demo__rosidl_typesupport_fastrtps_c__pyext.dir
+
+# All Build rule for target.
+CMakeFiles/plumbing_interface_demo__rosidl_typesupport_fastrtps_c__pyext.dir/all: CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/all
+CMakeFiles/plumbing_interface_demo__rosidl_typesupport_fastrtps_c__pyext.dir/all: CMakeFiles/plumbing_interface_demo__rosidl_typesupport_fastrtps_c.dir/all
+CMakeFiles/plumbing_interface_demo__rosidl_typesupport_fastrtps_c__pyext.dir/all: CMakeFiles/plumbing_interface_demo__rosidl_typesupport_c.dir/all
+CMakeFiles/plumbing_interface_demo__rosidl_typesupport_fastrtps_c__pyext.dir/all: CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/all
+CMakeFiles/plumbing_interface_demo__rosidl_typesupport_fastrtps_c__pyext.dir/all: plumbing_interface_demo__py/CMakeFiles/plumbing_interface_demo__py.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plumbing_interface_demo__rosidl_typesupport_fastrtps_c__pyext.dir/build.make CMakeFiles/plumbing_interface_demo__rosidl_typesupport_fastrtps_c__pyext.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plumbing_interface_demo__rosidl_typesupport_fastrtps_c__pyext.dir/build.make CMakeFiles/plumbing_interface_demo__rosidl_typesupport_fastrtps_c__pyext.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles --progress-num=29,30 "Built target plumbing_interface_demo__rosidl_typesupport_fastrtps_c__pyext"
+.PHONY : CMakeFiles/plumbing_interface_demo__rosidl_typesupport_fastrtps_c__pyext.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/plumbing_interface_demo__rosidl_typesupport_fastrtps_c__pyext.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles 43
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/plumbing_interface_demo__rosidl_typesupport_fastrtps_c__pyext.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles 0
+.PHONY : CMakeFiles/plumbing_interface_demo__rosidl_typesupport_fastrtps_c__pyext.dir/rule
+
+# Convenience name for target.
+plumbing_interface_demo__rosidl_typesupport_fastrtps_c__pyext: CMakeFiles/plumbing_interface_demo__rosidl_typesupport_fastrtps_c__pyext.dir/rule
+.PHONY : plumbing_interface_demo__rosidl_typesupport_fastrtps_c__pyext
+
+# clean rule for target.
+CMakeFiles/plumbing_interface_demo__rosidl_typesupport_fastrtps_c__pyext.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plumbing_interface_demo__rosidl_typesupport_fastrtps_c__pyext.dir/build.make CMakeFiles/plumbing_interface_demo__rosidl_typesupport_fastrtps_c__pyext.dir/clean
+.PHONY : CMakeFiles/plumbing_interface_demo__rosidl_typesupport_fastrtps_c__pyext.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/plumbing_interface_demo__rosidl_typesupport_introspection_c__pyext.dir
+
+# All Build rule for target.
+CMakeFiles/plumbing_interface_demo__rosidl_typesupport_introspection_c__pyext.dir/all: CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/all
+CMakeFiles/plumbing_interface_demo__rosidl_typesupport_introspection_c__pyext.dir/all: CMakeFiles/plumbing_interface_demo__rosidl_typesupport_introspection_c.dir/all
+CMakeFiles/plumbing_interface_demo__rosidl_typesupport_introspection_c__pyext.dir/all: CMakeFiles/plumbing_interface_demo__rosidl_typesupport_c.dir/all
+CMakeFiles/plumbing_interface_demo__rosidl_typesupport_introspection_c__pyext.dir/all: CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/all
+CMakeFiles/plumbing_interface_demo__rosidl_typesupport_introspection_c__pyext.dir/all: plumbing_interface_demo__py/CMakeFiles/plumbing_interface_demo__py.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plumbing_interface_demo__rosidl_typesupport_introspection_c__pyext.dir/build.make CMakeFiles/plumbing_interface_demo__rosidl_typesupport_introspection_c__pyext.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plumbing_interface_demo__rosidl_typesupport_introspection_c__pyext.dir/build.make CMakeFiles/plumbing_interface_demo__rosidl_typesupport_introspection_c__pyext.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles --progress-num=41,42 "Built target plumbing_interface_demo__rosidl_typesupport_introspection_c__pyext"
+.PHONY : CMakeFiles/plumbing_interface_demo__rosidl_typesupport_introspection_c__pyext.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/plumbing_interface_demo__rosidl_typesupport_introspection_c__pyext.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles 43
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/plumbing_interface_demo__rosidl_typesupport_introspection_c__pyext.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles 0
+.PHONY : CMakeFiles/plumbing_interface_demo__rosidl_typesupport_introspection_c__pyext.dir/rule
+
+# Convenience name for target.
+plumbing_interface_demo__rosidl_typesupport_introspection_c__pyext: CMakeFiles/plumbing_interface_demo__rosidl_typesupport_introspection_c__pyext.dir/rule
+.PHONY : plumbing_interface_demo__rosidl_typesupport_introspection_c__pyext
+
+# clean rule for target.
+CMakeFiles/plumbing_interface_demo__rosidl_typesupport_introspection_c__pyext.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plumbing_interface_demo__rosidl_typesupport_introspection_c__pyext.dir/build.make CMakeFiles/plumbing_interface_demo__rosidl_typesupport_introspection_c__pyext.dir/clean
+.PHONY : CMakeFiles/plumbing_interface_demo__rosidl_typesupport_introspection_c__pyext.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/plumbing_interface_demo__rosidl_typesupport_c__pyext.dir
+
+# All Build rule for target.
+CMakeFiles/plumbing_interface_demo__rosidl_typesupport_c__pyext.dir/all: CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/all
+CMakeFiles/plumbing_interface_demo__rosidl_typesupport_c__pyext.dir/all: CMakeFiles/plumbing_interface_demo__rosidl_typesupport_c.dir/all
+CMakeFiles/plumbing_interface_demo__rosidl_typesupport_c__pyext.dir/all: CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/all
+CMakeFiles/plumbing_interface_demo__rosidl_typesupport_c__pyext.dir/all: plumbing_interface_demo__py/CMakeFiles/plumbing_interface_demo__py.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plumbing_interface_demo__rosidl_typesupport_c__pyext.dir/build.make CMakeFiles/plumbing_interface_demo__rosidl_typesupport_c__pyext.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plumbing_interface_demo__rosidl_typesupport_c__pyext.dir/build.make CMakeFiles/plumbing_interface_demo__rosidl_typesupport_c__pyext.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles --progress-num=17,18 "Built target plumbing_interface_demo__rosidl_typesupport_c__pyext"
+.PHONY : CMakeFiles/plumbing_interface_demo__rosidl_typesupport_c__pyext.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/plumbing_interface_demo__rosidl_typesupport_c__pyext.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles 43
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/plumbing_interface_demo__rosidl_typesupport_c__pyext.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles 0
+.PHONY : CMakeFiles/plumbing_interface_demo__rosidl_typesupport_c__pyext.dir/rule
+
+# Convenience name for target.
+plumbing_interface_demo__rosidl_typesupport_c__pyext: CMakeFiles/plumbing_interface_demo__rosidl_typesupport_c__pyext.dir/rule
+.PHONY : plumbing_interface_demo__rosidl_typesupport_c__pyext
+
+# clean rule for target.
+CMakeFiles/plumbing_interface_demo__rosidl_typesupport_c__pyext.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/plumbing_interface_demo__rosidl_typesupport_c__pyext.dir/build.make CMakeFiles/plumbing_interface_demo__rosidl_typesupport_c__pyext.dir/clean
+.PHONY : CMakeFiles/plumbing_interface_demo__rosidl_typesupport_c__pyext.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/plumbing_interface_node.dir
 
 # All Build rule for target.
 CMakeFiles/plumbing_interface_node.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/plumbing_interface_node.dir/build.make CMakeFiles/plumbing_interface_node.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/plumbing_interface_node.dir/build.make CMakeFiles/plumbing_interface_node.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles --progress-num=1,2 "Built target plumbing_interface_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles --progress-num=48,49 "Built target plumbing_interface_node"
 .PHONY : CMakeFiles/plumbing_interface_node.dir/all
 
 # Build rule for subdir invocation for target.
@@ -153,6 +608,32 @@ plumbing_interface_node: CMakeFiles/plumbing_interface_node.dir/rule
 CMakeFiles/plumbing_interface_node.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/plumbing_interface_node.dir/build.make CMakeFiles/plumbing_interface_node.dir/clean
 .PHONY : CMakeFiles/plumbing_interface_node.dir/clean
+
+#=============================================================================
+# Target rules for target plumbing_interface_demo__py/CMakeFiles/plumbing_interface_demo__py.dir
+
+# All Build rule for target.
+plumbing_interface_demo__py/CMakeFiles/plumbing_interface_demo__py.dir/all: CMakeFiles/plumbing_interface_demo.dir/all
+	$(MAKE) $(MAKESILENT) -f plumbing_interface_demo__py/CMakeFiles/plumbing_interface_demo__py.dir/build.make plumbing_interface_demo__py/CMakeFiles/plumbing_interface_demo__py.dir/depend
+	$(MAKE) $(MAKESILENT) -f plumbing_interface_demo__py/CMakeFiles/plumbing_interface_demo__py.dir/build.make plumbing_interface_demo__py/CMakeFiles/plumbing_interface_demo__py.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles --progress-num=2 "Built target plumbing_interface_demo__py"
+.PHONY : plumbing_interface_demo__py/CMakeFiles/plumbing_interface_demo__py.dir/all
+
+# Build rule for subdir invocation for target.
+plumbing_interface_demo__py/CMakeFiles/plumbing_interface_demo__py.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles 37
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 plumbing_interface_demo__py/CMakeFiles/plumbing_interface_demo__py.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles 0
+.PHONY : plumbing_interface_demo__py/CMakeFiles/plumbing_interface_demo__py.dir/rule
+
+# Convenience name for target.
+plumbing_interface_demo__py: plumbing_interface_demo__py/CMakeFiles/plumbing_interface_demo__py.dir/rule
+.PHONY : plumbing_interface_demo__py
+
+# clean rule for target.
+plumbing_interface_demo__py/CMakeFiles/plumbing_interface_demo__py.dir/clean:
+	$(MAKE) $(MAKESILENT) -f plumbing_interface_demo__py/CMakeFiles/plumbing_interface_demo__py.dir/build.make plumbing_interface_demo__py/CMakeFiles/plumbing_interface_demo__py.dir/clean
+.PHONY : plumbing_interface_demo__py/CMakeFiles/plumbing_interface_demo__py.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -1,0 +1,28 @@
+[35m[1mConsolidate compiler generated dependencies of target topic_listener_custom[0m
+[ 37%] Built target topic_listener
+[ 50%] Built target topic_talker
+[ 75%] Built target topic_talker_custom
+[ 87%] [32mBuilding CXX object CMakeFiles/topic_listener_custom.dir/src/topic_listener_custom.cpp.o[0m
+[100%] [32m[1mLinking CXX executable topic_listener_custom[0m
+[100%] Built target topic_listener_custom
+-- Install configuration: ""
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/topic_demo/lib/topic_demo/topic_talker
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/topic_demo/lib/topic_demo/topic_listener
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/topic_demo/lib/topic_demo/topic_talker_custom
+-- Installing: /home/gdtr/ros2/colcon_mk/install/topic_demo/lib/topic_demo/topic_listener_custom
+-- Set runtime path of "/home/gdtr/ros2/colcon_mk/install/topic_demo/lib/topic_demo/topic_listener_custom" to ""
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/topic_demo/share/ament_index/resource_index/package_run_dependencies/topic_demo
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/topic_demo/share/ament_index/resource_index/parent_prefix_path/topic_demo
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/topic_demo/share/topic_demo/environment/ament_prefix_path.sh
+-- Installing: /home/gdtr/ros2/colcon_mk/install/topic_demo/share/topic_demo/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/topic_demo/share/topic_demo/environment/path.sh
+-- Installing: /home/gdtr/ros2/colcon_mk/install/topic_demo/share/topic_demo/environment/path.dsv
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/topic_demo/share/topic_demo/local_setup.bash
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/topic_demo/share/topic_demo/local_setup.sh
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/topic_demo/share/topic_demo/local_setup.zsh
+-- Installing: /home/gdtr/ros2/colcon_mk/install/topic_demo/share/topic_demo/local_setup.dsv
+-- Installing: /home/gdtr/ros2/colcon_mk/install/topic_demo/share/topic_demo/package.dsv
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/topic_demo/share/ament_index/resource_index/packages/topic_demo
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/topic_demo/share/topic_demo/cmake/topic_demoConfig.cmake
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/topic_demo/share/topic_demo/cmake/topic_demoConfig-version.cmake
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/topic_demo/share/topic_demo/package.xml

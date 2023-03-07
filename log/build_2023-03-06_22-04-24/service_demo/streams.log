@@ -1,0 +1,26 @@
+[0.070s] Invoking command in '/home/gdtr/ros2/colcon_mk/build/service_demo': CMAKE_PREFIX_PATH=/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo:/home/gdtr/ros2/colcon_mk/install/topic_demo:/home/gdtr/ros2/colcon_mk/install/service_demo_py:/home/gdtr/ros2/colcon_mk/install/service_demo:/home/gdtr/ros2/colcon_mk/install/hello_world_node:/home/gdtr/ros2/colcon_mk/install/topic_demo_py:/opt/ros/rolling /usr/bin/cmake --build /home/gdtr/ros2/colcon_mk/build/service_demo -- -j8 -l8
+[0.292s] [35m[1mConsolidate compiler generated dependencies of target service_server[0m
+[0.332s] [ 50%] [32mBuilding CXX object CMakeFiles/service_server.dir/src/service_server.cpp.o[0m
+[9.748s] [100%] [32m[1mLinking CXX executable service_server[0m
+[10.671s] [100%] Built target service_server
+[10.716s] Invoked command in '/home/gdtr/ros2/colcon_mk/build/service_demo' returned '0': CMAKE_PREFIX_PATH=/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo:/home/gdtr/ros2/colcon_mk/install/topic_demo:/home/gdtr/ros2/colcon_mk/install/service_demo_py:/home/gdtr/ros2/colcon_mk/install/service_demo:/home/gdtr/ros2/colcon_mk/install/hello_world_node:/home/gdtr/ros2/colcon_mk/install/topic_demo_py:/opt/ros/rolling /usr/bin/cmake --build /home/gdtr/ros2/colcon_mk/build/service_demo -- -j8 -l8
+[10.815s] Invoking command in '/home/gdtr/ros2/colcon_mk/build/service_demo': CMAKE_PREFIX_PATH=/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo:/home/gdtr/ros2/colcon_mk/install/topic_demo:/home/gdtr/ros2/colcon_mk/install/service_demo_py:/home/gdtr/ros2/colcon_mk/install/service_demo:/home/gdtr/ros2/colcon_mk/install/hello_world_node:/home/gdtr/ros2/colcon_mk/install/topic_demo_py:/opt/ros/rolling /usr/bin/cmake --install /home/gdtr/ros2/colcon_mk/build/service_demo
+[10.837s] -- Install configuration: ""
+[10.840s] -- Installing: /home/gdtr/ros2/colcon_mk/install/service_demo/lib/service_demo/service_server
+[10.846s] -- Set runtime path of "/home/gdtr/ros2/colcon_mk/install/service_demo/lib/service_demo/service_server" to ""
+[10.848s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/service_demo/share/ament_index/resource_index/package_run_dependencies/service_demo
+[10.849s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/service_demo/share/ament_index/resource_index/parent_prefix_path/service_demo
+[10.850s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/service_demo/share/service_demo/environment/ament_prefix_path.sh
+[10.850s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/service_demo/share/service_demo/environment/ament_prefix_path.dsv
+[10.850s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/service_demo/share/service_demo/environment/path.sh
+[10.854s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/service_demo/share/service_demo/environment/path.dsv
+[10.855s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/service_demo/share/service_demo/local_setup.bash
+[10.855s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/service_demo/share/service_demo/local_setup.sh
+[10.855s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/service_demo/share/service_demo/local_setup.zsh
+[10.855s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/service_demo/share/service_demo/local_setup.dsv
+[10.856s] -- Installing: /home/gdtr/ros2/colcon_mk/install/service_demo/share/service_demo/package.dsv
+[10.856s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/service_demo/share/ament_index/resource_index/packages/service_demo
+[10.856s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/service_demo/share/service_demo/cmake/service_demoConfig.cmake
+[10.856s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/service_demo/share/service_demo/cmake/service_demoConfig-version.cmake
+[10.858s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/service_demo/share/service_demo/package.xml
+[10.865s] Invoked command in '/home/gdtr/ros2/colcon_mk/build/service_demo' returned '0': CMAKE_PREFIX_PATH=/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo:/home/gdtr/ros2/colcon_mk/install/topic_demo:/home/gdtr/ros2/colcon_mk/install/service_demo_py:/home/gdtr/ros2/colcon_mk/install/service_demo:/home/gdtr/ros2/colcon_mk/install/hello_world_node:/home/gdtr/ros2/colcon_mk/install/topic_demo_py:/opt/ros/rolling /usr/bin/cmake --install /home/gdtr/ros2/colcon_mk/build/service_demo

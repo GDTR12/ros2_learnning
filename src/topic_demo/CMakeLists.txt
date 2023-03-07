@@ -13,6 +13,8 @@ find_package(plumbing_interface_demo REQUIRED)
 
 add_executable(topic_talker src/topic_talker.cpp)
 add_executable(topic_listener src/topic_listener.cpp)
+add_executable(topic_talker_custom src/topic_talker_custom.cpp)
+add_executable(topic_listener_custom src/topic_listener_custom.cpp)
 
 target_include_directories(topic_talker PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
@@ -23,6 +25,18 @@ target_include_directories(topic_listener PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
   $<INSTALL_INTERFACE:include>)
 target_compile_features(topic_listener PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
+
+target_include_directories(topic_talker_custom PUBLIC
+  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+  $<INSTALL_INTERFACE:include>)
+target_compile_features(topic_talker_custom PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
+
+target_include_directories(topic_talker_custom PUBLIC
+  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+  $<INSTALL_INTERFACE:include>)
+target_compile_features(topic_listener_custom PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
+
+
 
 ament_target_dependencies(
   topic_talker
@@ -38,7 +52,25 @@ ament_target_dependencies(
   "plumbing_interface_demo"
 )
 
-install(TARGETS topic_talker topic_listener
+ament_target_dependencies(
+  topic_talker_custom
+  "rclcpp"
+  "std_msgs"
+  "plumbing_interface_demo"
+)
+
+ament_target_dependencies(
+  topic_listener_custom
+  "rclcpp"
+  "std_msgs"
+  "plumbing_interface_demo"
+)
+
+install(TARGETS 
+  topic_talker 
+  topic_listener
+  topic_talker_custom
+  topic_listener_custom
   DESTINATION lib/${PROJECT_NAME})
 
 

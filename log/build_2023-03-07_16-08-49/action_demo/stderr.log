@@ -1,0 +1,5 @@
+[01m[K/home/gdtr/ros2/colcon_mk/src/action_demo/src/action_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::CancelResponse ActionServer::handler_cancel(std::shared_ptr<rclcpp_action::ServerGoalHandle<plumbing_interface_demo::action::ActionMsg> >)[m[K’:
+[01m[K/home/gdtr/ros2/colcon_mk/src/action_demo/src/action_server.cpp:63:117:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_handler[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   63 | CancelResponse  handler_cancel([01;35m[Kconst std::shared_ptr<rclcpp_action::ServerGoalHandle<ActionMsg>> goal_handler[m[K)
+      |                                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+

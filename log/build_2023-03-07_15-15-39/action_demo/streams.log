@@ -1,0 +1,28 @@
+[0.017s] Invoking command in '/home/gdtr/ros2/colcon_mk/build/action_demo': CMAKE_PREFIX_PATH=/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo:/home/gdtr/ros2/colcon_mk/install/action_demo:/home/gdtr/ros2/colcon_mk/install/topic_demo:/home/gdtr/ros2/colcon_mk/install/service_demo_py:/home/gdtr/ros2/colcon_mk/install/service_demo:/home/gdtr/ros2/colcon_mk/install/hello_world_node:/home/gdtr/ros2/colcon_mk/install/topic_demo_py:/opt/ros/rolling /usr/bin/cmake --build /home/gdtr/ros2/colcon_mk/build/action_demo -- -j8 -l8
+[0.071s] [35m[1mConsolidate compiler generated dependencies of target action_server[0m
+[0.086s] [ 50%] Built target action_client
+[0.094s] [ 75%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/action_server.cpp.o[0m
+[4.241s] [01m[K/home/gdtr/ros2/colcon_mk/src/action_demo/src/action_server.cpp:32:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kserver_[m[K’ does not name a type
+[4.242s]    32 |     [01;31m[Kserver_[m[K = rclcpp_action::create_server<ActionMsg>(\
+[4.242s]       |     [01;31m[K^~~~~~~[m[K
+[4.242s] [01m[K/home/gdtr/ros2/colcon_mk/src/action_demo/src/action_server.cpp:54:129:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K>[m[K’ token
+[4.242s]    54 | lResponse handler_goal(const rclcpp_action::GoalUUID &uuid, std::shared_ptr<const typename ActionMsg::Goal[01;31m[K>>[m[K)
+[4.242s]       |                                                                                                           [01;31m[K^~[m[K
+[4.242s] 
+[4.243s] [01m[K/home/gdtr/ros2/colcon_mk/src/action_demo/src/action_server.cpp:72:130:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K>[m[K’ token
+[4.243s]    72 |   handler_accepted(const rclcpp_action::GoalUUID &, std::shared_ptr<const typename ActionMsg::Goal[01;31m[K>>[m[K goal_handler)
+[4.243s]       |                                                                                                   [01;31m[K^~[m[K
+[4.243s] 
+[4.285s] [01m[K/home/gdtr/ros2/colcon_mk/src/action_demo/src/action_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse ActionServer::handler_goal(const GoalUUID&, std::shared_ptr<const plumbing_interface_demo::action::ActionMsg_Goal_<std::allocator<void> > >)[m[K’:
+[4.286s] [01m[K/home/gdtr/ros2/colcon_mk/src/action_demo/src/action_server.cpp:54:77:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuuid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.286s]    54 |     rclcpp_action::GoalResponse handler_goal([01;35m[Kconst rclcpp_action::GoalUUID &uuid[m[K, std::shared_ptr<const typename ActionMsg::Goal>>)
+[4.286s]       |                                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[4.291s] [01m[K/home/gdtr/ros2/colcon_mk/src/action_demo/src/action_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::CancelResponse ActionServer::handler_cancel(std::shared_ptr<rclcpp_action::ServerGoalHandle<plumbing_interface_demo::action::ActionMsg> >)[m[K’:
+[4.291s] [01m[K/home/gdtr/ros2/colcon_mk/src/action_demo/src/action_server.cpp:63:111:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_handler[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.292s]    63 | ction::CancelResponse  handler_cancel([01;35m[Kstd::shared_ptr<rclcpp_action::ServerGoalHandle<ActionMsg>> goal_handler[m[K)
+[4.292s]       |                                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[4.292s] 
+[4.929s] gmake[2]: *** [CMakeFiles/action_server.dir/build.make:76: CMakeFiles/action_server.dir/src/action_server.cpp.o] Error 1
+[4.929s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/action_server.dir/all] Error 2
+[4.930s] gmake: *** [Makefile:146: all] Error 2
+[4.933s] Invoked command in '/home/gdtr/ros2/colcon_mk/build/action_demo' returned '2': CMAKE_PREFIX_PATH=/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo:/home/gdtr/ros2/colcon_mk/install/action_demo:/home/gdtr/ros2/colcon_mk/install/topic_demo:/home/gdtr/ros2/colcon_mk/install/service_demo_py:/home/gdtr/ros2/colcon_mk/install/service_demo:/home/gdtr/ros2/colcon_mk/install/hello_world_node:/home/gdtr/ros2/colcon_mk/install/topic_demo_py:/opt/ros/rolling /usr/bin/cmake --build /home/gdtr/ros2/colcon_mk/build/action_demo -- -j8 -l8

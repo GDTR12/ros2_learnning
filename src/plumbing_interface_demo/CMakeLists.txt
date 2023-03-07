@@ -10,6 +10,15 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 
+find_package(rosidl_default_generators REQUIRED)
+# 为接口文件生成源代码
+rosidl_generate_interfaces( ${PROJECT_NAME}
+  "msg/CustomMsg.msg"
+  "srv/ServiceMsg.srv"
+  "action/ActionMsg.action"
+)
+
+
 add_executable(plumbing_interface_node src/plumbing_interface_node.cpp)
 target_include_directories(plumbing_interface_node PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>

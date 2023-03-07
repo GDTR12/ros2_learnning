@@ -1,0 +1,53 @@
+[0.021s] Invoking command in '/home/gdtr/ros2/colcon_mk/build/action_demo': CMAKE_PREFIX_PATH=/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo:/home/gdtr/ros2/colcon_mk/install/action_demo:/home/gdtr/ros2/colcon_mk/install/topic_demo:/home/gdtr/ros2/colcon_mk/install/service_demo_py:/home/gdtr/ros2/colcon_mk/install/service_demo:/home/gdtr/ros2/colcon_mk/install/hello_world_node:/home/gdtr/ros2/colcon_mk/install/topic_demo_py:/opt/ros/rolling /usr/bin/cmake --build /home/gdtr/ros2/colcon_mk/build/action_demo -- -j8 -l8
+[0.077s] [35m[1mConsolidate compiler generated dependencies of target action_server[0m
+[0.077s] [35m[1mConsolidate compiler generated dependencies of target action_client[0m
+[0.101s] [ 50%] [32mBuilding CXX object CMakeFiles/action_client.dir/src/action_client.cpp.o[0m
+[0.103s] [ 75%] Built target action_server
+[3.729s] In file included from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.730s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.730s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.730s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.730s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.730s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.730s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.731s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.731s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.731s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.731s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.731s]                  from [01m[K/home/gdtr/ros2/colcon_mk/src/action_demo/src/action_client.cpp:17[m[K:
+[3.732s] [01m[K/home/gdtr/ros2/colcon_mk/src/action_demo/src/action_client.cpp:[m[K In member function ‘[01m[Kvoid ActionClient::on_feedback_cb(rclcpp_action::ClientGoalHandle<plumbing_interface_demo::action::ActionMsg>::SharedPtr, std::shared_ptr<const plumbing_interface_demo::action::ActionMsg_Feedback_<std::allocator<void> > >)[m[K’:
+[3.732s] [01m[K/home/gdtr/ros2/colcon_mk/src/action_demo/src/action_client.cpp:67:40:[m[K [01;35m[Kwarning: [m[Kunknown escape sequence: '\%'
+[3.732s]    67 |         RCLCPP_INFO(this->get_logger(),[01;35m[K"Current progress:%.2f\%"[m[K,progress);
+[3.732s]       |                                        [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.732s] [01m[K/home/gdtr/ros2/colcon_mk/src/action_demo/src/action_client.cpp:67:40:[m[K [01;35m[Kwarning: [m[Kspurious trailing ‘[01m[K%[m[K’ in format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[3.732s] [01m[K/home/gdtr/ros2/colcon_mk/src/action_demo/src/action_client.cpp:67:62:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[3.733s]    67 |         RCLCPP_INFO(this->get_logger(),"Current progress:%.2f[01;36m[K\%[m[K",progress);
+[3.733s]       |                                                              [01;36m[K^~[m[K
+[3.733s] [01m[K/home/gdtr/ros2/colcon_mk/src/action_demo/src/action_client.cpp:[m[K In member function ‘[01m[Kvoid ActionClient::on_result_cb(const rclcpp_action::ClientGoalHandle<plumbing_interface_demo::action::ActionMsg>::WrappedResult&)[m[K’:
+[3.733s] [01m[K/home/gdtr/ros2/colcon_mk/src/action_demo/src/action_client.cpp:74:89:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresult[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.733s]    74 |     void on_result_cb([01;35m[Kconst rclcpp_action::ClientGoalHandle<ActionMsg>::WrappedResult & result[m[K)
+[3.733s]       |                       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[5.470s] [100%] [32m[1mLinking CXX executable action_client[0m
+[5.742s] [100%] Built target action_client
+[5.774s] Invoked command in '/home/gdtr/ros2/colcon_mk/build/action_demo' returned '0': CMAKE_PREFIX_PATH=/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo:/home/gdtr/ros2/colcon_mk/install/action_demo:/home/gdtr/ros2/colcon_mk/install/topic_demo:/home/gdtr/ros2/colcon_mk/install/service_demo_py:/home/gdtr/ros2/colcon_mk/install/service_demo:/home/gdtr/ros2/colcon_mk/install/hello_world_node:/home/gdtr/ros2/colcon_mk/install/topic_demo_py:/opt/ros/rolling /usr/bin/cmake --build /home/gdtr/ros2/colcon_mk/build/action_demo -- -j8 -l8
+[5.829s] Invoking command in '/home/gdtr/ros2/colcon_mk/build/action_demo': CMAKE_PREFIX_PATH=/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo:/home/gdtr/ros2/colcon_mk/install/action_demo:/home/gdtr/ros2/colcon_mk/install/topic_demo:/home/gdtr/ros2/colcon_mk/install/service_demo_py:/home/gdtr/ros2/colcon_mk/install/service_demo:/home/gdtr/ros2/colcon_mk/install/hello_world_node:/home/gdtr/ros2/colcon_mk/install/topic_demo_py:/opt/ros/rolling /usr/bin/cmake --install /home/gdtr/ros2/colcon_mk/build/action_demo
+[5.839s] -- Install configuration: ""
+[5.839s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/action_demo/lib/action_demo/action_server
+[5.840s] -- Installing: /home/gdtr/ros2/colcon_mk/install/action_demo/lib/action_demo/action_client
+[5.843s] -- Set runtime path of "/home/gdtr/ros2/colcon_mk/install/action_demo/lib/action_demo/action_client" to ""
+[5.843s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/action_demo/share/ament_index/resource_index/package_run_dependencies/action_demo
+[5.843s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/action_demo/share/ament_index/resource_index/parent_prefix_path/action_demo
+[5.843s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/action_demo/share/action_demo/environment/ament_prefix_path.sh
+[5.843s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/action_demo/share/action_demo/environment/ament_prefix_path.dsv
+[5.844s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/action_demo/share/action_demo/environment/path.sh
+[5.844s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/action_demo/share/action_demo/environment/path.dsv
+[5.844s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/action_demo/share/action_demo/local_setup.bash
+[5.844s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/action_demo/share/action_demo/local_setup.sh
+[5.844s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/action_demo/share/action_demo/local_setup.zsh
+[5.845s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/action_demo/share/action_demo/local_setup.dsv
+[5.845s] -- Installing: /home/gdtr/ros2/colcon_mk/install/action_demo/share/action_demo/package.dsv
+[5.845s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/action_demo/share/ament_index/resource_index/packages/action_demo
+[5.845s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/action_demo/share/action_demo/cmake/action_demoConfig.cmake
+[5.845s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/action_demo/share/action_demo/cmake/action_demoConfig-version.cmake
+[5.846s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/action_demo/share/action_demo/package.xml
+[5.849s] Invoked command in '/home/gdtr/ros2/colcon_mk/build/action_demo' returned '0': CMAKE_PREFIX_PATH=/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo:/home/gdtr/ros2/colcon_mk/install/action_demo:/home/gdtr/ros2/colcon_mk/install/topic_demo:/home/gdtr/ros2/colcon_mk/install/service_demo_py:/home/gdtr/ros2/colcon_mk/install/service_demo:/home/gdtr/ros2/colcon_mk/install/hello_world_node:/home/gdtr/ros2/colcon_mk/install/topic_demo_py:/opt/ros/rolling /usr/bin/cmake --install /home/gdtr/ros2/colcon_mk/build/action_demo

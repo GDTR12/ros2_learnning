@@ -1,0 +1,126 @@
+[0.000000] (-) TimerEvent: {}
+[0.000144] (-) JobUnselected: {'identifier': 'action_demo_py'}
+[0.000562] (-) JobUnselected: {'identifier': 'hello_world_node'}
+[0.000607] (-) JobUnselected: {'identifier': 'plumbing_interface_demo'}
+[0.000784] (-) JobUnselected: {'identifier': 'service_demo'}
+[0.001145] (-) JobUnselected: {'identifier': 'service_demo_py'}
+[0.001198] (-) JobUnselected: {'identifier': 'topic_demo'}
+[0.001226] (-) JobUnselected: {'identifier': 'topic_demo_py'}
+[0.002156] (action_demo) JobQueued: {'identifier': 'action_demo', 'dependencies': OrderedDict([('plumbing_interface_demo', '/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo')])}
+[0.002524] (action_demo) JobStarted: {'identifier': 'action_demo'}
+[0.019579] (action_demo) JobProgress: {'identifier': 'action_demo', 'progress': 'cmake'}
+[0.020477] (action_demo) JobProgress: {'identifier': 'action_demo', 'progress': 'build'}
+[0.021208] (action_demo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/gdtr/ros2/colcon_mk/build/action_demo', '--', '-j8', '-l8'], 'cwd': '/home/gdtr/ros2/colcon_mk/build/action_demo', 'env': OrderedDict([('TMUX', '/tmp/tmux-1000/default,539,0'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_CLIENT', '172.17.0.1 60344 22'), ('USER', 'gdtr'), ('LD_LIBRARY_PATH', '/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/lib'), ('SHLVL', '2'), ('HOME', '/home/gdtr'), ('LESS', '-R'), ('MOTD_SHOWN', 'pam'), ('OLDPWD', '/home/gdtr/ros2/colcon_mk/src'), ('SSH_TTY', '/dev/pts/5'), ('TERM_PROGRAM_VERSION', '3.2a'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('ZSH', '/home/gdtr/.oh-my-zsh'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('_ZSH_TMUX_FIXED_CONFIG', '/home/gdtr/.oh-my-zsh/plugins/tmux/tmux.extra.conf'), ('LC_MONETARY', 'en_US.UTF-8'), ('P9K_TTY', 'old'), ('ROS_DISTRO', 'rolling'), ('COLCON_PREFIX_PATH', '/home/gdtr/ros2/colcon_mk/install'), ('LOGNAME', 'gdtr'), ('_', '/usr/bin/colcon'), ('_P9K_SSH_TTY', '/dev/pts/7'), ('ROS_VERSION', '2'), ('TERM', 'screen'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LC_ADDRESS', 'en_US.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'tmux'), ('ZSH_TMUX_TERM', 'screen'), ('AMENT_PREFIX_PATH', '/home/gdtr/ros2/colcon_mk/install/action_demo:/home/gdtr/ros2/colcon_mk/install/topic_demo_py:/home/gdtr/ros2/colcon_mk/install/topic_demo:/home/gdtr/ros2/colcon_mk/install/service_demo_py:/home/gdtr/ros2/colcon_mk/install/service_demo:/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo:/home/gdtr/ros2/colcon_mk/install/hello_world_node:/opt/ros/rolling'), ('LC_NAME', 'en_US.UTF-8'), ('SHELL', '/usr/bin/zsh'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('P9K_SSH', '1'), ('PWD', '/home/gdtr/ros2/colcon_mk/build/action_demo'), ('SSH_CONNECTION', '172.17.0.1 60344 172.17.0.2 22'), ('ZSH_TMUX_CONFIG', '/home/gdtr/.tmux.conf'), ('_P9K_TTY', '/dev/pts/7'), ('LC_NUMERIC', 'en_US.UTF-8'), ('PYTHONPATH', '/home/gdtr/ros2/colcon_mk/install/topic_demo_py/lib/python3.10/site-packages:/home/gdtr/ros2/colcon_mk/install/service_demo_py/lib/python3.10/site-packages:/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/local/lib/python3.10/dist-packages:/opt/ros/rolling/lib/python3.10/site-packages:/opt/ros/rolling/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('TMUX_PANE', '%1'), ('CMAKE_PREFIX_PATH', '/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo:/home/gdtr/ros2/colcon_mk/install/action_demo:/home/gdtr/ros2/colcon_mk/install/topic_demo:/home/gdtr/ros2/colcon_mk/install/service_demo_py:/home/gdtr/ros2/colcon_mk/install/service_demo:/home/gdtr/ros2/colcon_mk/install/hello_world_node:/home/gdtr/ros2/colcon_mk/install/topic_demo_py:/opt/ros/rolling')]), 'shell': False}
+[0.079484] (action_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target action_server\x1b[0m\n'}
+[0.079846] (action_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target action_client\x1b[0m\n'}
+[0.099764] (-) TimerEvent: {}
+[0.103199] (action_demo) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/action_client.dir/src/action_client.cpp.o\x1b[0m\n'}
+[0.105108] (action_demo) StdoutLine: {'line': b'[ 75%] Built target action_server\n'}
+[0.199854] (-) TimerEvent: {}
+[0.300168] (-) TimerEvent: {}
+[0.400509] (-) TimerEvent: {}
+[0.500876] (-) TimerEvent: {}
+[0.601502] (-) TimerEvent: {}
+[0.702714] (-) TimerEvent: {}
+[0.803073] (-) TimerEvent: {}
+[0.903421] (-) TimerEvent: {}
+[1.003771] (-) TimerEvent: {}
+[1.104086] (-) TimerEvent: {}
+[1.204439] (-) TimerEvent: {}
+[1.304824] (-) TimerEvent: {}
+[1.405189] (-) TimerEvent: {}
+[1.505530] (-) TimerEvent: {}
+[1.605856] (-) TimerEvent: {}
+[1.706223] (-) TimerEvent: {}
+[1.806586] (-) TimerEvent: {}
+[1.906995] (-) TimerEvent: {}
+[2.007358] (-) TimerEvent: {}
+[2.107775] (-) TimerEvent: {}
+[2.208215] (-) TimerEvent: {}
+[2.308637] (-) TimerEvent: {}
+[2.409102] (-) TimerEvent: {}
+[2.509608] (-) TimerEvent: {}
+[2.609936] (-) TimerEvent: {}
+[2.710235] (-) TimerEvent: {}
+[2.810569] (-) TimerEvent: {}
+[2.910942] (-) TimerEvent: {}
+[3.011287] (-) TimerEvent: {}
+[3.111626] (-) TimerEvent: {}
+[3.212007] (-) TimerEvent: {}
+[3.312340] (-) TimerEvent: {}
+[3.412804] (-) TimerEvent: {}
+[3.513205] (-) TimerEvent: {}
+[3.613586] (-) TimerEvent: {}
+[3.713961] (-) TimerEvent: {}
+[3.731758] (action_demo) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/rolling/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[3.732105] (action_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/rolling/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[3.732269] (action_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/rolling/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[3.732426] (action_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/rolling/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[3.732612] (action_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/rolling/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.732755] (action_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/rolling/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.732899] (action_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/rolling/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.733082] (action_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/rolling/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.733224] (action_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/rolling/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.733395] (action_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/rolling/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.733665] (action_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/rolling/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.733860] (action_demo) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gdtr/ros2/colcon_mk/src/action_demo/src/action_client.cpp:17\x1b[m\x1b[K:\n'}
+[3.734048] (action_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gdtr/ros2/colcon_mk/src/action_demo/src/action_client.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ActionClient::on_feedback_cb(rclcpp_action::ClientGoalHandle<plumbing_interface_demo::action::ActionMsg>::SharedPtr, std::shared_ptr<const plumbing_interface_demo::action::ActionMsg_Feedback_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.734226] (action_demo) StderrLine: {'line': b"\x1b[01m\x1b[K/home/gdtr/ros2/colcon_mk/src/action_demo/src/action_client.cpp:67:40:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunknown escape sequence: '\\%'\n"}
+[3.734415] (action_demo) StderrLine: {'line': b'   67 |         RCLCPP_INFO(this->get_logger(),\x1b[01;35m\x1b[K"Current progress:%.2f\\%"\x1b[m\x1b[K,progress);\n'}
+[3.734573] (action_demo) StderrLine: {'line': b'      |                                        \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.734732] (action_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gdtr/ros2/colcon_mk/src/action_demo/src/action_client.cpp:67:40:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kspurious trailing \xe2\x80\x98\x1b[01m\x1b[K%\x1b[m\x1b[K\xe2\x80\x99 in format [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.734896] (action_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gdtr/ros2/colcon_mk/src/action_demo/src/action_client.cpp:67:62:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[3.735043] (action_demo) StderrLine: {'line': b'   67 |         RCLCPP_INFO(this->get_logger(),"Current progress:%.2f\x1b[01;36m\x1b[K\\%\x1b[m\x1b[K",progress);\n'}
+[3.735166] (action_demo) StderrLine: {'line': b'      |                                                              \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[3.735289] (action_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gdtr/ros2/colcon_mk/src/action_demo/src/action_client.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ActionClient::on_result_cb(const rclcpp_action::ClientGoalHandle<plumbing_interface_demo::action::ActionMsg>::WrappedResult&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.735429] (action_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gdtr/ros2/colcon_mk/src/action_demo/src/action_client.cpp:74:89:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kresult\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.735575] (action_demo) StderrLine: {'line': b'   74 |     void on_result_cb(\x1b[01;35m\x1b[Kconst rclcpp_action::ClientGoalHandle<ActionMsg>::WrappedResult & result\x1b[m\x1b[K)\n'}
+[3.735798] (action_demo) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[3.814121] (-) TimerEvent: {}
+[3.914483] (-) TimerEvent: {}
+[4.014862] (-) TimerEvent: {}
+[4.115222] (-) TimerEvent: {}
+[4.215583] (-) TimerEvent: {}
+[4.316017] (-) TimerEvent: {}
+[4.416356] (-) TimerEvent: {}
+[4.516681] (-) TimerEvent: {}
+[4.617070] (-) TimerEvent: {}
+[4.717418] (-) TimerEvent: {}
+[4.817833] (-) TimerEvent: {}
+[4.918193] (-) TimerEvent: {}
+[5.018568] (-) TimerEvent: {}
+[5.118895] (-) TimerEvent: {}
+[5.219239] (-) TimerEvent: {}
+[5.319770] (-) TimerEvent: {}
+[5.420278] (-) TimerEvent: {}
+[5.471941] (action_demo) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable action_client\x1b[0m\n'}
+[5.520412] (-) TimerEvent: {}
+[5.620817] (-) TimerEvent: {}
+[5.721252] (-) TimerEvent: {}
+[5.743995] (action_demo) StdoutLine: {'line': b'[100%] Built target action_client\n'}
+[5.776091] (action_demo) CommandEnded: {'returncode': 0}
+[5.820164] (action_demo) JobProgress: {'identifier': 'action_demo', 'progress': 'install'}
+[5.821328] (-) TimerEvent: {}
+[5.831423] (action_demo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/gdtr/ros2/colcon_mk/build/action_demo'], 'cwd': '/home/gdtr/ros2/colcon_mk/build/action_demo', 'env': OrderedDict([('TMUX', '/tmp/tmux-1000/default,539,0'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_CLIENT', '172.17.0.1 60344 22'), ('USER', 'gdtr'), ('LD_LIBRARY_PATH', '/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/lib'), ('SHLVL', '2'), ('HOME', '/home/gdtr'), ('LESS', '-R'), ('MOTD_SHOWN', 'pam'), ('OLDPWD', '/home/gdtr/ros2/colcon_mk/src'), ('SSH_TTY', '/dev/pts/5'), ('TERM_PROGRAM_VERSION', '3.2a'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('ZSH', '/home/gdtr/.oh-my-zsh'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('_ZSH_TMUX_FIXED_CONFIG', '/home/gdtr/.oh-my-zsh/plugins/tmux/tmux.extra.conf'), ('LC_MONETARY', 'en_US.UTF-8'), ('P9K_TTY', 'old'), ('ROS_DISTRO', 'rolling'), ('COLCON_PREFIX_PATH', '/home/gdtr/ros2/colcon_mk/install'), ('LOGNAME', 'gdtr'), ('_', '/usr/bin/colcon'), ('_P9K_SSH_TTY', '/dev/pts/7'), ('ROS_VERSION', '2'), ('TERM', 'screen'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LC_ADDRESS', 'en_US.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'tmux'), ('ZSH_TMUX_TERM', 'screen'), ('AMENT_PREFIX_PATH', '/home/gdtr/ros2/colcon_mk/install/action_demo:/home/gdtr/ros2/colcon_mk/install/topic_demo_py:/home/gdtr/ros2/colcon_mk/install/topic_demo:/home/gdtr/ros2/colcon_mk/install/service_demo_py:/home/gdtr/ros2/colcon_mk/install/service_demo:/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo:/home/gdtr/ros2/colcon_mk/install/hello_world_node:/opt/ros/rolling'), ('LC_NAME', 'en_US.UTF-8'), ('SHELL', '/usr/bin/zsh'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('P9K_SSH', '1'), ('PWD', '/home/gdtr/ros2/colcon_mk/build/action_demo'), ('SSH_CONNECTION', '172.17.0.1 60344 172.17.0.2 22'), ('ZSH_TMUX_CONFIG', '/home/gdtr/.tmux.conf'), ('_P9K_TTY', '/dev/pts/7'), ('LC_NUMERIC', 'en_US.UTF-8'), ('PYTHONPATH', '/home/gdtr/ros2/colcon_mk/install/topic_demo_py/lib/python3.10/site-packages:/home/gdtr/ros2/colcon_mk/install/service_demo_py/lib/python3.10/site-packages:/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/local/lib/python3.10/dist-packages:/opt/ros/rolling/lib/python3.10/site-packages:/opt/ros/rolling/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('TMUX_PANE', '%1'), ('CMAKE_PREFIX_PATH', '/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo:/home/gdtr/ros2/colcon_mk/install/action_demo:/home/gdtr/ros2/colcon_mk/install/topic_demo:/home/gdtr/ros2/colcon_mk/install/service_demo_py:/home/gdtr/ros2/colcon_mk/install/service_demo:/home/gdtr/ros2/colcon_mk/install/hello_world_node:/home/gdtr/ros2/colcon_mk/install/topic_demo_py:/opt/ros/rolling')]), 'shell': False}
+[5.841503] (action_demo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.841896] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/action_demo/lib/action_demo/action_server\n'}
+[5.842584] (action_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/action_demo/lib/action_demo/action_client\n'}
+[5.844901] (action_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/gdtr/ros2/colcon_mk/install/action_demo/lib/action_demo/action_client" to ""\n'}
+[5.845214] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/action_demo/share/ament_index/resource_index/package_run_dependencies/action_demo\n'}
+[5.845432] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/action_demo/share/ament_index/resource_index/parent_prefix_path/action_demo\n'}
+[5.845632] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/action_demo/share/action_demo/environment/ament_prefix_path.sh\n'}
+[5.845821] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/action_demo/share/action_demo/environment/ament_prefix_path.dsv\n'}
+[5.845989] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/action_demo/share/action_demo/environment/path.sh\n'}
+[5.846228] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/action_demo/share/action_demo/environment/path.dsv\n'}
+[5.846523] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/action_demo/share/action_demo/local_setup.bash\n'}
+[5.846707] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/action_demo/share/action_demo/local_setup.sh\n'}
+[5.846886] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/action_demo/share/action_demo/local_setup.zsh\n'}
+[5.847026] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/action_demo/share/action_demo/local_setup.dsv\n'}
+[5.847160] (action_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/action_demo/share/action_demo/package.dsv\n'}
+[5.847340] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/action_demo/share/ament_index/resource_index/packages/action_demo\n'}
+[5.847551] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/action_demo/share/action_demo/cmake/action_demoConfig.cmake\n'}
+[5.847763] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/action_demo/share/action_demo/cmake/action_demoConfig-version.cmake\n'}
+[5.847976] (action_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/action_demo/share/action_demo/package.xml\n'}
+[5.849680] (action_demo) CommandEnded: {'returncode': 0}
+[5.912429] (action_demo) JobEnded: {'identifier': 'action_demo', 'rc': 0}
+[5.913218] (-) EventReactorShutdown: {}

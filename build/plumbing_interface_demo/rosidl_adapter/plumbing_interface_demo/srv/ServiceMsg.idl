@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from plumbing_interface_demo/srv/ServiceMsg.srv
+// generated code does not contain a copyright notice
+
+
+module plumbing_interface_demo {
+  module srv {
+    struct ServiceMsg_Request {
+      int32 data1;
+
+      int32 data2;
+    };
+    struct ServiceMsg_Response {
+      int32 sum;
+    };
+  };
+};

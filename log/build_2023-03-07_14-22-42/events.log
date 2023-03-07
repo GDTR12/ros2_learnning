@@ -1,0 +1,461 @@
+[0.000000] (-) TimerEvent: {}
+[0.000604] (-) JobUnselected: {'identifier': 'action_demo'}
+[0.000902] (-) JobUnselected: {'identifier': 'action_demo_py'}
+[0.001190] (-) JobUnselected: {'identifier': 'hello_world_node'}
+[0.001722] (-) JobUnselected: {'identifier': 'service_demo'}
+[0.001791] (-) JobUnselected: {'identifier': 'service_demo_py'}
+[0.001821] (-) JobUnselected: {'identifier': 'topic_demo'}
+[0.001866] (-) JobUnselected: {'identifier': 'topic_demo_py'}
+[0.001894] (plumbing_interface_demo) JobQueued: {'identifier': 'plumbing_interface_demo', 'dependencies': OrderedDict()}
+[0.001922] (plumbing_interface_demo) JobStarted: {'identifier': 'plumbing_interface_demo'}
+[0.013745] (plumbing_interface_demo) JobProgress: {'identifier': 'plumbing_interface_demo', 'progress': 'cmake'}
+[0.017865] (plumbing_interface_demo) JobProgress: {'identifier': 'plumbing_interface_demo', 'progress': 'build'}
+[0.018739] (plumbing_interface_demo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo', '--', '-j8', '-l8'], 'cwd': '/home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo', 'env': OrderedDict([('TMUX', '/tmp/tmux-1000/default,539,0'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_CLIENT', '172.17.0.1 60344 22'), ('USER', 'gdtr'), ('LD_LIBRARY_PATH', '/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/lib'), ('SHLVL', '2'), ('HOME', '/home/gdtr'), ('LESS', '-R'), ('MOTD_SHOWN', 'pam'), ('OLDPWD', '/home/gdtr/ros2/colcon_mk/src'), ('SSH_TTY', '/dev/pts/5'), ('TERM_PROGRAM_VERSION', '3.2a'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('ZSH', '/home/gdtr/.oh-my-zsh'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('_ZSH_TMUX_FIXED_CONFIG', '/home/gdtr/.oh-my-zsh/plugins/tmux/tmux.extra.conf'), ('LC_MONETARY', 'en_US.UTF-8'), ('P9K_TTY', 'old'), ('ROS_DISTRO', 'rolling'), ('LOGNAME', 'gdtr'), ('_', '/usr/bin/colcon'), ('_P9K_SSH_TTY', '/dev/pts/7'), ('ROS_VERSION', '2'), ('TERM', 'screen'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LC_ADDRESS', 'en_US.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'tmux'), ('ZSH_TMUX_TERM', 'screen'), ('AMENT_PREFIX_PATH', '/opt/ros/rolling'), ('LC_NAME', 'en_US.UTF-8'), ('SHELL', '/usr/bin/zsh'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('P9K_SSH', '1'), ('PWD', '/home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo'), ('SSH_CONNECTION', '172.17.0.1 60344 172.17.0.2 22'), ('ZSH_TMUX_CONFIG', '/home/gdtr/.tmux.conf'), ('_P9K_TTY', '/dev/pts/7'), ('LC_NUMERIC', 'en_US.UTF-8'), ('PYTHONPATH', '/opt/ros/rolling/lib/python3.10/site-packages:/opt/ros/rolling/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('TMUX_PANE', '%1'), ('CMAKE_PREFIX_PATH', '/opt/ros/rolling')]), 'shell': False}
+[0.055170] (plumbing_interface_demo) StdoutLine: {'line': b'-- Found ament_cmake: 1.5.2 (/opt/ros/rolling/share/ament_cmake/cmake)\n'}
+[0.100037] (-) TimerEvent: {}
+[0.200372] (-) TimerEvent: {}
+[0.300953] (-) TimerEvent: {}
+[0.316185] (plumbing_interface_demo) StdoutLine: {'line': b'-- Found rclcpp: 19.0.0 (/opt/ros/rolling/share/rclcpp/cmake)\n'}
+[0.401020] (-) TimerEvent: {}
+[0.423293] (plumbing_interface_demo) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.3.1 (/opt/ros/rolling/share/rosidl_generator_c/cmake)\n'}
+[0.442456] (plumbing_interface_demo) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.3.1 (/opt/ros/rolling/share/rosidl_generator_cpp/cmake)\n'}
+[0.477908] (plumbing_interface_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.501210] (-) TimerEvent: {}
+[0.527441] (plumbing_interface_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.601386] (-) TimerEvent: {}
+[0.702218] (-) TimerEvent: {}
+[0.777475] (plumbing_interface_demo) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.4.0 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)\n'}
+[0.785789] (plumbing_interface_demo) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.5.0 (/opt/ros/rolling/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.802340] (-) TimerEvent: {}
+[0.902771] (-) TimerEvent: {}
+[1.003165] (-) TimerEvent: {}
+[1.102747] (plumbing_interface_demo) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.103248] (-) TimerEvent: {}
+[1.203880] (-) TimerEvent: {}
+[1.305496] (-) TimerEvent: {}
+[1.406528] (-) TimerEvent: {}
+[1.464749] (plumbing_interface_demo) StdoutLine: {'line': b'-- Found std_msgs: 4.6.1 (/opt/ros/rolling/share/std_msgs/cmake)\n'}
+[1.506906] (-) TimerEvent: {}
+[1.586387] (plumbing_interface_demo) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.4.0 (/opt/ros/rolling/share/rosidl_default_generators/cmake)\n'}
+[1.607197] (-) TimerEvent: {}
+[1.623335] (plumbing_interface_demo) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.3.1 (/opt/ros/rolling/share/rosidl_adapter/cmake)\n'}
+[1.707302] (-) TimerEvent: {}
+[1.808256] (-) TimerEvent: {}
+[1.909527] (-) TimerEvent: {}
+[2.011018] (-) TimerEvent: {}
+[2.112638] (-) TimerEvent: {}
+[2.213934] (-) TimerEvent: {}
+[2.314430] (-) TimerEvent: {}
+[2.414765] (-) TimerEvent: {}
+[2.515058] (-) TimerEvent: {}
+[2.534952] (plumbing_interface_demo) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.11.1 (/opt/ros/rolling/share/ament_cmake_ros/cmake)\n'}
+[2.615225] (-) TimerEvent: {}
+[2.715543] (-) TimerEvent: {}
+[2.815901] (-) TimerEvent: {}
+[2.916713] (-) TimerEvent: {}
+[3.017184] (-) TimerEvent: {}
+[3.117687] (-) TimerEvent: {}
+[3.174652] (plumbing_interface_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.217923] (-) TimerEvent: {}
+[3.319162] (-) TimerEvent: {}
+[3.420267] (-) TimerEvent: {}
+[3.520772] (-) TimerEvent: {}
+[3.543253] (plumbing_interface_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.575004] (plumbing_interface_demo) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.1 (/opt/ros/rolling/share/python_cmake_module/cmake)\n'}
+[3.601528] (plumbing_interface_demo) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.601713] (plumbing_interface_demo) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.601821] (plumbing_interface_demo) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.620898] (-) TimerEvent: {}
+[3.644638] (plumbing_interface_demo) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.13.2 (/opt/ros/rolling/share/ament_lint_auto/cmake)\n'}
+[3.669383] (plumbing_interface_demo) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.670660] (plumbing_interface_demo) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/gdtr/ros2/colcon_mk/src/plumbing_interface_demo/include>\n'}
+[3.670896] (plumbing_interface_demo) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.672118] (plumbing_interface_demo) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.674769] (plumbing_interface_demo) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.674987] (plumbing_interface_demo) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.675389] (plumbing_interface_demo) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.680368] (plumbing_interface_demo) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.721031] (-) TimerEvent: {}
+[3.744638] (plumbing_interface_demo) StdoutLine: {'line': b'-- Generating done\n'}
+[3.750458] (plumbing_interface_demo) StdoutLine: {'line': b'-- Build files have been written to: /home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo\n'}
+[3.781846] (plumbing_interface_demo) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.782330] (plumbing_interface_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target plumbing_interface_node\x1b[0m\n'}
+[3.796769] (plumbing_interface_demo) StdoutLine: {'line': b'[  6%] Built target plumbing_interface_node\n'}
+[3.799741] (plumbing_interface_demo) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.808660] (plumbing_interface_demo) StdoutLine: {'line': b'[  8%] Built target ament_cmake_python_copy_plumbing_interface_demo\n'}
+[3.821136] (-) TimerEvent: {}
+[3.921465] (-) TimerEvent: {}
+[4.022278] (-) TimerEvent: {}
+[4.123715] (-) TimerEvent: {}
+[4.224259] (-) TimerEvent: {}
+[4.325182] (-) TimerEvent: {}
+[4.349583] (plumbing_interface_demo) StdoutLine: {'line': b'running egg_info\n'}
+[4.351126] (plumbing_interface_demo) StdoutLine: {'line': b'writing plumbing_interface_demo.egg-info/PKG-INFO\n'}
+[4.351722] (plumbing_interface_demo) StdoutLine: {'line': b'writing dependency_links to plumbing_interface_demo.egg-info/dependency_links.txt\n'}
+[4.352438] (plumbing_interface_demo) StdoutLine: {'line': b'writing top-level names to plumbing_interface_demo.egg-info/top_level.txt\n'}
+[4.359182] (plumbing_interface_demo) StdoutLine: {'line': b"reading manifest file 'plumbing_interface_demo.egg-info/SOURCES.txt'\n"}
+[4.365557] (plumbing_interface_demo) StdoutLine: {'line': b"writing manifest file 'plumbing_interface_demo.egg-info/SOURCES.txt'\n"}
+[4.418015] (plumbing_interface_demo) StdoutLine: {'line': b'[  8%] Built target ament_cmake_python_build_plumbing_interface_demo_egg\n'}
+[4.425319] (-) TimerEvent: {}
+[4.525747] (-) TimerEvent: {}
+[4.626328] (-) TimerEvent: {}
+[4.727021] (-) TimerEvent: {}
+[4.827353] (-) TimerEvent: {}
+[4.927637] (-) TimerEvent: {}
+[5.027971] (-) TimerEvent: {}
+[5.124003] (plumbing_interface_demo) StdoutLine: {'line': b'[  8%] Built target plumbing_interface_demo__cpp\n'}
+[5.128101] (-) TimerEvent: {}
+[5.146610] (plumbing_interface_demo) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[5.147985] (plumbing_interface_demo) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.148607] (plumbing_interface_demo) StdoutLine: {'line': b'[ 14%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.165581] (plumbing_interface_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target plumbing_interface_demo__rosidl_generator_c\x1b[0m\n'}
+[5.193661] (plumbing_interface_demo) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/rosidl_generator_c/plumbing_interface_demo/action/detail/action_msg__functions.c.o\x1b[0m\n'}
+[5.194095] (plumbing_interface_demo) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/rosidl_generator_c/plumbing_interface_demo/msg/detail/custom_msg__functions.c.o\x1b[0m\n'}
+[5.194338] (plumbing_interface_demo) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/rosidl_generator_c/plumbing_interface_demo/srv/detail/service_msg__functions.c.o\x1b[0m\n'}
+[5.228205] (-) TimerEvent: {}
+[5.328905] (-) TimerEvent: {}
+[5.429571] (-) TimerEvent: {}
+[5.487214] (plumbing_interface_demo) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libplumbing_interface_demo__rosidl_generator_c.so\x1b[0m\n'}
+[5.529680] (-) TimerEvent: {}
+[5.554118] (plumbing_interface_demo) StdoutLine: {'line': b'[ 22%] Built target plumbing_interface_demo__rosidl_generator_c\n'}
+[5.571520] (plumbing_interface_demo) StdoutLine: {'line': b'[ 26%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.572828] (plumbing_interface_demo) StdoutLine: {'line': b'[ 26%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.573042] (plumbing_interface_demo) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[5.629774] (-) TimerEvent: {}
+[5.730306] (-) TimerEvent: {}
+[5.830681] (-) TimerEvent: {}
+[5.931010] (-) TimerEvent: {}
+[5.935413] (plumbing_interface_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target plumbing_interface_demo__rosidl_typesupport_cpp\x1b[0m\n'}
+[5.968110] (plumbing_interface_demo) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/plumbing_interface_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/plumbing_interface_demo/action/action_msg__type_support.cpp.o\x1b[0m\n'}
+[5.968909] (plumbing_interface_demo) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/plumbing_interface_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/plumbing_interface_demo/srv/service_msg__type_support.cpp.o\x1b[0m\n'}
+[5.986090] (plumbing_interface_demo) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/plumbing_interface_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/plumbing_interface_demo/msg/custom_msg__type_support.cpp.o\x1b[0m\n'}
+[6.031114] (-) TimerEvent: {}
+[6.094624] (plumbing_interface_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target plumbing_interface_demo__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[6.131217] (-) TimerEvent: {}
+[6.195429] (plumbing_interface_demo) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/plumbing_interface_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/plumbing_interface_demo/msg/detail/custom_msg__type_support.cpp.o\x1b[0m\n'}
+[6.231323] (-) TimerEvent: {}
+[6.331696] (-) TimerEvent: {}
+[6.357539] (plumbing_interface_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target plumbing_interface_demo__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[6.369371] (plumbing_interface_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target plumbing_interface_demo__rosidl_typesupport_c\x1b[0m\n'}
+[6.403990] (plumbing_interface_demo) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/plumbing_interface_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/plumbing_interface_demo/msg/detail/dds_fastrtps/custom_msg__type_support.cpp.o\x1b[0m\n'}
+[6.427098] (plumbing_interface_demo) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/plumbing_interface_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/plumbing_interface_demo/msg/custom_msg__type_support.cpp.o\x1b[0m\n'}
+[6.431813] (-) TimerEvent: {}
+[6.532411] (-) TimerEvent: {}
+[6.587726] (plumbing_interface_demo) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/plumbing_interface_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/plumbing_interface_demo/srv/service_msg__type_support.cpp.o\x1b[0m\n'}
+[6.617282] (plumbing_interface_demo) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/plumbing_interface_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/plumbing_interface_demo/srv/detail/service_msg__type_support.cpp.o\x1b[0m\n'}
+[6.632545] (-) TimerEvent: {}
+[6.672761] (plumbing_interface_demo) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/plumbing_interface_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/plumbing_interface_demo/action/detail/action_msg__type_support.cpp.o\x1b[0m\n'}
+[6.677919] (plumbing_interface_demo) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/plumbing_interface_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/plumbing_interface_demo/action/action_msg__type_support.cpp.o\x1b[0m\n'}
+[6.729569] (plumbing_interface_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target plumbing_interface_demo__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[6.732658] (-) TimerEvent: {}
+[6.756425] (plumbing_interface_demo) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/plumbing_interface_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/plumbing_interface_demo/msg/detail/custom_msg__type_support.c.o\x1b[0m\n'}
+[6.807822] (plumbing_interface_demo) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libplumbing_interface_demo__rosidl_typesupport_c.so\x1b[0m\n'}
+[6.818835] (plumbing_interface_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target plumbing_interface_demo__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[6.832771] (-) TimerEvent: {}
+[6.844634] (plumbing_interface_demo) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/plumbing_interface_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/plumbing_interface_demo/srv/detail/service_msg__type_support.c.o\x1b[0m\n'}
+[6.866084] (plumbing_interface_demo) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/plumbing_interface_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/plumbing_interface_demo/msg/detail/custom_msg__type_support_c.cpp.o\x1b[0m\n'}
+[6.932891] (-) TimerEvent: {}
+[7.001238] (plumbing_interface_demo) StdoutLine: {'line': b'[ 59%] Built target plumbing_interface_demo__rosidl_typesupport_c\n'}
+[7.002010] (plumbing_interface_demo) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object CMakeFiles/plumbing_interface_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/plumbing_interface_demo/action/detail/action_msg__type_support.c.o\x1b[0m\n'}
+[7.027543] (plumbing_interface_demo) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libplumbing_interface_demo__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[7.033028] (-) TimerEvent: {}
+[7.055666] (plumbing_interface_demo) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/plumbing_interface_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/plumbing_interface_demo/srv/detail/service_msg__type_support_c.cpp.o\x1b[0m\n'}
+[7.137185] (-) TimerEvent: {}
+[7.144263] (plumbing_interface_demo) StdoutLine: {'line': b'[ 63%] Built target plumbing_interface_demo__rosidl_typesupport_cpp\n'}
+[7.159852] (plumbing_interface_demo) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking C shared library libplumbing_interface_demo__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[7.173378] (plumbing_interface_demo) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/plumbing_interface_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/plumbing_interface_demo/action/detail/action_msg__type_support_c.cpp.o\x1b[0m\n'}
+[7.210486] (plumbing_interface_demo) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/plumbing_interface_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/plumbing_interface_demo/srv/detail/dds_fastrtps/service_msg__type_support.cpp.o\x1b[0m\n'}
+[7.237299] (-) TimerEvent: {}
+[7.338133] (-) TimerEvent: {}
+[7.404854] (plumbing_interface_demo) StdoutLine: {'line': b'[ 69%] Built target plumbing_interface_demo__rosidl_typesupport_introspection_c\n'}
+[7.418779] (plumbing_interface_demo) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/plumbing_interface_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/plumbing_interface_demo/action/detail/dds_fastrtps/action_msg__type_support.cpp.o\x1b[0m\n'}
+[7.438245] (-) TimerEvent: {}
+[7.538904] (-) TimerEvent: {}
+[7.639698] (-) TimerEvent: {}
+[7.740187] (-) TimerEvent: {}
+[7.840724] (-) TimerEvent: {}
+[7.941211] (-) TimerEvent: {}
+[8.042148] (-) TimerEvent: {}
+[8.091664] (plumbing_interface_demo) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking CXX shared library libplumbing_interface_demo__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[8.142300] (-) TimerEvent: {}
+[8.147375] (plumbing_interface_demo) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libplumbing_interface_demo__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[8.242460] (-) TimerEvent: {}
+[8.255159] (plumbing_interface_demo) StdoutLine: {'line': b'[ 75%] Built target plumbing_interface_demo__rosidl_typesupport_fastrtps_c\n'}
+[8.281218] (plumbing_interface_demo) StdoutLine: {'line': b'[ 75%] Built target plumbing_interface_demo__rosidl_typesupport_introspection_cpp\n'}
+[8.342618] (-) TimerEvent: {}
+[8.443063] (-) TimerEvent: {}
+[8.447989] (plumbing_interface_demo) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library libplumbing_interface_demo__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[8.543193] (-) TimerEvent: {}
+[8.558141] (plumbing_interface_demo) StdoutLine: {'line': b'[ 77%] Built target plumbing_interface_demo__rosidl_typesupport_fastrtps_cpp\n'}
+[8.586796] (plumbing_interface_demo) StdoutLine: {'line': b'[ 77%] Built target plumbing_interface_demo\n'}
+[8.611212] (plumbing_interface_demo) StdoutLine: {'line': b'[ 79%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[8.643286] (-) TimerEvent: {}
+[8.743599] (-) TimerEvent: {}
+[8.843958] (-) TimerEvent: {}
+[8.944239] (-) TimerEvent: {}
+[9.044525] (-) TimerEvent: {}
+[9.144821] (-) TimerEvent: {}
+[9.245136] (-) TimerEvent: {}
+[9.345442] (-) TimerEvent: {}
+[9.445747] (-) TimerEvent: {}
+[9.546101] (-) TimerEvent: {}
+[9.646392] (-) TimerEvent: {}
+[9.746770] (-) TimerEvent: {}
+[9.847114] (-) TimerEvent: {}
+[9.899749] (plumbing_interface_demo) StdoutLine: {'line': b'[ 79%] Built target plumbing_interface_demo__py\n'}
+[9.911006] (plumbing_interface_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target plumbing_interface_demo__rosidl_generator_py\x1b[0m\n'}
+[9.925486] (plumbing_interface_demo) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/rosidl_generator_py/plumbing_interface_demo/msg/_custom_msg_s.c.o\x1b[0m\n'}
+[9.925834] (plumbing_interface_demo) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/rosidl_generator_py/plumbing_interface_demo/srv/_service_msg_s.c.o\x1b[0m\n'}
+[9.926528] (plumbing_interface_demo) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/rosidl_generator_py/plumbing_interface_demo/action/_action_msg_s.c.o\x1b[0m\n'}
+[9.947231] (-) TimerEvent: {}
+[10.047639] (-) TimerEvent: {}
+[10.095792] (plumbing_interface_demo) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/plumbing_interface_demo/libplumbing_interface_demo__rosidl_generator_py.so\x1b[0m\n'}
+[10.139035] (plumbing_interface_demo) StdoutLine: {'line': b'[ 87%] Built target plumbing_interface_demo__rosidl_generator_py\n'}
+[10.147756] (-) TimerEvent: {}
+[10.149190] (plumbing_interface_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target plumbing_interface_demo__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[10.149465] (plumbing_interface_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target plumbing_interface_demo__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[10.149605] (plumbing_interface_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target plumbing_interface_demo__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[10.163543] (plumbing_interface_demo) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/plumbing_interface_demo__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/plumbing_interface_demo/_plumbing_interface_demo_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[10.164974] (plumbing_interface_demo) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/plumbing_interface_demo__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/plumbing_interface_demo/_plumbing_interface_demo_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[10.166799] (plumbing_interface_demo) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/plumbing_interface_demo__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/plumbing_interface_demo/_plumbing_interface_demo_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[10.247921] (-) TimerEvent: {}
+[10.330644] (plumbing_interface_demo) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/plumbing_interface_demo/plumbing_interface_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.345858] (plumbing_interface_demo) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/plumbing_interface_demo/plumbing_interface_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.348029] (-) TimerEvent: {}
+[10.386950] (plumbing_interface_demo) StdoutLine: {'line': b'[ 97%] Built target plumbing_interface_demo__rosidl_typesupport_introspection_c__pyext\n'}
+[10.392625] (plumbing_interface_demo) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/plumbing_interface_demo/plumbing_interface_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.397507] (plumbing_interface_demo) StdoutLine: {'line': b'[100%] Built target plumbing_interface_demo__rosidl_typesupport_c__pyext\n'}
+[10.444683] (plumbing_interface_demo) StdoutLine: {'line': b'[100%] Built target plumbing_interface_demo__rosidl_typesupport_fastrtps_c__pyext\n'}
+[10.457180] (-) TimerEvent: {}
+[10.465445] (plumbing_interface_demo) CommandEnded: {'returncode': 0}
+[10.557316] (-) TimerEvent: {}
+[10.658140] (-) TimerEvent: {}
+[10.737446] (plumbing_interface_demo) JobProgress: {'identifier': 'plumbing_interface_demo', 'progress': 'install'}
+[10.758257] (-) TimerEvent: {}
+[10.764284] (plumbing_interface_demo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo'], 'cwd': '/home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo', 'env': OrderedDict([('TMUX', '/tmp/tmux-1000/default,539,0'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_CLIENT', '172.17.0.1 60344 22'), ('USER', 'gdtr'), ('LD_LIBRARY_PATH', '/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/lib'), ('SHLVL', '2'), ('HOME', '/home/gdtr'), ('LESS', '-R'), ('MOTD_SHOWN', 'pam'), ('OLDPWD', '/home/gdtr/ros2/colcon_mk/src'), ('SSH_TTY', '/dev/pts/5'), ('TERM_PROGRAM_VERSION', '3.2a'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('ZSH', '/home/gdtr/.oh-my-zsh'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('_ZSH_TMUX_FIXED_CONFIG', '/home/gdtr/.oh-my-zsh/plugins/tmux/tmux.extra.conf'), ('LC_MONETARY', 'en_US.UTF-8'), ('P9K_TTY', 'old'), ('ROS_DISTRO', 'rolling'), ('LOGNAME', 'gdtr'), ('_', '/usr/bin/colcon'), ('_P9K_SSH_TTY', '/dev/pts/7'), ('ROS_VERSION', '2'), ('TERM', 'screen'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LC_ADDRESS', 'en_US.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'tmux'), ('ZSH_TMUX_TERM', 'screen'), ('AMENT_PREFIX_PATH', '/opt/ros/rolling'), ('LC_NAME', 'en_US.UTF-8'), ('SHELL', '/usr/bin/zsh'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('P9K_SSH', '1'), ('PWD', '/home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo'), ('SSH_CONNECTION', '172.17.0.1 60344 172.17.0.2 22'), ('ZSH_TMUX_CONFIG', '/home/gdtr/.tmux.conf'), ('_P9K_TTY', '/dev/pts/7'), ('LC_NUMERIC', 'en_US.UTF-8'), ('PYTHONPATH', '/opt/ros/rolling/lib/python3.10/site-packages:/opt/ros/rolling/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('TMUX_PANE', '%1'), ('CMAKE_PREFIX_PATH', '/opt/ros/rolling')]), 'shell': False}
+[10.792513] (plumbing_interface_demo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.792986] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/share/ament_index/resource_index/rosidl_interfaces/plumbing_interface_demo\n'}
+[10.793261] (plumbing_interface_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo\n'}
+[10.793689] (plumbing_interface_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/msg\n'}
+[10.794091] (plumbing_interface_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/msg/rosidl_generator_c__visibility_control.h\n'}
+[10.794510] (plumbing_interface_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/msg/detail\n'}
+[10.795504] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/msg/detail/custom_msg__functions.h\n'}
+[10.796018] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/msg/detail/custom_msg__functions.c\n'}
+[10.796403] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/msg/detail/custom_msg__struct.h\n'}
+[10.796634] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/msg/detail/custom_msg__type_support.h\n'}
+[10.797248] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/msg/custom_msg.h\n'}
+[10.797869] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/action\n'}
+[10.798688] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/action/action_msg.h\n'}
+[10.801494] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/action/detail\n'}
+[10.801807] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/action/detail/action_msg__functions.h\n'}
+[10.802025] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/action/detail/action_msg__type_support.h\n'}
+[10.802235] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/action/detail/action_msg__struct.h\n'}
+[10.802421] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/action/detail/action_msg__functions.c\n'}
+[10.802596] (plumbing_interface_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/srv\n'}
+[10.802924] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/srv/service_msg.h\n'}
+[10.803243] (plumbing_interface_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/srv/detail\n'}
+[10.803526] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/srv/detail/service_msg__functions.h\n'}
+[10.806015] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/srv/detail/service_msg__functions.c\n'}
+[10.807039] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/srv/detail/service_msg__type_support.h\n'}
+[10.807640] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/srv/detail/service_msg__struct.h\n'}
+[10.808018] (plumbing_interface_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/share/plumbing_interface_demo/environment/library_path.sh\n'}
+[10.808317] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/share/plumbing_interface_demo/environment/library_path.dsv\n'}
+[10.808682] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/lib/libplumbing_interface_demo__rosidl_generator_c.so\n'}
+[10.809497] (plumbing_interface_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/lib/libplumbing_interface_demo__rosidl_generator_c.so" to ""\n'}
+[10.810007] (plumbing_interface_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo\n'}
+[10.810398] (plumbing_interface_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/msg\n'}
+[10.810691] (plumbing_interface_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[10.810923] (plumbing_interface_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/msg/detail\n'}
+[10.811148] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/msg/detail/custom_msg__rosidl_typesupport_fastrtps_c.h\n'}
+[10.811423] (plumbing_interface_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/action\n'}
+[10.811890] (plumbing_interface_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/action/detail\n'}
+[10.812320] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/action/detail/action_msg__rosidl_typesupport_fastrtps_c.h\n'}
+[10.812752] (plumbing_interface_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/srv\n'}
+[10.813176] (plumbing_interface_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/srv/detail\n'}
+[10.813627] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/srv/detail/service_msg__rosidl_typesupport_fastrtps_c.h\n'}
+[10.814006] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/lib/libplumbing_interface_demo__rosidl_typesupport_fastrtps_c.so\n'}
+[10.814344] (plumbing_interface_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/lib/libplumbing_interface_demo__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[10.814724] (plumbing_interface_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo\n'}
+[10.815212] (plumbing_interface_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/msg\n'}
+[10.815830] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/msg/custom_msg.hpp\n'}
+[10.816948] (plumbing_interface_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/msg/detail\n'}
+[10.819817] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/msg/detail/custom_msg__struct.hpp\n'}
+[10.820033] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/msg/detail/custom_msg__traits.hpp\n'}
+[10.820408] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/msg/detail/custom_msg__builder.hpp\n'}
+[10.820705] (plumbing_interface_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/action\n'}
+[10.820899] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/action/action_msg.hpp\n'}
+[10.821220] (plumbing_interface_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/action/detail\n'}
+[10.821659] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/action/detail/action_msg__builder.hpp\n'}
+[10.822015] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/action/detail/action_msg__traits.hpp\n'}
+[10.822400] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/action/detail/action_msg__struct.hpp\n'}
+[10.822652] (plumbing_interface_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/srv\n'}
+[10.822865] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/srv/service_msg.hpp\n'}
+[10.823205] (plumbing_interface_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/srv/detail\n'}
+[10.823641] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/srv/detail/service_msg__builder.hpp\n'}
+[10.824310] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/srv/detail/service_msg__struct.hpp\n'}
+[10.824702] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/srv/detail/service_msg__traits.hpp\n'}
+[10.825025] (plumbing_interface_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo\n'}
+[10.825292] (plumbing_interface_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/msg\n'}
+[10.825488] (plumbing_interface_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[10.825663] (plumbing_interface_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/msg/detail\n'}
+[10.825838] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/msg/detail/custom_msg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.826014] (plumbing_interface_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/msg/detail/dds_fastrtps\n'}
+[10.826220] (plumbing_interface_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/action\n'}
+[10.826410] (plumbing_interface_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/action/detail\n'}
+[10.826639] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/action/detail/action_msg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.826936] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/action/detail/dds_fastrtps\n'}
+[10.827305] (plumbing_interface_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/srv\n'}
+[10.827555] (plumbing_interface_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/srv/detail\n'}
+[10.827890] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/srv/detail/service_msg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.828209] (plumbing_interface_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/srv/detail/dds_fastrtps\n'}
+[10.828496] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/lib/libplumbing_interface_demo__rosidl_typesupport_fastrtps_cpp.so\n'}
+[10.831153] (plumbing_interface_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/lib/libplumbing_interface_demo__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[10.832674] (plumbing_interface_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo\n'}
+[10.833563] (plumbing_interface_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/msg\n'}
+[10.833828] (plumbing_interface_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[10.834016] (plumbing_interface_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/msg/detail\n'}
+[10.834221] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/msg/detail/custom_msg__rosidl_typesupport_introspection_c.h\n'}
+[10.834407] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/msg/detail/custom_msg__type_support.c\n'}
+[10.837716] (plumbing_interface_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/action\n'}
+[10.838208] (plumbing_interface_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/action/detail\n'}
+[10.838449] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/action/detail/action_msg__type_support.c\n'}
+[10.841802] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/action/detail/action_msg__rosidl_typesupport_introspection_c.h\n'}
+[10.842723] (plumbing_interface_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/srv\n'}
+[10.843066] (plumbing_interface_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/srv/detail\n'}
+[10.843348] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/srv/detail/service_msg__type_support.c\n'}
+[10.843539] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/srv/detail/service_msg__rosidl_typesupport_introspection_c.h\n'}
+[10.843801] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/lib/libplumbing_interface_demo__rosidl_typesupport_introspection_c.so\n'}
+[10.843968] (plumbing_interface_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/lib/libplumbing_interface_demo__rosidl_typesupport_introspection_c.so" to ""\n'}
+[10.844182] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/lib/libplumbing_interface_demo__rosidl_typesupport_c.so\n'}
+[10.844413] (plumbing_interface_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/lib/libplumbing_interface_demo__rosidl_typesupport_c.so" to ""\n'}
+[10.844584] (plumbing_interface_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo\n'}
+[10.844903] (plumbing_interface_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/msg\n'}
+[10.845290] (plumbing_interface_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/msg/detail\n'}
+[10.845661] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/msg/detail/custom_msg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.845971] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/msg/detail/custom_msg__type_support.cpp\n'}
+[10.846312] (plumbing_interface_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/action\n'}
+[10.846572] (plumbing_interface_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/action/detail\n'}
+[10.846928] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/action/detail/action_msg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.847159] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/action/detail/action_msg__type_support.cpp\n'}
+[10.847352] (plumbing_interface_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/srv\n'}
+[10.847538] (plumbing_interface_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/srv/detail\n'}
+[10.847951] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/srv/detail/service_msg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.848240] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/include/plumbing_interface_demo/plumbing_interface_demo/srv/detail/service_msg__type_support.cpp\n'}
+[10.848464] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/lib/libplumbing_interface_demo__rosidl_typesupport_introspection_cpp.so\n'}
+[10.848686] (plumbing_interface_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/lib/libplumbing_interface_demo__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[10.858948] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/lib/libplumbing_interface_demo__rosidl_typesupport_cpp.so\n'}
+[10.860059] (-) TimerEvent: {}
+[10.862318] (plumbing_interface_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/lib/libplumbing_interface_demo__rosidl_typesupport_cpp.so" to ""\n'}
+[10.862924] (plumbing_interface_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/share/plumbing_interface_demo/environment/pythonpath.sh\n'}
+[10.863972] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/share/plumbing_interface_demo/environment/pythonpath.dsv\n'}
+[10.864638] (plumbing_interface_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/local/lib/python3.10/dist-packages/plumbing_interface_demo-0.0.0-py3.10.egg-info\n'}
+[10.865395] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/local/lib/python3.10/dist-packages/plumbing_interface_demo-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[10.865932] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/local/lib/python3.10/dist-packages/plumbing_interface_demo-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[10.866204] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/local/lib/python3.10/dist-packages/plumbing_interface_demo-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[10.866584] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/local/lib/python3.10/dist-packages/plumbing_interface_demo-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[10.867121] (plumbing_interface_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/local/lib/python3.10/dist-packages/plumbing_interface_demo\n'}
+[10.867774] (plumbing_interface_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/local/lib/python3.10/dist-packages/plumbing_interface_demo/msg\n'}
+[10.869648] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/local/lib/python3.10/dist-packages/plumbing_interface_demo/msg/_custom_msg_s.c\n'}
+[10.869902] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/local/lib/python3.10/dist-packages/plumbing_interface_demo/msg/_custom_msg.py\n'}
+[10.870320] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/local/lib/python3.10/dist-packages/plumbing_interface_demo/msg/__init__.py\n'}
+[10.870702] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/local/lib/python3.10/dist-packages/plumbing_interface_demo/action\n'}
+[10.871069] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/local/lib/python3.10/dist-packages/plumbing_interface_demo/action/_action_msg.py\n'}
+[10.871409] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/local/lib/python3.10/dist-packages/plumbing_interface_demo/action/_action_msg_s.c\n'}
+[10.871708] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/local/lib/python3.10/dist-packages/plumbing_interface_demo/action/__init__.py\n'}
+[10.875367] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/local/lib/python3.10/dist-packages/plumbing_interface_demo/libplumbing_interface_demo__rosidl_generator_py.so\n'}
+[10.875942] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/local/lib/python3.10/dist-packages/plumbing_interface_demo/_plumbing_interface_demo_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[10.876174] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/local/lib/python3.10/dist-packages/plumbing_interface_demo/plumbing_interface_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.876354] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/local/lib/python3.10/dist-packages/plumbing_interface_demo/plumbing_interface_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.876654] (plumbing_interface_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/local/lib/python3.10/dist-packages/plumbing_interface_demo/srv\n'}
+[10.877075] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/local/lib/python3.10/dist-packages/plumbing_interface_demo/srv/_service_msg_s.c\n'}
+[10.881742] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/local/lib/python3.10/dist-packages/plumbing_interface_demo/srv/_service_msg.py\n'}
+[10.882192] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/local/lib/python3.10/dist-packages/plumbing_interface_demo/srv/__init__.py\n'}
+[10.882579] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/local/lib/python3.10/dist-packages/plumbing_interface_demo/plumbing_interface_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.882874] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/local/lib/python3.10/dist-packages/plumbing_interface_demo/__init__.py\n'}
+[10.883101] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/local/lib/python3.10/dist-packages/plumbing_interface_demo/_plumbing_interface_demo_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[10.883314] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/local/lib/python3.10/dist-packages/plumbing_interface_demo/_plumbing_interface_demo_s.ep.rosidl_typesupport_c.c\n'}
+[10.960561] (-) TimerEvent: {}
+[11.062399] (-) TimerEvent: {}
+[11.065412] (plumbing_interface_demo) StdoutLine: {'line': b"Listing '/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/local/lib/python3.10/dist-packages/plumbing_interface_demo'...\n"}
+[11.065774] (plumbing_interface_demo) StdoutLine: {'line': b"Compiling '/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/local/lib/python3.10/dist-packages/plumbing_interface_demo/__init__.py'...\n"}
+[11.065985] (plumbing_interface_demo) StdoutLine: {'line': b"Listing '/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/local/lib/python3.10/dist-packages/plumbing_interface_demo/action'...\n"}
+[11.066194] (plumbing_interface_demo) StdoutLine: {'line': b"Compiling '/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/local/lib/python3.10/dist-packages/plumbing_interface_demo/action/__init__.py'...\n"}
+[11.066377] (plumbing_interface_demo) StdoutLine: {'line': b"Compiling '/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/local/lib/python3.10/dist-packages/plumbing_interface_demo/action/_action_msg.py'...\n"}
+[11.066561] (plumbing_interface_demo) StdoutLine: {'line': b"Listing '/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/local/lib/python3.10/dist-packages/plumbing_interface_demo/msg'...\n"}
+[11.066744] (plumbing_interface_demo) StdoutLine: {'line': b"Compiling '/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/local/lib/python3.10/dist-packages/plumbing_interface_demo/msg/__init__.py'...\n"}
+[11.066915] (plumbing_interface_demo) StdoutLine: {'line': b"Compiling '/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/local/lib/python3.10/dist-packages/plumbing_interface_demo/msg/_custom_msg.py'...\n"}
+[11.067086] (plumbing_interface_demo) StdoutLine: {'line': b"Listing '/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/local/lib/python3.10/dist-packages/plumbing_interface_demo/srv'...\n"}
+[11.067259] (plumbing_interface_demo) StdoutLine: {'line': b"Compiling '/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/local/lib/python3.10/dist-packages/plumbing_interface_demo/srv/__init__.py'...\n"}
+[11.067423] (plumbing_interface_demo) StdoutLine: {'line': b"Compiling '/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/local/lib/python3.10/dist-packages/plumbing_interface_demo/srv/_service_msg.py'...\n"}
+[11.097759] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/local/lib/python3.10/dist-packages/plumbing_interface_demo/plumbing_interface_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.099328] (plumbing_interface_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/local/lib/python3.10/dist-packages/plumbing_interface_demo/plumbing_interface_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[11.100648] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/local/lib/python3.10/dist-packages/plumbing_interface_demo/plumbing_interface_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.101927] (plumbing_interface_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/local/lib/python3.10/dist-packages/plumbing_interface_demo/plumbing_interface_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[11.103306] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/local/lib/python3.10/dist-packages/plumbing_interface_demo/plumbing_interface_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.105506] (plumbing_interface_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/local/lib/python3.10/dist-packages/plumbing_interface_demo/plumbing_interface_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[11.106006] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/lib/libplumbing_interface_demo__rosidl_generator_py.so\n'}
+[11.107090] (plumbing_interface_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/lib/libplumbing_interface_demo__rosidl_generator_py.so" to ""\n'}
+[11.108152] (plumbing_interface_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/share/plumbing_interface_demo/msg/CustomMsg.idl\n'}
+[11.108981] (plumbing_interface_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/share/plumbing_interface_demo/srv/ServiceMsg.idl\n'}
+[11.109406] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/share/plumbing_interface_demo/action/ActionMsg.idl\n'}
+[11.110162] (plumbing_interface_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/share/plumbing_interface_demo/msg/CustomMsg.msg\n'}
+[11.119738] (plumbing_interface_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/share/plumbing_interface_demo/srv/ServiceMsg.srv\n'}
+[11.130207] (plumbing_interface_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/share/plumbing_interface_demo/srv/ServiceMsg_Request.msg\n'}
+[11.131624] (plumbing_interface_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/share/plumbing_interface_demo/srv/ServiceMsg_Response.msg\n'}
+[11.132670] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/share/plumbing_interface_demo/action/ActionMsg.action\n'}
+[11.135047] (plumbing_interface_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/lib/plumbing_interface_demo/plumbing_interface_node\n'}
+[11.135331] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/share/ament_index/resource_index/package_run_dependencies/plumbing_interface_demo\n'}
+[11.135584] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/share/ament_index/resource_index/parent_prefix_path/plumbing_interface_demo\n'}
+[11.135843] (plumbing_interface_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/share/plumbing_interface_demo/environment/ament_prefix_path.sh\n'}
+[11.136610] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/share/plumbing_interface_demo/environment/ament_prefix_path.dsv\n'}
+[11.136993] (plumbing_interface_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/share/plumbing_interface_demo/environment/path.sh\n'}
+[11.137369] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/share/plumbing_interface_demo/environment/path.dsv\n'}
+[11.137748] (plumbing_interface_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/share/plumbing_interface_demo/local_setup.bash\n'}
+[11.138175] (plumbing_interface_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/share/plumbing_interface_demo/local_setup.sh\n'}
+[11.138561] (plumbing_interface_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/share/plumbing_interface_demo/local_setup.zsh\n'}
+[11.138935] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/share/plumbing_interface_demo/local_setup.dsv\n'}
+[11.139405] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/share/plumbing_interface_demo/package.dsv\n'}
+[11.139711] (plumbing_interface_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/share/ament_index/resource_index/packages/plumbing_interface_demo\n'}
+[11.140371] (plumbing_interface_demo) StdoutLine: {'line': b'-- Old export file "/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/share/plumbing_interface_demo/cmake/export_plumbing_interface_demo__rosidl_generator_cExport.cmake" will be replaced.  Removing files [/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/share/plumbing_interface_demo/cmake/export_plumbing_interface_demo__rosidl_generator_cExport-noconfig.cmake].\n'}
+[11.141168] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/share/plumbing_interface_demo/cmake/export_plumbing_interface_demo__rosidl_generator_cExport.cmake\n'}
+[11.142492] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/share/plumbing_interface_demo/cmake/export_plumbing_interface_demo__rosidl_generator_cExport-noconfig.cmake\n'}
+[11.150449] (plumbing_interface_demo) StdoutLine: {'line': b'-- Old export file "/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/share/plumbing_interface_demo/cmake/export_plumbing_interface_demo__rosidl_typesupport_fastrtps_cExport.cmake" will be replaced.  Removing files [/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/share/plumbing_interface_demo/cmake/export_plumbing_interface_demo__rosidl_typesupport_fastrtps_cExport-noconfig.cmake].\n'}
+[11.150904] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/share/plumbing_interface_demo/cmake/export_plumbing_interface_demo__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[11.151493] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/share/plumbing_interface_demo/cmake/export_plumbing_interface_demo__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[11.152417] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/share/plumbing_interface_demo/cmake/export_plumbing_interface_demo__rosidl_generator_cppExport.cmake\n'}
+[11.153257] (plumbing_interface_demo) StdoutLine: {'line': b'-- Old export file "/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/share/plumbing_interface_demo/cmake/export_plumbing_interface_demo__rosidl_typesupport_fastrtps_cppExport.cmake" will be replaced.  Removing files [/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/share/plumbing_interface_demo/cmake/export_plumbing_interface_demo__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake].\n'}
+[11.153585] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/share/plumbing_interface_demo/cmake/export_plumbing_interface_demo__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[11.162727] (-) TimerEvent: {}
+[11.163314] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/share/plumbing_interface_demo/cmake/export_plumbing_interface_demo__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[11.164183] (plumbing_interface_demo) StdoutLine: {'line': b'-- Old export file "/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/share/plumbing_interface_demo/cmake/plumbing_interface_demo__rosidl_typesupport_introspection_cExport.cmake" will be replaced.  Removing files [/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/share/plumbing_interface_demo/cmake/plumbing_interface_demo__rosidl_typesupport_introspection_cExport-noconfig.cmake].\n'}
+[11.165853] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/share/plumbing_interface_demo/cmake/plumbing_interface_demo__rosidl_typesupport_introspection_cExport.cmake\n'}
+[11.166252] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/share/plumbing_interface_demo/cmake/plumbing_interface_demo__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[11.166704] (plumbing_interface_demo) StdoutLine: {'line': b'-- Old export file "/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/share/plumbing_interface_demo/cmake/plumbing_interface_demo__rosidl_typesupport_cExport.cmake" will be replaced.  Removing files [/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/share/plumbing_interface_demo/cmake/plumbing_interface_demo__rosidl_typesupport_cExport-noconfig.cmake].\n'}
+[11.167166] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/share/plumbing_interface_demo/cmake/plumbing_interface_demo__rosidl_typesupport_cExport.cmake\n'}
+[11.167755] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/share/plumbing_interface_demo/cmake/plumbing_interface_demo__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[11.168179] (plumbing_interface_demo) StdoutLine: {'line': b'-- Old export file "/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/share/plumbing_interface_demo/cmake/plumbing_interface_demo__rosidl_typesupport_introspection_cppExport.cmake" will be replaced.  Removing files [/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/share/plumbing_interface_demo/cmake/plumbing_interface_demo__rosidl_typesupport_introspection_cppExport-noconfig.cmake].\n'}
+[11.168552] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/share/plumbing_interface_demo/cmake/plumbing_interface_demo__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[11.168964] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/share/plumbing_interface_demo/cmake/plumbing_interface_demo__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[11.169379] (plumbing_interface_demo) StdoutLine: {'line': b'-- Old export file "/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/share/plumbing_interface_demo/cmake/plumbing_interface_demo__rosidl_typesupport_cppExport.cmake" will be replaced.  Removing files [/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/share/plumbing_interface_demo/cmake/plumbing_interface_demo__rosidl_typesupport_cppExport-noconfig.cmake].\n'}
+[11.169698] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/share/plumbing_interface_demo/cmake/plumbing_interface_demo__rosidl_typesupport_cppExport.cmake\n'}
+[11.169976] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/share/plumbing_interface_demo/cmake/plumbing_interface_demo__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[11.170335] (plumbing_interface_demo) StdoutLine: {'line': b'-- Old export file "/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/share/plumbing_interface_demo/cmake/export_plumbing_interface_demo__rosidl_generator_pyExport.cmake" will be replaced.  Removing files [/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/share/plumbing_interface_demo/cmake/export_plumbing_interface_demo__rosidl_generator_pyExport-noconfig.cmake].\n'}
+[11.172429] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/share/plumbing_interface_demo/cmake/export_plumbing_interface_demo__rosidl_generator_pyExport.cmake\n'}
+[11.174076] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/share/plumbing_interface_demo/cmake/export_plumbing_interface_demo__rosidl_generator_pyExport-noconfig.cmake\n'}
+[11.174602] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/share/plumbing_interface_demo/cmake/rosidl_cmake-extras.cmake\n'}
+[11.174872] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/share/plumbing_interface_demo/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[11.192236] (plumbing_interface_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/share/plumbing_interface_demo/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[11.193296] (plumbing_interface_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/share/plumbing_interface_demo/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[11.195815] (plumbing_interface_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/share/plumbing_interface_demo/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[11.196179] (plumbing_interface_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/share/plumbing_interface_demo/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[11.196491] (plumbing_interface_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/share/plumbing_interface_demo/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[11.196860] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/share/plumbing_interface_demo/cmake/plumbing_interface_demoConfig.cmake\n'}
+[11.197722] (plumbing_interface_demo) StdoutLine: {'line': b'-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/share/plumbing_interface_demo/cmake/plumbing_interface_demoConfig-version.cmake\n'}
+[11.201008] (plumbing_interface_demo) StdoutLine: {'line': b'-- Installing: /home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/share/plumbing_interface_demo/package.xml\n'}
+[11.201969] (plumbing_interface_demo) CommandEnded: {'returncode': 0}
+[11.262977] (-) TimerEvent: {}
+[11.363639] (-) TimerEvent: {}
+[11.464534] (-) TimerEvent: {}
+[11.565860] (-) TimerEvent: {}
+[11.651163] (plumbing_interface_demo) JobEnded: {'identifier': 'plumbing_interface_demo', 'rc': 0}
+[11.652968] (-) EventReactorShutdown: {}

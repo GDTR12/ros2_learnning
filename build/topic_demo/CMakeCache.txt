@@ -269,7 +269,7 @@ SITE:STRING=533de77d1775
 TinyXML2_DIR:PATH=TinyXML2_DIR-NOTFOUND
 
 //Path to a library.
-_lib:FILEPATH=/opt/ros/rolling/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so
+_lib:FILEPATH=/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/lib/libplumbing_interface_demo__rosidl_typesupport_fastrtps_cpp.so
 
 //The directory containing a CMake configuration file for ament_cmake.
 ament_cmake_DIR:PATH=/opt/ros/rolling/share/ament_cmake/cmake

@@ -1,0 +1,19 @@
+[100%] Built target hello_world
+-- Install configuration: ""
+-- Installing: /home/gdtr/ros2/colcon_mk/install/hello_world_node/lib/hello_world_node/hello_world
+-- Set runtime path of "/home/gdtr/ros2/colcon_mk/install/hello_world_node/lib/hello_world_node/hello_world" to ""
+-- Installing: /home/gdtr/ros2/colcon_mk/install/hello_world_node/share/ament_index/resource_index/package_run_dependencies/hello_world_node
+-- Installing: /home/gdtr/ros2/colcon_mk/install/hello_world_node/share/ament_index/resource_index/parent_prefix_path/hello_world_node
+-- Installing: /home/gdtr/ros2/colcon_mk/install/hello_world_node/share/hello_world_node/environment/ament_prefix_path.sh
+-- Installing: /home/gdtr/ros2/colcon_mk/install/hello_world_node/share/hello_world_node/environment/ament_prefix_path.dsv
+-- Installing: /home/gdtr/ros2/colcon_mk/install/hello_world_node/share/hello_world_node/environment/path.sh
+-- Installing: /home/gdtr/ros2/colcon_mk/install/hello_world_node/share/hello_world_node/environment/path.dsv
+-- Installing: /home/gdtr/ros2/colcon_mk/install/hello_world_node/share/hello_world_node/local_setup.bash
+-- Installing: /home/gdtr/ros2/colcon_mk/install/hello_world_node/share/hello_world_node/local_setup.sh
+-- Installing: /home/gdtr/ros2/colcon_mk/install/hello_world_node/share/hello_world_node/local_setup.zsh
+-- Installing: /home/gdtr/ros2/colcon_mk/install/hello_world_node/share/hello_world_node/local_setup.dsv
+-- Installing: /home/gdtr/ros2/colcon_mk/install/hello_world_node/share/hello_world_node/package.dsv
+-- Installing: /home/gdtr/ros2/colcon_mk/install/hello_world_node/share/ament_index/resource_index/packages/hello_world_node
+-- Installing: /home/gdtr/ros2/colcon_mk/install/hello_world_node/share/hello_world_node/cmake/hello_world_nodeConfig.cmake
+-- Installing: /home/gdtr/ros2/colcon_mk/install/hello_world_node/share/hello_world_node/cmake/hello_world_nodeConfig-version.cmake
+-- Installing: /home/gdtr/ros2/colcon_mk/install/hello_world_node/share/hello_world_node/package.xml
