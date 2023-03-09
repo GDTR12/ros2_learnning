@@ -1,0 +1,8 @@
+[35m[1mConsolidate compiler generated dependencies of target param_server[0m
+[35m[1mConsolidate compiler generated dependencies of target param_client[0m
+[35m[1mConsolidate compiler generated dependencies of target param_demo0[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/param_server.dir/src/param_server.cpp.o[0m
+[ 50%] Built target param_client
+[ 66%] [32mBuilding CXX object CMakeFiles/param_demo0.dir/src/param_demo0.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable param_demo0[0m
+[ 83%] Built target param_demo0

@@ -1,0 +1,4 @@
+[01m[K/home/gdtr/ros2/colcon_mk/src/parameter_demo/src/param_client.cpp:[m[K In member function ‘[01m[Kvoid ParamClient::update_parameter(const string&, const rclcpp::ParameterValue&)[m[K’:
+[01m[K/home/gdtr/ros2/colcon_mk/src/parameter_demo/src/param_client.cpp:53:40:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kvalue[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   53 |         [01;35m[Kconst rclcpp::ParameterValue & value[m[K)
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K

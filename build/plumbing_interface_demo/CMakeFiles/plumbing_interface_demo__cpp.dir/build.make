@@ -74,10 +74,18 @@ CMakeFiles/plumbing_interface_demo__cpp: rosidl_generator_cpp/plumbing_interface
 CMakeFiles/plumbing_interface_demo__cpp: rosidl_generator_cpp/plumbing_interface_demo/srv/detail/service_msg__builder.hpp
 CMakeFiles/plumbing_interface_demo__cpp: rosidl_generator_cpp/plumbing_interface_demo/srv/detail/service_msg__struct.hpp
 CMakeFiles/plumbing_interface_demo__cpp: rosidl_generator_cpp/plumbing_interface_demo/srv/detail/service_msg__traits.hpp
+CMakeFiles/plumbing_interface_demo__cpp: rosidl_generator_cpp/plumbing_interface_demo/srv/service_exercise.hpp
+CMakeFiles/plumbing_interface_demo__cpp: rosidl_generator_cpp/plumbing_interface_demo/srv/detail/service_exercise__builder.hpp
+CMakeFiles/plumbing_interface_demo__cpp: rosidl_generator_cpp/plumbing_interface_demo/srv/detail/service_exercise__struct.hpp
+CMakeFiles/plumbing_interface_demo__cpp: rosidl_generator_cpp/plumbing_interface_demo/srv/detail/service_exercise__traits.hpp
 CMakeFiles/plumbing_interface_demo__cpp: rosidl_generator_cpp/plumbing_interface_demo/action/action_msg.hpp
 CMakeFiles/plumbing_interface_demo__cpp: rosidl_generator_cpp/plumbing_interface_demo/action/detail/action_msg__builder.hpp
 CMakeFiles/plumbing_interface_demo__cpp: rosidl_generator_cpp/plumbing_interface_demo/action/detail/action_msg__struct.hpp
 CMakeFiles/plumbing_interface_demo__cpp: rosidl_generator_cpp/plumbing_interface_demo/action/detail/action_msg__traits.hpp
+CMakeFiles/plumbing_interface_demo__cpp: rosidl_generator_cpp/plumbing_interface_demo/action/action_exercise.hpp
+CMakeFiles/plumbing_interface_demo__cpp: rosidl_generator_cpp/plumbing_interface_demo/action/detail/action_exercise__builder.hpp
+CMakeFiles/plumbing_interface_demo__cpp: rosidl_generator_cpp/plumbing_interface_demo/action/detail/action_exercise__struct.hpp
+CMakeFiles/plumbing_interface_demo__cpp: rosidl_generator_cpp/plumbing_interface_demo/action/detail/action_exercise__traits.hpp
 
 rosidl_generator_cpp/plumbing_interface_demo/msg/custom_msg.hpp: /opt/ros/rolling/lib/rosidl_generator_cpp/rosidl_generator_cpp
 rosidl_generator_cpp/plumbing_interface_demo/msg/custom_msg.hpp: /opt/ros/rolling/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py
@@ -96,7 +104,9 @@ rosidl_generator_cpp/plumbing_interface_demo/msg/custom_msg.hpp: /opt/ros/rollin
 rosidl_generator_cpp/plumbing_interface_demo/msg/custom_msg.hpp: /opt/ros/rolling/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/plumbing_interface_demo/msg/custom_msg.hpp: rosidl_adapter/plumbing_interface_demo/msg/CustomMsg.idl
 rosidl_generator_cpp/plumbing_interface_demo/msg/custom_msg.hpp: rosidl_adapter/plumbing_interface_demo/srv/ServiceMsg.idl
+rosidl_generator_cpp/plumbing_interface_demo/msg/custom_msg.hpp: rosidl_adapter/plumbing_interface_demo/srv/ServiceExercise.idl
 rosidl_generator_cpp/plumbing_interface_demo/msg/custom_msg.hpp: rosidl_adapter/plumbing_interface_demo/action/ActionMsg.idl
+rosidl_generator_cpp/plumbing_interface_demo/msg/custom_msg.hpp: rosidl_adapter/plumbing_interface_demo/action/ActionExercise.idl
 rosidl_generator_cpp/plumbing_interface_demo/msg/custom_msg.hpp: /opt/ros/rolling/share/action_msgs/msg/GoalInfo.idl
 rosidl_generator_cpp/plumbing_interface_demo/msg/custom_msg.hpp: /opt/ros/rolling/share/action_msgs/msg/GoalStatus.idl
 rosidl_generator_cpp/plumbing_interface_demo/msg/custom_msg.hpp: /opt/ros/rolling/share/action_msgs/msg/GoalStatusArray.idl
@@ -128,6 +138,18 @@ rosidl_generator_cpp/plumbing_interface_demo/srv/detail/service_msg__struct.hpp:
 rosidl_generator_cpp/plumbing_interface_demo/srv/detail/service_msg__traits.hpp: rosidl_generator_cpp/plumbing_interface_demo/msg/custom_msg.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/plumbing_interface_demo/srv/detail/service_msg__traits.hpp
 
+rosidl_generator_cpp/plumbing_interface_demo/srv/service_exercise.hpp: rosidl_generator_cpp/plumbing_interface_demo/msg/custom_msg.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/plumbing_interface_demo/srv/service_exercise.hpp
+
+rosidl_generator_cpp/plumbing_interface_demo/srv/detail/service_exercise__builder.hpp: rosidl_generator_cpp/plumbing_interface_demo/msg/custom_msg.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/plumbing_interface_demo/srv/detail/service_exercise__builder.hpp
+
+rosidl_generator_cpp/plumbing_interface_demo/srv/detail/service_exercise__struct.hpp: rosidl_generator_cpp/plumbing_interface_demo/msg/custom_msg.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/plumbing_interface_demo/srv/detail/service_exercise__struct.hpp
+
+rosidl_generator_cpp/plumbing_interface_demo/srv/detail/service_exercise__traits.hpp: rosidl_generator_cpp/plumbing_interface_demo/msg/custom_msg.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/plumbing_interface_demo/srv/detail/service_exercise__traits.hpp
+
 rosidl_generator_cpp/plumbing_interface_demo/action/action_msg.hpp: rosidl_generator_cpp/plumbing_interface_demo/msg/custom_msg.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/plumbing_interface_demo/action/action_msg.hpp
 
@@ -140,8 +162,24 @@ rosidl_generator_cpp/plumbing_interface_demo/action/detail/action_msg__struct.hp
 rosidl_generator_cpp/plumbing_interface_demo/action/detail/action_msg__traits.hpp: rosidl_generator_cpp/plumbing_interface_demo/msg/custom_msg.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/plumbing_interface_demo/action/detail/action_msg__traits.hpp
 
+rosidl_generator_cpp/plumbing_interface_demo/action/action_exercise.hpp: rosidl_generator_cpp/plumbing_interface_demo/msg/custom_msg.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/plumbing_interface_demo/action/action_exercise.hpp
+
+rosidl_generator_cpp/plumbing_interface_demo/action/detail/action_exercise__builder.hpp: rosidl_generator_cpp/plumbing_interface_demo/msg/custom_msg.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/plumbing_interface_demo/action/detail/action_exercise__builder.hpp
+
+rosidl_generator_cpp/plumbing_interface_demo/action/detail/action_exercise__struct.hpp: rosidl_generator_cpp/plumbing_interface_demo/msg/custom_msg.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/plumbing_interface_demo/action/detail/action_exercise__struct.hpp
+
+rosidl_generator_cpp/plumbing_interface_demo/action/detail/action_exercise__traits.hpp: rosidl_generator_cpp/plumbing_interface_demo/msg/custom_msg.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/plumbing_interface_demo/action/detail/action_exercise__traits.hpp
+
 plumbing_interface_demo__cpp: CMakeFiles/plumbing_interface_demo__cpp
+plumbing_interface_demo__cpp: rosidl_generator_cpp/plumbing_interface_demo/action/action_exercise.hpp
 plumbing_interface_demo__cpp: rosidl_generator_cpp/plumbing_interface_demo/action/action_msg.hpp
+plumbing_interface_demo__cpp: rosidl_generator_cpp/plumbing_interface_demo/action/detail/action_exercise__builder.hpp
+plumbing_interface_demo__cpp: rosidl_generator_cpp/plumbing_interface_demo/action/detail/action_exercise__struct.hpp
+plumbing_interface_demo__cpp: rosidl_generator_cpp/plumbing_interface_demo/action/detail/action_exercise__traits.hpp
 plumbing_interface_demo__cpp: rosidl_generator_cpp/plumbing_interface_demo/action/detail/action_msg__builder.hpp
 plumbing_interface_demo__cpp: rosidl_generator_cpp/plumbing_interface_demo/action/detail/action_msg__struct.hpp
 plumbing_interface_demo__cpp: rosidl_generator_cpp/plumbing_interface_demo/action/detail/action_msg__traits.hpp
@@ -149,9 +187,13 @@ plumbing_interface_demo__cpp: rosidl_generator_cpp/plumbing_interface_demo/msg/c
 plumbing_interface_demo__cpp: rosidl_generator_cpp/plumbing_interface_demo/msg/detail/custom_msg__builder.hpp
 plumbing_interface_demo__cpp: rosidl_generator_cpp/plumbing_interface_demo/msg/detail/custom_msg__struct.hpp
 plumbing_interface_demo__cpp: rosidl_generator_cpp/plumbing_interface_demo/msg/detail/custom_msg__traits.hpp
+plumbing_interface_demo__cpp: rosidl_generator_cpp/plumbing_interface_demo/srv/detail/service_exercise__builder.hpp
+plumbing_interface_demo__cpp: rosidl_generator_cpp/plumbing_interface_demo/srv/detail/service_exercise__struct.hpp
+plumbing_interface_demo__cpp: rosidl_generator_cpp/plumbing_interface_demo/srv/detail/service_exercise__traits.hpp
 plumbing_interface_demo__cpp: rosidl_generator_cpp/plumbing_interface_demo/srv/detail/service_msg__builder.hpp
 plumbing_interface_demo__cpp: rosidl_generator_cpp/plumbing_interface_demo/srv/detail/service_msg__struct.hpp
 plumbing_interface_demo__cpp: rosidl_generator_cpp/plumbing_interface_demo/srv/detail/service_msg__traits.hpp
+plumbing_interface_demo__cpp: rosidl_generator_cpp/plumbing_interface_demo/srv/service_exercise.hpp
 plumbing_interface_demo__cpp: rosidl_generator_cpp/plumbing_interface_demo/srv/service_msg.hpp
 plumbing_interface_demo__cpp: CMakeFiles/plumbing_interface_demo__cpp.dir/build.make
 .PHONY : plumbing_interface_demo__cpp

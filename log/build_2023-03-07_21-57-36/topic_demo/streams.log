@@ -1,0 +1,14 @@
+[1.039s] Invoking command in '/home/gdtr/ros2/colcon_mk/build/topic_demo': AMENT_PREFIX_PATH=/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo:/opt/ros/rolling LD_LIBRARY_PATH=/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/gdtr/ros2/colcon_mk/build/topic_demo -- -j8 -l8
+[1.145s] [ 12%] [32mBuilding CXX object CMakeFiles/topic_talker.dir/src/topic_talker.cpp.o[0m
+[1.146s] [ 25%] [32mBuilding CXX object CMakeFiles/topic_talker_custom.dir/src/topic_talker_custom.cpp.o[0m
+[1.169s] [ 37%] [32mBuilding CXX object CMakeFiles/topic_listener_custom.dir/src/topic_listener_custom.cpp.o[0m
+[1.170s] [ 50%] [32mBuilding CXX object CMakeFiles/topic_listener.dir/src/topic_listener.cpp.o[0m
+[8.357s] gmake[2]: *** [CMakeFiles/topic_listener_custom.dir/build.make:76: CMakeFiles/topic_listener_custom.dir/src/topic_listener_custom.cpp.o] Interrupt
+[8.359s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/topic_listener_custom.dir/all] Interrupt
+[8.359s] gmake[2]: *** [CMakeFiles/topic_talker.dir/build.make:76: CMakeFiles/topic_talker.dir/src/topic_talker.cpp.o] Interrupt
+[8.361s] gmake[2]: *** [CMakeFiles/topic_talker_custom.dir/build.make:76: CMakeFiles/topic_talker_custom.dir/src/topic_talker_custom.cpp.o] Interrupt
+[8.361s] gmake[2]: *** [CMakeFiles/topic_listener.dir/build.make:76: CMakeFiles/topic_listener.dir/src/topic_listener.cpp.o] Interrupt
+[8.361s] gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/topic_talker.dir/all] Interrupt
+[8.362s] gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/topic_talker_custom.dir/all] Interrupt
+[8.362s] gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/topic_listener.dir/all] Interrupt
+[8.362s] gmake: *** [Makefile:146: all] Interrupt

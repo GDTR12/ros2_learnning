@@ -1,6 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/plumbing_interface_demo__cpp"
+  "rosidl_generator_cpp/plumbing_interface_demo/action/action_exercise.hpp"
   "rosidl_generator_cpp/plumbing_interface_demo/action/action_msg.hpp"
+  "rosidl_generator_cpp/plumbing_interface_demo/action/detail/action_exercise__builder.hpp"
+  "rosidl_generator_cpp/plumbing_interface_demo/action/detail/action_exercise__struct.hpp"
+  "rosidl_generator_cpp/plumbing_interface_demo/action/detail/action_exercise__traits.hpp"
   "rosidl_generator_cpp/plumbing_interface_demo/action/detail/action_msg__builder.hpp"
   "rosidl_generator_cpp/plumbing_interface_demo/action/detail/action_msg__struct.hpp"
   "rosidl_generator_cpp/plumbing_interface_demo/action/detail/action_msg__traits.hpp"
@@ -8,9 +12,13 @@ file(REMOVE_RECURSE
   "rosidl_generator_cpp/plumbing_interface_demo/msg/detail/custom_msg__builder.hpp"
   "rosidl_generator_cpp/plumbing_interface_demo/msg/detail/custom_msg__struct.hpp"
   "rosidl_generator_cpp/plumbing_interface_demo/msg/detail/custom_msg__traits.hpp"
+  "rosidl_generator_cpp/plumbing_interface_demo/srv/detail/service_exercise__builder.hpp"
+  "rosidl_generator_cpp/plumbing_interface_demo/srv/detail/service_exercise__struct.hpp"
+  "rosidl_generator_cpp/plumbing_interface_demo/srv/detail/service_exercise__traits.hpp"
   "rosidl_generator_cpp/plumbing_interface_demo/srv/detail/service_msg__builder.hpp"
   "rosidl_generator_cpp/plumbing_interface_demo/srv/detail/service_msg__struct.hpp"
   "rosidl_generator_cpp/plumbing_interface_demo/srv/detail/service_msg__traits.hpp"
+  "rosidl_generator_cpp/plumbing_interface_demo/srv/service_exercise.hpp"
   "rosidl_generator_cpp/plumbing_interface_demo/srv/service_msg.hpp"
 )
 

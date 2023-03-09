@@ -1,0 +1,37 @@
+[3.244s] Invoking command in '/home/gdtr/ros2/colcon_mk/src/action_demo_py': AMENT_PREFIX_PATH=/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo LD_LIBRARY_PATH=/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gdtr/ros2/colcon_mk/build/action_demo_py/prefix_override:/home/gdtr/ros2/colcon_mk/install/action_demo_py/lib/python3.10/site-packages:/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/action_demo_py build --build-base /home/gdtr/ros2/colcon_mk/build/action_demo_py/build install --record /home/gdtr/ros2/colcon_mk/build/action_demo_py/install.log --single-version-externally-managed
+[4.697s] running egg_info
+[4.698s] creating ../../build/action_demo_py/action_demo_py.egg-info
+[4.702s] writing ../../build/action_demo_py/action_demo_py.egg-info/PKG-INFO
+[4.702s] writing dependency_links to ../../build/action_demo_py/action_demo_py.egg-info/dependency_links.txt
+[4.702s] writing entry points to ../../build/action_demo_py/action_demo_py.egg-info/entry_points.txt
+[4.702s] writing requirements to ../../build/action_demo_py/action_demo_py.egg-info/requires.txt
+[4.702s] writing top-level names to ../../build/action_demo_py/action_demo_py.egg-info/top_level.txt
+[4.703s] writing manifest file '../../build/action_demo_py/action_demo_py.egg-info/SOURCES.txt'
+[4.704s] reading manifest file '../../build/action_demo_py/action_demo_py.egg-info/SOURCES.txt'
+[4.717s] writing manifest file '../../build/action_demo_py/action_demo_py.egg-info/SOURCES.txt'
+[4.718s] running build
+[4.719s] running build_py
+[4.719s] creating /home/gdtr/ros2/colcon_mk/build/action_demo_py/build
+[4.719s] creating /home/gdtr/ros2/colcon_mk/build/action_demo_py/build/lib
+[4.719s] creating /home/gdtr/ros2/colcon_mk/build/action_demo_py/build/lib/action_demo_py
+[4.720s] copying action_demo_py/action_server_py.py -> /home/gdtr/ros2/colcon_mk/build/action_demo_py/build/lib/action_demo_py
+[4.720s] copying action_demo_py/__init__.py -> /home/gdtr/ros2/colcon_mk/build/action_demo_py/build/lib/action_demo_py
+[4.720s] running install
+[4.733s] running install_lib
+[4.734s] creating /home/gdtr/ros2/colcon_mk/install/action_demo_py/lib/python3.10/site-packages/action_demo_py
+[4.735s] copying /home/gdtr/ros2/colcon_mk/build/action_demo_py/build/lib/action_demo_py/action_server_py.py -> /home/gdtr/ros2/colcon_mk/install/action_demo_py/lib/python3.10/site-packages/action_demo_py
+[4.735s] copying /home/gdtr/ros2/colcon_mk/build/action_demo_py/build/lib/action_demo_py/__init__.py -> /home/gdtr/ros2/colcon_mk/install/action_demo_py/lib/python3.10/site-packages/action_demo_py
+[4.736s] byte-compiling /home/gdtr/ros2/colcon_mk/install/action_demo_py/lib/python3.10/site-packages/action_demo_py/action_server_py.py to action_server_py.cpython-310.pyc
+[4.737s] byte-compiling /home/gdtr/ros2/colcon_mk/install/action_demo_py/lib/python3.10/site-packages/action_demo_py/__init__.py to __init__.cpython-310.pyc
+[4.740s] running install_data
+[4.740s] creating /home/gdtr/ros2/colcon_mk/install/action_demo_py/share/ament_index
+[4.740s] creating /home/gdtr/ros2/colcon_mk/install/action_demo_py/share/ament_index/resource_index
+[4.740s] creating /home/gdtr/ros2/colcon_mk/install/action_demo_py/share/ament_index/resource_index/packages
+[4.740s] copying resource/action_demo_py -> /home/gdtr/ros2/colcon_mk/install/action_demo_py/share/ament_index/resource_index/packages
+[4.741s] copying package.xml -> /home/gdtr/ros2/colcon_mk/install/action_demo_py/share/action_demo_py
+[4.741s] running install_egg_info
+[4.744s] Copying ../../build/action_demo_py/action_demo_py.egg-info to /home/gdtr/ros2/colcon_mk/install/action_demo_py/lib/python3.10/site-packages/action_demo_py-0.0.0-py3.10.egg-info
+[4.745s] running install_scripts
+[4.859s] Installing action_server_py script to /home/gdtr/ros2/colcon_mk/install/action_demo_py/lib/action_demo_py
+[4.868s] writing list of installed files to '/home/gdtr/ros2/colcon_mk/build/action_demo_py/install.log'
+[4.990s] Invoked command in '/home/gdtr/ros2/colcon_mk/src/action_demo_py' returned '0': AMENT_PREFIX_PATH=/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo LD_LIBRARY_PATH=/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gdtr/ros2/colcon_mk/build/action_demo_py/prefix_override:/home/gdtr/ros2/colcon_mk/install/action_demo_py/lib/python3.10/site-packages:/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/action_demo_py build --build-base /home/gdtr/ros2/colcon_mk/build/action_demo_py/build install --record /home/gdtr/ros2/colcon_mk/build/action_demo_py/install.log --single-version-externally-managed

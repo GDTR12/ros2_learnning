@@ -1,0 +1,10 @@
+[01m[K/home/gdtr/ros2/colcon_mk/src/exercise_demo/src/eServiceClient.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/gdtr/ros2/colcon_mk/src/exercise_demo/src/eServiceClient.cpp:24:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgoal_x[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   24 |     float [01;35m[Kgoal_x[m[K = atof(argv[1]);
+      |           [01;35m[K^~~~~~[m[K
+[01m[K/home/gdtr/ros2/colcon_mk/src/exercise_demo/src/eServiceClient.cpp:25:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgoal_y[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   25 |     float [01;35m[Kgoal_y[m[K = atof(argv[2]);
+      |           [01;35m[K^~~~~~[m[K
+[01m[K/home/gdtr/ros2/colcon_mk/src/exercise_demo/src/eServiceClient.cpp:26:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgoal_theta[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   26 |     float [01;35m[Kgoal_theta[m[K = atof(argv[3]);
+      |           [01;35m[K^~~~~~~~~~[m[K

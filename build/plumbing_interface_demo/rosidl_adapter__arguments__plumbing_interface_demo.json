@@ -3,6 +3,8 @@
   "non_idl_tuples": [
     "/home/gdtr/ros2/colcon_mk/src/plumbing_interface_demo:msg/CustomMsg.msg",
     "/home/gdtr/ros2/colcon_mk/src/plumbing_interface_demo:srv/ServiceMsg.srv",
-    "/home/gdtr/ros2/colcon_mk/src/plumbing_interface_demo:action/ActionMsg.action"
+    "/home/gdtr/ros2/colcon_mk/src/plumbing_interface_demo:srv/ServiceExercise.srv",
+    "/home/gdtr/ros2/colcon_mk/src/plumbing_interface_demo:action/ActionMsg.action",
+    "/home/gdtr/ros2/colcon_mk/src/plumbing_interface_demo:action/ActionExercise.action"
   ]
 }

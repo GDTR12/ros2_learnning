@@ -1,0 +1,5 @@
+[0.039s] Invoking command in '/home/gdtr/ros2/colcon_mk/build/paramter_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gdtr/ros2/colcon_mk/install/topic_demo_py:/opt/ros/rolling /usr/bin/cmake --build /home/gdtr/ros2/colcon_mk/build/paramter_demo -- -j8 -l8
+[0.063s] [0mCMake Error: The source directory "/home/gdtr/ros2/colcon_mk/src/paramter_demo" does not exist.
+[0.063s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.064s] gmake: *** [Makefile:349: cmake_check_build_system] Error 1
+[0.067s] Invoked command in '/home/gdtr/ros2/colcon_mk/build/paramter_demo' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gdtr/ros2/colcon_mk/install/topic_demo_py:/opt/ros/rolling /usr/bin/cmake --build /home/gdtr/ros2/colcon_mk/build/paramter_demo -- -j8 -l8

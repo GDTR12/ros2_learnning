@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from plumbing_interface_demo/action/ActionExercise.action
+// generated code does not contain a copyright notice
+
+
+module plumbing_interface_demo {
+  module action {
+    struct ActionExercise_Goal {
+      float goal_x;
+
+      float goal_y;
+
+      float goal_theta;
+    };
+    struct ActionExercise_Result {
+      float finally_x;
+
+      float finally_y;
+
+      float finally_theta;
+    };
+    struct ActionExercise_Feedback {
+      float distance;
+    };
+  };
+};

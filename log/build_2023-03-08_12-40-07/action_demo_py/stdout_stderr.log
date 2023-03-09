@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/action_demo_py/action_demo_py.egg-info/PKG-INFO
+writing dependency_links to ../../build/action_demo_py/action_demo_py.egg-info/dependency_links.txt
+writing entry points to ../../build/action_demo_py/action_demo_py.egg-info/entry_points.txt
+writing requirements to ../../build/action_demo_py/action_demo_py.egg-info/requires.txt
+writing top-level names to ../../build/action_demo_py/action_demo_py.egg-info/top_level.txt
+reading manifest file '../../build/action_demo_py/action_demo_py.egg-info/SOURCES.txt'
+writing manifest file '../../build/action_demo_py/action_demo_py.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/gdtr/ros2/colcon_mk/install/action_demo_py/lib/python3.10/site-packages/action_demo_py-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/action_demo_py/action_demo_py.egg-info to /home/gdtr/ros2/colcon_mk/install/action_demo_py/lib/python3.10/site-packages/action_demo_py-0.0.0-py3.10.egg-info
+running install_scripts
+Installing action_server_py script to /home/gdtr/ros2/colcon_mk/install/action_demo_py/lib/action_demo_py
+writing list of installed files to '/home/gdtr/ros2/colcon_mk/build/action_demo_py/install.log'

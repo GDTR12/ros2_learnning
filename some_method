@@ -1,9 +1,7 @@
+apt install ros-ros版本代号-包名称
+
 colcon build
 colcon build --packages-select [包名称...] 
-
-
-ros2 run
-
 
 ros2 pkg
 ros2 pkg create [包名] --build-type [cmake, ament_cmake or ament_python] --node-name [可执行程序名称]
@@ -13,11 +11,52 @@ ros2 pkg list                       :列出功能包名称
 ros2 pkg prefix [包名]          :打印包路径
 ros2 pkg xml [包名]     :相当于cat xml文件
 
-apt install ros-ros版本代号-包名称
+ros2 run [包名] [节点名]   : 启动节点
+ros2 run [包名] [节点名] --ros-args --remap __ns:=/[命名空间]    : 将某个节点放都命名空间下启动
+ros2 run [包名] [节点名] --ros-args --remap __name:=[名称]    : 节点冲命名
+ros2 run [包名] [节点名] --ros-args --remap __name:=[名称] --remap __ns:=/[命名空间]   : 上述两种结合
+ros2 run [包名] [节点名] --ros-args --remap [原话题名称]:=[新话题名称]  : 话题重映射（重命名）
+ros2 run [包名] [节点名] --ros-args -p [key]:=[value]  : 启动时写入参数
+ros2 run [包名] [节点名] --ros-args --params-file [文件]  : 启动时从参数文件写入参数
 
+ros2 run teleop_twist_keyboard teleop_twist_keyboard     : 向 cmd_vel 话题发布数据, 并可以通过键盘发送运动参数
 
+ros2 node list      : 查看所有节点
+ros2 node info [节点名] : 查看节点信息
 
 ros2 interface show [包名/[srv/msg]/数据类名称]  : 查看数据类型
+ros2 interface proto [包名/[srv/msg]/数据类名称]  : 查看数据的值
+ros2 interface package [包名]       : 查看包所包含的接口消息
+ros2 interface packages       : 查看包含的接口消息的功能包
+
+ros2 topic list
 ros2 topic echo /[话题名称] ：查看话题的发布数据
+ros2 topic bw /[话题名称]   ：查看话题带宽
+ros2 topic type /[话题名称] : 查看话题的消息类型
+ros2 topic find /[消息类型] : 查看所有使用这个消息类型的话题
+ros2 topic pub -r [rate] [话题名称] [消息类型] ["json数据"] 向话题发送消息
+
+ros2 service list   : 查看所有服务
 ros2 service call /[服务话题名称] [包名/[srv/msg]/数据类名称] [json格式数据] : 想服务端请求数据
+ros2 service find /[服务话题类型] : 查看所有使用这个消息类型的服务
+ros2 service type /[服务名称]   : 查看服务的话题消息类型
+
+ros2 action list    : 查看所有动作通信
 ros2 action send_goal /[动作话题名称] [包名/[srv/msg]/数据类名称] -f [json格式数据] : 向服务端请求数据
+ros2 action info /[动作话题名称]    : 查看动作话题的属性
+
+ros2 param list     : 查看所有参数
+ros2 param get /[参数服务名称] [key]   :查看指定参数名称
+ros2 param set /[参数服务名称] [key] [value]  : 设置某个参数值
+ros2 param delete /[参数服务名称] [key]  : 删除某个参数值
+ros2 param describe /[参数服务名称] [key]  : 查看某个参数信息
+ros2 param dump /[参数服务名称] --output-dir [dir]   : 输出某个参数信息(到文件夹)
+ros2 param load /[参数服务名称] [文件]   : 加载某个参数信息
+
+export ROS_DOMAIN_ID=[n]    : 在某个节点开始前设置domain为n
+echo "export ROS_DOMAIN_ID=[n]" >> ~/.zshrc
+rqt_graph           : 查看计算图点以指定名称启动
+
+ros2 doctor
+
+ros2 launch [包名] [launch文件名]

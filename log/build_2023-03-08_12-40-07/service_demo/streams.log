@@ -1,0 +1,24 @@
+[0.099s] Invoking command in '/home/gdtr/ros2/colcon_mk/build/service_demo': AMENT_PREFIX_PATH=/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo:/opt/ros/rolling LD_LIBRARY_PATH=/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/gdtr/ros2/colcon_mk/build/service_demo -- -j8 -l8
+[0.876s] [ 50%] Built target service_client
+[0.877s] [100%] Built target service_server
+[0.883s] Invoked command in '/home/gdtr/ros2/colcon_mk/build/service_demo' returned '0': AMENT_PREFIX_PATH=/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo:/opt/ros/rolling LD_LIBRARY_PATH=/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/gdtr/ros2/colcon_mk/build/service_demo -- -j8 -l8
+[1.233s] Invoking command in '/home/gdtr/ros2/colcon_mk/build/service_demo': AMENT_PREFIX_PATH=/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo:/opt/ros/rolling LD_LIBRARY_PATH=/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/gdtr/ros2/colcon_mk/build/service_demo
+[1.251s] -- Install configuration: ""
+[1.252s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/service_demo/lib/service_demo/service_server
+[1.252s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/service_demo/lib/service_demo/service_client
+[1.257s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/service_demo/share/ament_index/resource_index/package_run_dependencies/service_demo
+[1.257s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/service_demo/share/ament_index/resource_index/parent_prefix_path/service_demo
+[1.257s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/service_demo/share/service_demo/environment/ament_prefix_path.sh
+[1.258s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/service_demo/share/service_demo/environment/ament_prefix_path.dsv
+[1.258s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/service_demo/share/service_demo/environment/path.sh
+[1.258s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/service_demo/share/service_demo/environment/path.dsv
+[1.258s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/service_demo/share/service_demo/local_setup.bash
+[1.258s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/service_demo/share/service_demo/local_setup.sh
+[1.258s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/service_demo/share/service_demo/local_setup.zsh
+[1.259s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/service_demo/share/service_demo/local_setup.dsv
+[1.259s] -- Installing: /home/gdtr/ros2/colcon_mk/install/service_demo/share/service_demo/package.dsv
+[1.259s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/service_demo/share/ament_index/resource_index/packages/service_demo
+[1.259s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/service_demo/share/service_demo/cmake/service_demoConfig.cmake
+[1.260s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/service_demo/share/service_demo/cmake/service_demoConfig-version.cmake
+[1.260s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/service_demo/share/service_demo/package.xml
+[1.297s] Invoked command in '/home/gdtr/ros2/colcon_mk/build/service_demo' returned '0': AMENT_PREFIX_PATH=/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo:/opt/ros/rolling LD_LIBRARY_PATH=/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/gdtr/ros2/colcon_mk/build/service_demo

@@ -1,0 +1,9 @@
+[31mCMake Error at /opt/ros/rolling/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:95 (message):
+  rosidl_generate_interfaces() the passed file 'srv/eServiceDemo.srv' doesn't
+  exist relative to the CMAKE_CURRENT_SOURCE_DIR
+  '/home/gdtr/ros2/colcon_mk/src/plumbing_interface_demo'
+Call Stack (most recent call first):
+  CMakeLists.txt:15 (rosidl_generate_interfaces)
+
+[0m
+gmake: *** [Makefile:1220: cmake_check_build_system] Error 1

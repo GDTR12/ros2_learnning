@@ -1,0 +1,2 @@
+Invoking command in '/home/gdtr/ros2/colcon_mk/build/paramter_demo': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake /home/gdtr/ros2/colcon_mk/src/parameter_demo -DCMAKE_INSTALL_PREFIX=/home/gdtr/ros2/colcon_mk/install/paramter_demo
+Invoked command in '/home/gdtr/ros2/colcon_mk/build/paramter_demo' returned '1': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake /home/gdtr/ros2/colcon_mk/src/parameter_demo -DCMAKE_INSTALL_PREFIX=/home/gdtr/ros2/colcon_mk/install/paramter_demo

@@ -97,10 +97,24 @@ CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/rosidl_generator_py/
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/rosidl_generator_py/plumbing_interface_demo/srv/_service_msg_s.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/rosidl_generator_py/plumbing_interface_demo/srv/_service_msg_s.c -o CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/rosidl_generator_py/plumbing_interface_demo/srv/_service_msg_s.c.s
 
+CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/rosidl_generator_py/plumbing_interface_demo/srv/_service_exercise_s.c.o: CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/flags.make
+CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/rosidl_generator_py/plumbing_interface_demo/srv/_service_exercise_s.c.o: rosidl_generator_py/plumbing_interface_demo/srv/_service_exercise_s.c
+CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/rosidl_generator_py/plumbing_interface_demo/srv/_service_exercise_s.c.o: CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/rosidl_generator_py/plumbing_interface_demo/srv/_service_exercise_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/rosidl_generator_py/plumbing_interface_demo/srv/_service_exercise_s.c.o -MF CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/rosidl_generator_py/plumbing_interface_demo/srv/_service_exercise_s.c.o.d -o CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/rosidl_generator_py/plumbing_interface_demo/srv/_service_exercise_s.c.o -c /home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/rosidl_generator_py/plumbing_interface_demo/srv/_service_exercise_s.c
+
+CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/rosidl_generator_py/plumbing_interface_demo/srv/_service_exercise_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/rosidl_generator_py/plumbing_interface_demo/srv/_service_exercise_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/rosidl_generator_py/plumbing_interface_demo/srv/_service_exercise_s.c > CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/rosidl_generator_py/plumbing_interface_demo/srv/_service_exercise_s.c.i
+
+CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/rosidl_generator_py/plumbing_interface_demo/srv/_service_exercise_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/rosidl_generator_py/plumbing_interface_demo/srv/_service_exercise_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/rosidl_generator_py/plumbing_interface_demo/srv/_service_exercise_s.c -o CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/rosidl_generator_py/plumbing_interface_demo/srv/_service_exercise_s.c.s
+
 CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/rosidl_generator_py/plumbing_interface_demo/action/_action_msg_s.c.o: CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/flags.make
 CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/rosidl_generator_py/plumbing_interface_demo/action/_action_msg_s.c.o: rosidl_generator_py/plumbing_interface_demo/action/_action_msg_s.c
 CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/rosidl_generator_py/plumbing_interface_demo/action/_action_msg_s.c.o: CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/rosidl_generator_py/plumbing_interface_demo/action/_action_msg_s.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/rosidl_generator_py/plumbing_interface_demo/action/_action_msg_s.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/rosidl_generator_py/plumbing_interface_demo/action/_action_msg_s.c.o -MF CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/rosidl_generator_py/plumbing_interface_demo/action/_action_msg_s.c.o.d -o CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/rosidl_generator_py/plumbing_interface_demo/action/_action_msg_s.c.o -c /home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/rosidl_generator_py/plumbing_interface_demo/action/_action_msg_s.c
 
 CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/rosidl_generator_py/plumbing_interface_demo/action/_action_msg_s.c.i: cmake_force
@@ -111,18 +125,36 @@ CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/rosidl_generator_py/
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/rosidl_generator_py/plumbing_interface_demo/action/_action_msg_s.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/rosidl_generator_py/plumbing_interface_demo/action/_action_msg_s.c -o CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/rosidl_generator_py/plumbing_interface_demo/action/_action_msg_s.c.s
 
+CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/rosidl_generator_py/plumbing_interface_demo/action/_action_exercise_s.c.o: CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/flags.make
+CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/rosidl_generator_py/plumbing_interface_demo/action/_action_exercise_s.c.o: rosidl_generator_py/plumbing_interface_demo/action/_action_exercise_s.c
+CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/rosidl_generator_py/plumbing_interface_demo/action/_action_exercise_s.c.o: CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/rosidl_generator_py/plumbing_interface_demo/action/_action_exercise_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/rosidl_generator_py/plumbing_interface_demo/action/_action_exercise_s.c.o -MF CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/rosidl_generator_py/plumbing_interface_demo/action/_action_exercise_s.c.o.d -o CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/rosidl_generator_py/plumbing_interface_demo/action/_action_exercise_s.c.o -c /home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/rosidl_generator_py/plumbing_interface_demo/action/_action_exercise_s.c
+
+CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/rosidl_generator_py/plumbing_interface_demo/action/_action_exercise_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/rosidl_generator_py/plumbing_interface_demo/action/_action_exercise_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/rosidl_generator_py/plumbing_interface_demo/action/_action_exercise_s.c > CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/rosidl_generator_py/plumbing_interface_demo/action/_action_exercise_s.c.i
+
+CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/rosidl_generator_py/plumbing_interface_demo/action/_action_exercise_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/rosidl_generator_py/plumbing_interface_demo/action/_action_exercise_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/rosidl_generator_py/plumbing_interface_demo/action/_action_exercise_s.c -o CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/rosidl_generator_py/plumbing_interface_demo/action/_action_exercise_s.c.s
+
 # Object files for target plumbing_interface_demo__rosidl_generator_py
 plumbing_interface_demo__rosidl_generator_py_OBJECTS = \
 "CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/rosidl_generator_py/plumbing_interface_demo/msg/_custom_msg_s.c.o" \
 "CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/rosidl_generator_py/plumbing_interface_demo/srv/_service_msg_s.c.o" \
-"CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/rosidl_generator_py/plumbing_interface_demo/action/_action_msg_s.c.o"
+"CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/rosidl_generator_py/plumbing_interface_demo/srv/_service_exercise_s.c.o" \
+"CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/rosidl_generator_py/plumbing_interface_demo/action/_action_msg_s.c.o" \
+"CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/rosidl_generator_py/plumbing_interface_demo/action/_action_exercise_s.c.o"
 
 # External object files for target plumbing_interface_demo__rosidl_generator_py
 plumbing_interface_demo__rosidl_generator_py_EXTERNAL_OBJECTS =
 
 rosidl_generator_py/plumbing_interface_demo/libplumbing_interface_demo__rosidl_generator_py.so: CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/rosidl_generator_py/plumbing_interface_demo/msg/_custom_msg_s.c.o
 rosidl_generator_py/plumbing_interface_demo/libplumbing_interface_demo__rosidl_generator_py.so: CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/rosidl_generator_py/plumbing_interface_demo/srv/_service_msg_s.c.o
+rosidl_generator_py/plumbing_interface_demo/libplumbing_interface_demo__rosidl_generator_py.so: CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/rosidl_generator_py/plumbing_interface_demo/srv/_service_exercise_s.c.o
 rosidl_generator_py/plumbing_interface_demo/libplumbing_interface_demo__rosidl_generator_py.so: CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/rosidl_generator_py/plumbing_interface_demo/action/_action_msg_s.c.o
+rosidl_generator_py/plumbing_interface_demo/libplumbing_interface_demo__rosidl_generator_py.so: CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/rosidl_generator_py/plumbing_interface_demo/action/_action_exercise_s.c.o
 rosidl_generator_py/plumbing_interface_demo/libplumbing_interface_demo__rosidl_generator_py.so: CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/build.make
 rosidl_generator_py/plumbing_interface_demo/libplumbing_interface_demo__rosidl_generator_py.so: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 rosidl_generator_py/plumbing_interface_demo/libplumbing_interface_demo__rosidl_generator_py.so: libplumbing_interface_demo__rosidl_typesupport_c.so
@@ -140,7 +172,7 @@ rosidl_generator_py/plumbing_interface_demo/libplumbing_interface_demo__rosidl_g
 rosidl_generator_py/plumbing_interface_demo/libplumbing_interface_demo__rosidl_generator_py.so: /opt/ros/rolling/lib/librosidl_runtime_c.so
 rosidl_generator_py/plumbing_interface_demo/libplumbing_interface_demo__rosidl_generator_py.so: /opt/ros/rolling/lib/librcutils.so
 rosidl_generator_py/plumbing_interface_demo/libplumbing_interface_demo__rosidl_generator_py.so: CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library rosidl_generator_py/plumbing_interface_demo/libplumbing_interface_demo__rosidl_generator_py.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C shared library rosidl_generator_py/plumbing_interface_demo/libplumbing_interface_demo__rosidl_generator_py.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/plumbing_interface_demo__rosidl_generator_py.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

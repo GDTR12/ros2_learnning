@@ -1,0 +1,6 @@
+Invoking command in '/home/gdtr/ros2/colcon_mk/build/time_demo': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake /home/gdtr/ros2/colcon_mk/src/time_demo -DCMAKE_INSTALL_PREFIX=/home/gdtr/ros2/colcon_mk/install/time_demo
+Invoked command in '/home/gdtr/ros2/colcon_mk/build/time_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake /home/gdtr/ros2/colcon_mk/src/time_demo -DCMAKE_INSTALL_PREFIX=/home/gdtr/ros2/colcon_mk/install/time_demo
+Invoking command in '/home/gdtr/ros2/colcon_mk/build/time_demo': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --build /home/gdtr/ros2/colcon_mk/build/time_demo -- -j8 -l8
+Invoked command in '/home/gdtr/ros2/colcon_mk/build/time_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --build /home/gdtr/ros2/colcon_mk/build/time_demo -- -j8 -l8
+Invoking command in '/home/gdtr/ros2/colcon_mk/build/time_demo': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --install /home/gdtr/ros2/colcon_mk/build/time_demo
+Invoked command in '/home/gdtr/ros2/colcon_mk/build/time_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --install /home/gdtr/ros2/colcon_mk/build/time_demo

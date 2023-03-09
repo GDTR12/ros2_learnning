@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target param_demo0[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/param_demo0.dir/src/param_demo0.cpp.o[0m
+[100%] [32m[1mLinking CXX executable param_demo0[0m
+[100%] Built target param_demo0
+-- Install configuration: ""
+-- Installing: /home/gdtr/ros2/colcon_mk/install/paramter_demo/lib/paramter_demo/param_demo0
+-- Set runtime path of "/home/gdtr/ros2/colcon_mk/install/paramter_demo/lib/paramter_demo/param_demo0" to ""
+-- Installing: /home/gdtr/ros2/colcon_mk/install/paramter_demo/share/ament_index/resource_index/package_run_dependencies/paramter_demo
+-- Installing: /home/gdtr/ros2/colcon_mk/install/paramter_demo/share/ament_index/resource_index/parent_prefix_path/paramter_demo
+-- Installing: /home/gdtr/ros2/colcon_mk/install/paramter_demo/share/paramter_demo/environment/ament_prefix_path.sh
+-- Installing: /home/gdtr/ros2/colcon_mk/install/paramter_demo/share/paramter_demo/environment/ament_prefix_path.dsv
+-- Installing: /home/gdtr/ros2/colcon_mk/install/paramter_demo/share/paramter_demo/environment/path.sh
+-- Installing: /home/gdtr/ros2/colcon_mk/install/paramter_demo/share/paramter_demo/environment/path.dsv
+-- Installing: /home/gdtr/ros2/colcon_mk/install/paramter_demo/share/paramter_demo/local_setup.bash
+-- Installing: /home/gdtr/ros2/colcon_mk/install/paramter_demo/share/paramter_demo/local_setup.sh
+-- Installing: /home/gdtr/ros2/colcon_mk/install/paramter_demo/share/paramter_demo/local_setup.zsh
+-- Installing: /home/gdtr/ros2/colcon_mk/install/paramter_demo/share/paramter_demo/local_setup.dsv
+-- Installing: /home/gdtr/ros2/colcon_mk/install/paramter_demo/share/paramter_demo/package.dsv
+-- Installing: /home/gdtr/ros2/colcon_mk/install/paramter_demo/share/ament_index/resource_index/packages/paramter_demo
+-- Installing: /home/gdtr/ros2/colcon_mk/install/paramter_demo/share/paramter_demo/cmake/paramter_demoConfig.cmake
+-- Installing: /home/gdtr/ros2/colcon_mk/install/paramter_demo/share/paramter_demo/cmake/paramter_demoConfig-version.cmake
+-- Installing: /home/gdtr/ros2/colcon_mk/install/paramter_demo/share/paramter_demo/package.xml

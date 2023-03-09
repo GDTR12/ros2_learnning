@@ -1,0 +1,35 @@
+[ 20%] Built target eServiceServer
+[ 30%] [32mBuilding CXX object CMakeFiles/eActionServer.dir/src/eActionServer.cpp.o[0m
+[ 50%] Built target eTopic_talker
+[ 70%] Built target eServiceClient
+[ 90%] Built target eActionClient
+[100%] [32m[1mLinking CXX executable eActionServer[0m
+[100%] Built target eActionServer
+-- Install configuration: ""
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/exercise_demo/lib/exercise_demo/eTopic_talker
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/exercise_demo/lib/exercise_demo/eServiceServer
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/exercise_demo/lib/exercise_demo/eServiceClient
+-- Installing: /home/gdtr/ros2/colcon_mk/install/exercise_demo/lib/exercise_demo/eActionServer
+-- Set runtime path of "/home/gdtr/ros2/colcon_mk/install/exercise_demo/lib/exercise_demo/eActionServer" to ""
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/exercise_demo/lib/exercise_demo/eActionClient
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/exercise_demo/share/exercise_demo/launch
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/exercise_demo/share/exercise_demo/launch/eActionServer.py
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/exercise_demo/share/exercise_demo/launch/eServiceServer.py
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/exercise_demo/share/exercise_demo/launch/eServiceClient.py
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/exercise_demo/share/exercise_demo/launch/eActionClient.py
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/exercise_demo/share/exercise_demo/launch/imageTurtle.py
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/exercise_demo/share/ament_index/resource_index/package_run_dependencies/exercise_demo
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/exercise_demo/share/ament_index/resource_index/parent_prefix_path/exercise_demo
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/exercise_demo/share/exercise_demo/environment/ament_prefix_path.sh
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/exercise_demo/share/exercise_demo/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/exercise_demo/share/exercise_demo/environment/path.sh
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/exercise_demo/share/exercise_demo/environment/path.dsv
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/exercise_demo/share/exercise_demo/local_setup.bash
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/exercise_demo/share/exercise_demo/local_setup.sh
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/exercise_demo/share/exercise_demo/local_setup.zsh
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/exercise_demo/share/exercise_demo/local_setup.dsv
+-- Installing: /home/gdtr/ros2/colcon_mk/install/exercise_demo/share/exercise_demo/package.dsv
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/exercise_demo/share/ament_index/resource_index/packages/exercise_demo
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/exercise_demo/share/exercise_demo/cmake/exercise_demoConfig.cmake
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/exercise_demo/share/exercise_demo/cmake/exercise_demoConfig-version.cmake
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/exercise_demo/share/exercise_demo/package.xml

@@ -1,0 +1,40 @@
+[35m[1mConsolidate compiler generated dependencies of target eServiceServer[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/eServiceClient.dir/src/eServiceClient.cpp.o[0m
+[ 50%] Built target eTopic_talker
+[ 83%] Built target eServiceServer
+[01m[K/home/gdtr/ros2/colcon_mk/src/exercise_demo/src/eServiceClient.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/gdtr/ros2/colcon_mk/src/exercise_demo/src/eServiceClient.cpp:24:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgoal_x[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   24 |     float [01;35m[Kgoal_x[m[K = atof(argv[1]);
+      |           [01;35m[K^~~~~~[m[K
+[01m[K/home/gdtr/ros2/colcon_mk/src/exercise_demo/src/eServiceClient.cpp:25:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgoal_y[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   25 |     float [01;35m[Kgoal_y[m[K = atof(argv[2]);
+      |           [01;35m[K^~~~~~[m[K
+[01m[K/home/gdtr/ros2/colcon_mk/src/exercise_demo/src/eServiceClient.cpp:26:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgoal_theta[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   26 |     float [01;35m[Kgoal_theta[m[K = atof(argv[3]);
+      |           [01;35m[K^~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable eServiceClient[0m
+[100%] Built target eServiceClient
+-- Install configuration: ""
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/exercise_demo/lib/exercise_demo/eTopic_talker
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/exercise_demo/lib/exercise_demo/eServiceServer
+-- Installing: /home/gdtr/ros2/colcon_mk/install/exercise_demo/lib/exercise_demo/eServiceClient
+-- Set runtime path of "/home/gdtr/ros2/colcon_mk/install/exercise_demo/lib/exercise_demo/eServiceClient" to ""
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/exercise_demo/share/exercise_demo/launch
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/exercise_demo/share/exercise_demo/launch/eServiceServer.py
+-- Installing: /home/gdtr/ros2/colcon_mk/install/exercise_demo/share/exercise_demo/launch/eServiceClient.py
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/exercise_demo/share/exercise_demo/launch/imageTurtle.py
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/exercise_demo/share/ament_index/resource_index/package_run_dependencies/exercise_demo
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/exercise_demo/share/ament_index/resource_index/parent_prefix_path/exercise_demo
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/exercise_demo/share/exercise_demo/environment/ament_prefix_path.sh
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/exercise_demo/share/exercise_demo/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/exercise_demo/share/exercise_demo/environment/path.sh
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/exercise_demo/share/exercise_demo/environment/path.dsv
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/exercise_demo/share/exercise_demo/local_setup.bash
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/exercise_demo/share/exercise_demo/local_setup.sh
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/exercise_demo/share/exercise_demo/local_setup.zsh
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/exercise_demo/share/exercise_demo/local_setup.dsv
+-- Installing: /home/gdtr/ros2/colcon_mk/install/exercise_demo/share/exercise_demo/package.dsv
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/exercise_demo/share/ament_index/resource_index/packages/exercise_demo
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/exercise_demo/share/exercise_demo/cmake/exercise_demoConfig.cmake
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/exercise_demo/share/exercise_demo/cmake/exercise_demoConfig-version.cmake
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/exercise_demo/share/exercise_demo/package.xml

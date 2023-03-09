@@ -1,0 +1,43 @@
+[0.020s] Invoking command in '/home/gdtr/ros2/colcon_mk/build/exercise_demo': CMAKE_PREFIX_PATH=/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo:/home/gdtr/ros2/colcon_mk/install/meta_package_demo:/home/gdtr/ros2/colcon_mk/install/topic_demo:/home/gdtr/ros2/colcon_mk/install/time_demo:/home/gdtr/ros2/colcon_mk/install/service_demo_py:/home/gdtr/ros2/colcon_mk/install/service_demo:/home/gdtr/ros2/colcon_mk/install/exercise_demo:/home/gdtr/ros2/colcon_mk/install/action_demo:/home/gdtr/ros2/colcon_mk/install/parameter_demo:/home/gdtr/ros2/colcon_mk/install/launch_demo:/home/gdtr/ros2/colcon_mk/install/hello_world_node:/home/gdtr/ros2/colcon_mk/install/topic_demo_py:/home/gdtr/ros2/colcon_mk/install/action_demo_py:/opt/ros/rolling /usr/bin/cmake --build /home/gdtr/ros2/colcon_mk/build/exercise_demo -- -j8 -l8
+[0.149s] [ 20%] Built target eTopic_talker
+[0.151s] [ 40%] Built target eServiceClient
+[0.153s] [ 60%] Built target eServiceServer
+[0.153s] [ 80%] Built target eActionClient
+[0.154s] [ 90%] [32mBuilding CXX object CMakeFiles/eActionServer.dir/src/eActionServer.cpp.o[0m
+[3.481s] [01m[K/home/gdtr/ros2/colcon_mk/src/exercise_demo/src/eActionServer.cpp:[m[K In member function ‘[01m[Kvoid EActionServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<plumbing_interface_demo::action::ActionExercise> >)[m[K’:
+[3.481s] [01m[K/home/gdtr/ros2/colcon_mk/src/exercise_demo/src/eActionServer.cpp:67:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfeedback[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.481s]    67 |     void execute([01;35m[Kstd::shared_ptr<rclcpp_action::ServerGoalHandle<ActionExercise>> feedback[m[K)
+[3.481s]       |                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[9.929s] [100%] [32m[1mLinking CXX executable eActionServer[0m
+[10.522s] [100%] Built target eActionServer
+[10.535s] Invoked command in '/home/gdtr/ros2/colcon_mk/build/exercise_demo' returned '0': CMAKE_PREFIX_PATH=/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo:/home/gdtr/ros2/colcon_mk/install/meta_package_demo:/home/gdtr/ros2/colcon_mk/install/topic_demo:/home/gdtr/ros2/colcon_mk/install/time_demo:/home/gdtr/ros2/colcon_mk/install/service_demo_py:/home/gdtr/ros2/colcon_mk/install/service_demo:/home/gdtr/ros2/colcon_mk/install/exercise_demo:/home/gdtr/ros2/colcon_mk/install/action_demo:/home/gdtr/ros2/colcon_mk/install/parameter_demo:/home/gdtr/ros2/colcon_mk/install/launch_demo:/home/gdtr/ros2/colcon_mk/install/hello_world_node:/home/gdtr/ros2/colcon_mk/install/topic_demo_py:/home/gdtr/ros2/colcon_mk/install/action_demo_py:/opt/ros/rolling /usr/bin/cmake --build /home/gdtr/ros2/colcon_mk/build/exercise_demo -- -j8 -l8
+[10.599s] Invoking command in '/home/gdtr/ros2/colcon_mk/build/exercise_demo': CMAKE_PREFIX_PATH=/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo:/home/gdtr/ros2/colcon_mk/install/meta_package_demo:/home/gdtr/ros2/colcon_mk/install/topic_demo:/home/gdtr/ros2/colcon_mk/install/time_demo:/home/gdtr/ros2/colcon_mk/install/service_demo_py:/home/gdtr/ros2/colcon_mk/install/service_demo:/home/gdtr/ros2/colcon_mk/install/exercise_demo:/home/gdtr/ros2/colcon_mk/install/action_demo:/home/gdtr/ros2/colcon_mk/install/parameter_demo:/home/gdtr/ros2/colcon_mk/install/launch_demo:/home/gdtr/ros2/colcon_mk/install/hello_world_node:/home/gdtr/ros2/colcon_mk/install/topic_demo_py:/home/gdtr/ros2/colcon_mk/install/action_demo_py:/opt/ros/rolling /usr/bin/cmake --install /home/gdtr/ros2/colcon_mk/build/exercise_demo
+[10.609s] -- Install configuration: ""
+[10.610s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/exercise_demo/lib/exercise_demo/eTopic_talker
+[10.611s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/exercise_demo/lib/exercise_demo/eServiceServer
+[10.613s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/exercise_demo/lib/exercise_demo/eServiceClient
+[10.614s] -- Installing: /home/gdtr/ros2/colcon_mk/install/exercise_demo/lib/exercise_demo/eActionServer
+[10.618s] -- Set runtime path of "/home/gdtr/ros2/colcon_mk/install/exercise_demo/lib/exercise_demo/eActionServer" to ""
+[10.619s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/exercise_demo/lib/exercise_demo/eActionClient
+[10.620s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/exercise_demo/share/exercise_demo/launch
+[10.620s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/exercise_demo/share/exercise_demo/launch/eActionServer.py
+[10.620s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/exercise_demo/share/exercise_demo/launch/eServiceServer.py
+[10.620s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/exercise_demo/share/exercise_demo/launch/eServiceClient.py
+[10.620s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/exercise_demo/share/exercise_demo/launch/eActionClient.py
+[10.621s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/exercise_demo/share/exercise_demo/launch/imageTurtle.py
+[10.621s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/exercise_demo/share/ament_index/resource_index/package_run_dependencies/exercise_demo
+[10.621s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/exercise_demo/share/ament_index/resource_index/parent_prefix_path/exercise_demo
+[10.621s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/exercise_demo/share/exercise_demo/environment/ament_prefix_path.sh
+[10.622s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/exercise_demo/share/exercise_demo/environment/ament_prefix_path.dsv
+[10.622s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/exercise_demo/share/exercise_demo/environment/path.sh
+[10.622s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/exercise_demo/share/exercise_demo/environment/path.dsv
+[10.622s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/exercise_demo/share/exercise_demo/local_setup.bash
+[10.622s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/exercise_demo/share/exercise_demo/local_setup.sh
+[10.622s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/exercise_demo/share/exercise_demo/local_setup.zsh
+[10.623s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/exercise_demo/share/exercise_demo/local_setup.dsv
+[10.623s] -- Installing: /home/gdtr/ros2/colcon_mk/install/exercise_demo/share/exercise_demo/package.dsv
+[10.623s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/exercise_demo/share/ament_index/resource_index/packages/exercise_demo
+[10.623s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/exercise_demo/share/exercise_demo/cmake/exercise_demoConfig.cmake
+[10.623s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/exercise_demo/share/exercise_demo/cmake/exercise_demoConfig-version.cmake
+[10.624s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/exercise_demo/share/exercise_demo/package.xml
+[10.625s] Invoked command in '/home/gdtr/ros2/colcon_mk/build/exercise_demo' returned '0': CMAKE_PREFIX_PATH=/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo:/home/gdtr/ros2/colcon_mk/install/meta_package_demo:/home/gdtr/ros2/colcon_mk/install/topic_demo:/home/gdtr/ros2/colcon_mk/install/time_demo:/home/gdtr/ros2/colcon_mk/install/service_demo_py:/home/gdtr/ros2/colcon_mk/install/service_demo:/home/gdtr/ros2/colcon_mk/install/exercise_demo:/home/gdtr/ros2/colcon_mk/install/action_demo:/home/gdtr/ros2/colcon_mk/install/parameter_demo:/home/gdtr/ros2/colcon_mk/install/launch_demo:/home/gdtr/ros2/colcon_mk/install/hello_world_node:/home/gdtr/ros2/colcon_mk/install/topic_demo_py:/home/gdtr/ros2/colcon_mk/install/action_demo_py:/opt/ros/rolling /usr/bin/cmake --install /home/gdtr/ros2/colcon_mk/build/exercise_demo

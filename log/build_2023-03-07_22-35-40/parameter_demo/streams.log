@@ -1,0 +1,30 @@
+[0.014s] Invoking command in '/home/gdtr/ros2/colcon_mk/build/parameter_demo': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --build /home/gdtr/ros2/colcon_mk/build/parameter_demo -- -j8 -l8
+[0.063s] [35m[1mConsolidate compiler generated dependencies of target param_server[0m
+[0.077s] [ 33%] Built target param_client
+[0.080s] [ 66%] Built target param_demo0
+[0.086s] [ 83%] [32mBuilding CXX object CMakeFiles/param_server.dir/src/param_server.cpp.o[0m
+[4.234s] [100%] [32m[1mLinking CXX executable param_server[0m
+[4.897s] [100%] Built target param_server
+[4.931s] Invoked command in '/home/gdtr/ros2/colcon_mk/build/parameter_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --build /home/gdtr/ros2/colcon_mk/build/parameter_demo -- -j8 -l8
+[5.006s] Invoking command in '/home/gdtr/ros2/colcon_mk/build/parameter_demo': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --install /home/gdtr/ros2/colcon_mk/build/parameter_demo
+[5.016s] -- Install configuration: ""
+[5.016s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/parameter_demo/lib/parameter_demo/param_demo0
+[5.017s] -- Installing: /home/gdtr/ros2/colcon_mk/install/parameter_demo/lib/parameter_demo/param_server
+[5.018s] -- Set runtime path of "/home/gdtr/ros2/colcon_mk/install/parameter_demo/lib/parameter_demo/param_server" to ""
+[5.019s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/parameter_demo/lib/parameter_demo/param_client
+[5.020s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/parameter_demo/share/ament_index/resource_index/package_run_dependencies/parameter_demo
+[5.020s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/parameter_demo/share/ament_index/resource_index/parent_prefix_path/parameter_demo
+[5.021s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/parameter_demo/share/parameter_demo/environment/ament_prefix_path.sh
+[5.021s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/parameter_demo/share/parameter_demo/environment/ament_prefix_path.dsv
+[5.021s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/parameter_demo/share/parameter_demo/environment/path.sh
+[5.021s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/parameter_demo/share/parameter_demo/environment/path.dsv
+[5.022s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/parameter_demo/share/parameter_demo/local_setup.bash
+[5.022s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/parameter_demo/share/parameter_demo/local_setup.sh
+[5.022s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/parameter_demo/share/parameter_demo/local_setup.zsh
+[5.022s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/parameter_demo/share/parameter_demo/local_setup.dsv
+[5.023s] -- Installing: /home/gdtr/ros2/colcon_mk/install/parameter_demo/share/parameter_demo/package.dsv
+[5.023s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/parameter_demo/share/ament_index/resource_index/packages/parameter_demo
+[5.023s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/parameter_demo/share/parameter_demo/cmake/parameter_demoConfig.cmake
+[5.023s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/parameter_demo/share/parameter_demo/cmake/parameter_demoConfig-version.cmake
+[5.023s] -- Up-to-date: /home/gdtr/ros2/colcon_mk/install/parameter_demo/share/parameter_demo/package.xml
+[5.026s] Invoked command in '/home/gdtr/ros2/colcon_mk/build/parameter_demo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --install /home/gdtr/ros2/colcon_mk/build/parameter_demo

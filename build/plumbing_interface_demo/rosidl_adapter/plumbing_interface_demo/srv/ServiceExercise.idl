@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from plumbing_interface_demo/srv/ServiceExercise.srv
+// generated code does not contain a copyright notice
+
+
+module plumbing_interface_demo {
+  module srv {
+    struct ServiceExercise_Request {
+      float x;
+
+      float y;
+
+      float theta;
+    };
+    struct ServiceExercise_Response {
+      float distance;
+    };
+  };
+};

@@ -1,0 +1,22 @@
+[2.991s] Invoking command in '/home/gdtr/ros2/colcon_mk/src/service_demo_py': AMENT_PREFIX_PATH=/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo LD_LIBRARY_PATH=/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gdtr/ros2/colcon_mk/build/service_demo_py/prefix_override:/home/gdtr/ros2/colcon_mk/install/service_demo_py/lib/python3.10/site-packages:/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/service_demo_py build --build-base /home/gdtr/ros2/colcon_mk/build/service_demo_py/build install --record /home/gdtr/ros2/colcon_mk/build/service_demo_py/install.log --single-version-externally-managed
+[3.583s] running egg_info
+[3.583s] writing ../../build/service_demo_py/service_demo_py.egg-info/PKG-INFO
+[3.584s] writing dependency_links to ../../build/service_demo_py/service_demo_py.egg-info/dependency_links.txt
+[3.584s] writing entry points to ../../build/service_demo_py/service_demo_py.egg-info/entry_points.txt
+[3.584s] writing requirements to ../../build/service_demo_py/service_demo_py.egg-info/requires.txt
+[3.584s] writing top-level names to ../../build/service_demo_py/service_demo_py.egg-info/top_level.txt
+[3.590s] reading manifest file '../../build/service_demo_py/service_demo_py.egg-info/SOURCES.txt'
+[3.593s] writing manifest file '../../build/service_demo_py/service_demo_py.egg-info/SOURCES.txt'
+[3.593s] running build
+[3.594s] running build_py
+[3.594s] running install
+[3.600s] running install_lib
+[3.601s] running install_data
+[3.601s] running install_egg_info
+[3.605s] removing '/home/gdtr/ros2/colcon_mk/install/service_demo_py/lib/python3.10/site-packages/service_demo_py-0.0.0-py3.10.egg-info' (and everything under it)
+[3.605s] Copying ../../build/service_demo_py/service_demo_py.egg-info to /home/gdtr/ros2/colcon_mk/install/service_demo_py/lib/python3.10/site-packages/service_demo_py-0.0.0-py3.10.egg-info
+[3.609s] running install_scripts
+[3.664s] Installing service_client script to /home/gdtr/ros2/colcon_mk/install/service_demo_py/lib/service_demo_py
+[3.664s] Installing service_server script to /home/gdtr/ros2/colcon_mk/install/service_demo_py/lib/service_demo_py
+[3.668s] writing list of installed files to '/home/gdtr/ros2/colcon_mk/build/service_demo_py/install.log'
+[3.746s] Invoked command in '/home/gdtr/ros2/colcon_mk/src/service_demo_py' returned '0': AMENT_PREFIX_PATH=/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo LD_LIBRARY_PATH=/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gdtr/ros2/colcon_mk/build/service_demo_py/prefix_override:/home/gdtr/ros2/colcon_mk/install/service_demo_py/lib/python3.10/site-packages:/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/service_demo_py build --build-base /home/gdtr/ros2/colcon_mk/build/service_demo_py/build install --record /home/gdtr/ros2/colcon_mk/build/service_demo_py/install.log --single-version-externally-managed

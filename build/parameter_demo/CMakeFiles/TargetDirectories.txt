@@ -1,0 +1,12 @@
+/home/gdtr/ros2/colcon_mk/build/parameter_demo/CMakeFiles/uninstall.dir
+/home/gdtr/ros2/colcon_mk/build/parameter_demo/CMakeFiles/parameter_demo_uninstall.dir
+/home/gdtr/ros2/colcon_mk/build/parameter_demo/CMakeFiles/param_demo0.dir
+/home/gdtr/ros2/colcon_mk/build/parameter_demo/CMakeFiles/param_server.dir
+/home/gdtr/ros2/colcon_mk/build/parameter_demo/CMakeFiles/param_client.dir
+/home/gdtr/ros2/colcon_mk/build/parameter_demo/CMakeFiles/test.dir
+/home/gdtr/ros2/colcon_mk/build/parameter_demo/CMakeFiles/edit_cache.dir
+/home/gdtr/ros2/colcon_mk/build/parameter_demo/CMakeFiles/rebuild_cache.dir
+/home/gdtr/ros2/colcon_mk/build/parameter_demo/CMakeFiles/list_install_components.dir
+/home/gdtr/ros2/colcon_mk/build/parameter_demo/CMakeFiles/install.dir
+/home/gdtr/ros2/colcon_mk/build/parameter_demo/CMakeFiles/install/local.dir
+/home/gdtr/ros2/colcon_mk/build/parameter_demo/CMakeFiles/install/strip.dir

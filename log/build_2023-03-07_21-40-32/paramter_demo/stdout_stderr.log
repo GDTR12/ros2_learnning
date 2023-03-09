@@ -1,0 +1,29 @@
+[35m[1mConsolidate compiler generated dependencies of target param_server[0m
+[35m[1mConsolidate compiler generated dependencies of target param_client[0m
+[35m[1mConsolidate compiler generated dependencies of target param_demo0[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/param_server.dir/src/param_server.cpp.o[0m
+[ 50%] Built target param_client
+[ 66%] [32mBuilding CXX object CMakeFiles/param_demo0.dir/src/param_demo0.cpp.o[0m
+[01m[K/home/gdtr/ros2/colcon_mk/src/paramter_demo/src/param_server.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/gdtr/ros2/colcon_mk/src/paramter_demo/src/param_server.cpp:62:31:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kconst char [11][m[K’ to ‘[01m[Kconst rclcpp::ParameterValue&[m[K’
+   62 |     node->add_paramter("name",[01;31m[K"HolloKitty"[m[K);
+      |                               [01;31m[K^~~~~~~~~~~~[m[K
+      |                               [01;31m[K|[m[K
+      |                               [01;31m[Kconst char [11][m[K
+[01m[K/home/gdtr/ros2/colcon_mk/src/paramter_demo/src/param_server.cpp:31:40:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kvoid ParamServer::add_paramter(const string&, const rclcpp::ParameterValue&)[m[K’
+   31 |         [01;36m[Kconst rclcpp::ParameterValue & value[m[K)
+      |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/gdtr/ros2/colcon_mk/src/paramter_demo/src/param_server.cpp:64:33:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kdouble[m[K’ to ‘[01m[Kconst rclcpp::ParameterValue&[m[K’
+   64 |     node->add_paramter("height",[01;31m[K1.8[m[K);
+      |                                 [01;31m[K^~~[m[K
+      |                                 [01;31m[K|[m[K
+      |                                 [01;31m[Kdouble[m[K
+[01m[K/home/gdtr/ros2/colcon_mk/src/paramter_demo/src/param_server.cpp:31:40:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kvoid ParamServer::add_paramter(const string&, const rclcpp::ParameterValue&)[m[K’
+   31 |         [01;36m[Kconst rclcpp::ParameterValue & value[m[K)
+      |         [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+gmake[2]: *** [CMakeFiles/param_server.dir/build.make:76: CMakeFiles/param_server.dir/src/param_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/param_server.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 83%] [32m[1mLinking CXX executable param_demo0[0m
+[ 83%] Built target param_demo0
+gmake: *** [Makefile:146: all] Error 2

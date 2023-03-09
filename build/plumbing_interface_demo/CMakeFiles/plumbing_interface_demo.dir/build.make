@@ -70,7 +70,11 @@ CMakeFiles/plumbing_interface_demo: /home/gdtr/ros2/colcon_mk/src/plumbing_inter
 CMakeFiles/plumbing_interface_demo: /home/gdtr/ros2/colcon_mk/src/plumbing_interface_demo/srv/ServiceMsg.srv
 CMakeFiles/plumbing_interface_demo: rosidl_cmake/srv/ServiceMsg_Request.msg
 CMakeFiles/plumbing_interface_demo: rosidl_cmake/srv/ServiceMsg_Response.msg
+CMakeFiles/plumbing_interface_demo: /home/gdtr/ros2/colcon_mk/src/plumbing_interface_demo/srv/ServiceExercise.srv
+CMakeFiles/plumbing_interface_demo: rosidl_cmake/srv/ServiceExercise_Request.msg
+CMakeFiles/plumbing_interface_demo: rosidl_cmake/srv/ServiceExercise_Response.msg
 CMakeFiles/plumbing_interface_demo: /home/gdtr/ros2/colcon_mk/src/plumbing_interface_demo/action/ActionMsg.action
+CMakeFiles/plumbing_interface_demo: /home/gdtr/ros2/colcon_mk/src/plumbing_interface_demo/action/ActionExercise.action
 CMakeFiles/plumbing_interface_demo: /opt/ros/rolling/share/action_msgs/msg/GoalInfo.idl
 CMakeFiles/plumbing_interface_demo: /opt/ros/rolling/share/action_msgs/msg/GoalStatus.idl
 CMakeFiles/plumbing_interface_demo: /opt/ros/rolling/share/action_msgs/msg/GoalStatusArray.idl

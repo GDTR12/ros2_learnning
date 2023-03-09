@@ -364,7 +364,15 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/plumbing_interface_demo/srv" TYPE FILE FILES "/home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/rosidl_adapter/plumbing_interface_demo/srv/ServiceExercise.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/plumbing_interface_demo/action" TYPE FILE FILES "/home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/rosidl_adapter/plumbing_interface_demo/action/ActionMsg.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/plumbing_interface_demo/action" TYPE FILE FILES "/home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/rosidl_adapter/plumbing_interface_demo/action/ActionExercise.idl")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -384,7 +392,23 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/plumbing_interface_demo/srv" TYPE FILE FILES "/home/gdtr/ros2/colcon_mk/src/plumbing_interface_demo/srv/ServiceExercise.srv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/plumbing_interface_demo/srv" TYPE FILE FILES "/home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/rosidl_cmake/srv/ServiceExercise_Request.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/plumbing_interface_demo/srv" TYPE FILE FILES "/home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/rosidl_cmake/srv/ServiceExercise_Response.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/plumbing_interface_demo/action" TYPE FILE FILES "/home/gdtr/ros2/colcon_mk/src/plumbing_interface_demo/action/ActionMsg.action")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/plumbing_interface_demo/action" TYPE FILE FILES "/home/gdtr/ros2/colcon_mk/src/plumbing_interface_demo/action/ActionExercise.action")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

@@ -1,0 +1,93 @@
+[0.000000] (-) TimerEvent: {}
+[0.000156] (-) JobUnselected: {'identifier': 'action_demo'}
+[0.000207] (-) JobUnselected: {'identifier': 'action_demo_py'}
+[0.001324] (-) JobUnselected: {'identifier': 'hello_world_node'}
+[0.001381] (-) JobUnselected: {'identifier': 'paramter_demo_py'}
+[0.001438] (-) JobUnselected: {'identifier': 'plumbing_interface_demo'}
+[0.001493] (-) JobUnselected: {'identifier': 'service_demo'}
+[0.001571] (-) JobUnselected: {'identifier': 'service_demo_py'}
+[0.001623] (-) JobUnselected: {'identifier': 'topic_demo'}
+[0.001682] (-) JobUnselected: {'identifier': 'topic_demo_py'}
+[0.001716] (paramter_demo) JobQueued: {'identifier': 'paramter_demo', 'dependencies': OrderedDict()}
+[0.001750] (paramter_demo) JobStarted: {'identifier': 'paramter_demo'}
+[0.017137] (paramter_demo) JobProgress: {'identifier': 'paramter_demo', 'progress': 'cmake'}
+[0.018034] (paramter_demo) JobProgress: {'identifier': 'paramter_demo', 'progress': 'build'}
+[0.018948] (paramter_demo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/gdtr/ros2/colcon_mk/build/paramter_demo', '--', '-j8', '-l8'], 'cwd': '/home/gdtr/ros2/colcon_mk/build/paramter_demo', 'env': OrderedDict([('TMUX', '/tmp/tmux-1000/default,539,0'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_CLIENT', '172.17.0.1 60344 22'), ('USER', 'gdtr'), ('LD_LIBRARY_PATH', '/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/lib'), ('SHLVL', '2'), ('HOME', '/home/gdtr'), ('LESS', '-R'), ('MOTD_SHOWN', 'pam'), ('OLDPWD', '/home/gdtr/ros2/colcon_mk/src'), ('SSH_TTY', '/dev/pts/5'), ('TERM_PROGRAM_VERSION', '3.2a'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('ZSH', '/home/gdtr/.oh-my-zsh'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('_ZSH_TMUX_FIXED_CONFIG', '/home/gdtr/.oh-my-zsh/plugins/tmux/tmux.extra.conf'), ('LC_MONETARY', 'en_US.UTF-8'), ('P9K_TTY', 'old'), ('ROS_DISTRO', 'rolling'), ('COLCON_PREFIX_PATH', '/home/gdtr/ros2/colcon_mk/install'), ('LOGNAME', 'gdtr'), ('_', '/usr/bin/colcon'), ('_P9K_SSH_TTY', '/dev/pts/7'), ('ROS_VERSION', '2'), ('TERM', 'screen'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LC_ADDRESS', 'en_US.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'tmux'), ('ZSH_TMUX_TERM', 'screen'), ('AMENT_PREFIX_PATH', '/home/gdtr/ros2/colcon_mk/install/action_demo:/home/gdtr/ros2/colcon_mk/install/topic_demo_py:/home/gdtr/ros2/colcon_mk/install/topic_demo:/home/gdtr/ros2/colcon_mk/install/service_demo_py:/home/gdtr/ros2/colcon_mk/install/service_demo:/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo:/home/gdtr/ros2/colcon_mk/install/hello_world_node:/opt/ros/rolling'), ('LC_NAME', 'en_US.UTF-8'), ('SHELL', '/usr/bin/zsh'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('P9K_SSH', '1'), ('PWD', '/home/gdtr/ros2/colcon_mk/build/paramter_demo'), ('SSH_CONNECTION', '172.17.0.1 60344 172.17.0.2 22'), ('ZSH_TMUX_CONFIG', '/home/gdtr/.tmux.conf'), ('_P9K_TTY', '/dev/pts/7'), ('LC_NUMERIC', 'en_US.UTF-8'), ('PYTHONPATH', '/home/gdtr/ros2/colcon_mk/install/topic_demo_py/lib/python3.10/site-packages:/home/gdtr/ros2/colcon_mk/install/service_demo_py/lib/python3.10/site-packages:/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/local/lib/python3.10/dist-packages:/opt/ros/rolling/lib/python3.10/site-packages:/opt/ros/rolling/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('TMUX_PANE', '%1'), ('CMAKE_PREFIX_PATH', '/home/gdtr/ros2/colcon_mk/install/action_demo:/home/gdtr/ros2/colcon_mk/install/topic_demo:/home/gdtr/ros2/colcon_mk/install/service_demo_py:/home/gdtr/ros2/colcon_mk/install/service_demo:/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo:/home/gdtr/ros2/colcon_mk/install/hello_world_node:/home/gdtr/ros2/colcon_mk/install/topic_demo_py:/opt/ros/rolling')]), 'shell': False}
+[0.099320] (-) TimerEvent: {}
+[0.184929] (paramter_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target param_server\x1b[0m\n'}
+[0.185172] (paramter_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target param_client\x1b[0m\n'}
+[0.186481] (paramter_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target param_demo0\x1b[0m\n'}
+[0.199363] (-) TimerEvent: {}
+[0.206820] (paramter_demo) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/param_server.dir/src/param_server.cpp.o\x1b[0m\n'}
+[0.207082] (paramter_demo) StdoutLine: {'line': b'[ 50%] Built target param_client\n'}
+[0.207209] (paramter_demo) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/param_demo0.dir/src/param_demo0.cpp.o\x1b[0m\n'}
+[0.299475] (-) TimerEvent: {}
+[0.399798] (-) TimerEvent: {}
+[0.500145] (-) TimerEvent: {}
+[0.600438] (-) TimerEvent: {}
+[0.700792] (-) TimerEvent: {}
+[0.801311] (-) TimerEvent: {}
+[0.901796] (-) TimerEvent: {}
+[1.002316] (-) TimerEvent: {}
+[1.102740] (-) TimerEvent: {}
+[1.203156] (-) TimerEvent: {}
+[1.303505] (-) TimerEvent: {}
+[1.403859] (-) TimerEvent: {}
+[1.504336] (-) TimerEvent: {}
+[1.604998] (-) TimerEvent: {}
+[1.705341] (-) TimerEvent: {}
+[1.805736] (-) TimerEvent: {}
+[1.906120] (-) TimerEvent: {}
+[2.006472] (-) TimerEvent: {}
+[2.106775] (-) TimerEvent: {}
+[2.207113] (-) TimerEvent: {}
+[2.307414] (-) TimerEvent: {}
+[2.407823] (-) TimerEvent: {}
+[2.508180] (-) TimerEvent: {}
+[2.608485] (-) TimerEvent: {}
+[2.708879] (-) TimerEvent: {}
+[2.809224] (-) TimerEvent: {}
+[2.909570] (-) TimerEvent: {}
+[3.009948] (-) TimerEvent: {}
+[3.110344] (-) TimerEvent: {}
+[3.210717] (-) TimerEvent: {}
+[3.311092] (-) TimerEvent: {}
+[3.411460] (-) TimerEvent: {}
+[3.511792] (-) TimerEvent: {}
+[3.612124] (-) TimerEvent: {}
+[3.648374] (paramter_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gdtr/ros2/colcon_mk/src/paramter_demo/src/param_server.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.648957] (paramter_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gdtr/ros2/colcon_mk/src/paramter_demo/src/param_server.cpp:62:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kconst char [11]\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.649174] (paramter_demo) StderrLine: {'line': b'   62 |     node->add_paramter("name",\x1b[01;31m\x1b[K"HolloKitty"\x1b[m\x1b[K);\n'}
+[3.649356] (paramter_demo) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.649508] (paramter_demo) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[3.649655] (paramter_demo) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[Kconst char [11]\x1b[m\x1b[K\n'}
+[3.649805] (paramter_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gdtr/ros2/colcon_mk/src/paramter_demo/src/param_server.cpp:31:40:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 2 of \xe2\x80\x98\x1b[01m\x1b[Kvoid ParamServer::add_paramter(const string&, const rclcpp::ParameterValue&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.649960] (paramter_demo) StderrLine: {'line': b'   31 |         \x1b[01;36m\x1b[Kconst rclcpp::ParameterValue & value\x1b[m\x1b[K)\n'}
+[3.650110] (paramter_demo) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[3.650258] (paramter_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gdtr/ros2/colcon_mk/src/paramter_demo/src/param_server.cpp:64:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::ParameterValue&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.650416] (paramter_demo) StderrLine: {'line': b'   64 |     node->add_paramter("height",\x1b[01;31m\x1b[K1.8\x1b[m\x1b[K);\n'}
+[3.650569] (paramter_demo) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.650730] (paramter_demo) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[3.650871] (paramter_demo) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[Kdouble\x1b[m\x1b[K\n'}
+[3.651017] (paramter_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gdtr/ros2/colcon_mk/src/paramter_demo/src/param_server.cpp:31:40:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 2 of \xe2\x80\x98\x1b[01m\x1b[Kvoid ParamServer::add_paramter(const string&, const rclcpp::ParameterValue&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.651164] (paramter_demo) StderrLine: {'line': b'   31 |         \x1b[01;36m\x1b[Kconst rclcpp::ParameterValue & value\x1b[m\x1b[K)\n'}
+[3.651304] (paramter_demo) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[3.712233] (-) TimerEvent: {}
+[3.812609] (-) TimerEvent: {}
+[3.913102] (-) TimerEvent: {}
+[4.013509] (-) TimerEvent: {}
+[4.113906] (-) TimerEvent: {}
+[4.205180] (paramter_demo) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/param_server.dir/build.make:76: CMakeFiles/param_server.dir/src/param_server.cpp.o] Error 1\n'}
+[4.205565] (paramter_demo) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/param_server.dir/all] Error 2\n'}
+[4.205796] (paramter_demo) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[4.214009] (-) TimerEvent: {}
+[4.314378] (-) TimerEvent: {}
+[4.398677] (paramter_demo) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable param_demo0\x1b[0m\n'}
+[4.414485] (-) TimerEvent: {}
+[4.514870] (-) TimerEvent: {}
+[4.594407] (paramter_demo) StdoutLine: {'line': b'[ 83%] Built target param_demo0\n'}
+[4.595667] (paramter_demo) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.597923] (paramter_demo) CommandEnded: {'returncode': 2}
+[4.614998] (-) TimerEvent: {}
+[4.661378] (paramter_demo) JobEnded: {'identifier': 'paramter_demo', 'rc': 2}
+[4.662394] (-) EventReactorShutdown: {}

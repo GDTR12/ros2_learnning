@@ -15,7 +15,9 @@ find_package(rosidl_default_generators REQUIRED)
 rosidl_generate_interfaces( ${PROJECT_NAME}
   "msg/CustomMsg.msg"
   "srv/ServiceMsg.srv"
+  "srv/ServiceExercise.srv"
   "action/ActionMsg.action"
+  "action/ActionExercise.action"
 )
 
 

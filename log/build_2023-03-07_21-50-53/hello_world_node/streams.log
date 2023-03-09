@@ -1,0 +1,2 @@
+[0.037s] Invoking command in '/home/gdtr/ros2/colcon_mk/build/hello_world_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gdtr/ros2/colcon_mk/install/topic_demo_py:/opt/ros/rolling /usr/bin/cmake --build /home/gdtr/ros2/colcon_mk/build/hello_world_node -- -j8 -l8
+[0.125s] [100%] Built target hello_world

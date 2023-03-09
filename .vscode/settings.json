@@ -83,5 +83,7 @@
         "/opt/ros/rolling/lib/python3.10/site-packages",
         "/opt/ros/rolling/local/lib/python3.10/dist-packages",
         "/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/local/lib/python3.10/dist-packages"
-    ]
+    ],
+    "commentTranslate.source": "Bing",
+    "commentTranslate.targetLanguage": "zh-CN"
 }

@@ -5,7 +5,9 @@
   "idl_tuples": [
     "/home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/rosidl_adapter/plumbing_interface_demo:msg/CustomMsg.idl",
     "/home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/rosidl_adapter/plumbing_interface_demo:srv/ServiceMsg.idl",
-    "/home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/rosidl_adapter/plumbing_interface_demo:action/ActionMsg.idl"
+    "/home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/rosidl_adapter/plumbing_interface_demo:srv/ServiceExercise.idl",
+    "/home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/rosidl_adapter/plumbing_interface_demo:action/ActionMsg.idl",
+    "/home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/rosidl_adapter/plumbing_interface_demo:action/ActionExercise.idl"
   ],
   "ros_interface_dependencies": [
     "action_msgs:/opt/ros/rolling/share/action_msgs/msg/GoalInfo.idl",
@@ -34,7 +36,9 @@
     "/opt/ros/rolling/share/rosidl_generator_cpp/cmake/../resource/srv__traits.hpp.em",
     "/home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/rosidl_adapter/plumbing_interface_demo/msg/CustomMsg.idl",
     "/home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/rosidl_adapter/plumbing_interface_demo/srv/ServiceMsg.idl",
+    "/home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/rosidl_adapter/plumbing_interface_demo/srv/ServiceExercise.idl",
     "/home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/rosidl_adapter/plumbing_interface_demo/action/ActionMsg.idl",
+    "/home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/rosidl_adapter/plumbing_interface_demo/action/ActionExercise.idl",
     "/opt/ros/rolling/share/action_msgs/msg/GoalInfo.idl",
     "/opt/ros/rolling/share/action_msgs/msg/GoalStatus.idl",
     "/opt/ros/rolling/share/action_msgs/msg/GoalStatusArray.idl",

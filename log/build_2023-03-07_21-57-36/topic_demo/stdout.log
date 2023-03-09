@@ -1,0 +1,4 @@
+[ 12%] [32mBuilding CXX object CMakeFiles/topic_talker.dir/src/topic_talker.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/topic_talker_custom.dir/src/topic_talker_custom.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/topic_listener_custom.dir/src/topic_listener_custom.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/topic_listener.dir/src/topic_listener.cpp.o[0m

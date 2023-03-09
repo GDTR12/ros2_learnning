@@ -1,0 +1,12 @@
+[0.595s] Invoking command in '/home/gdtr/ros2/colcon_mk/build/service_demo': AMENT_PREFIX_PATH=/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo:/opt/ros/rolling LD_LIBRARY_PATH=/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/gdtr/ros2/colcon_mk/build/service_demo -- -j8 -l8
+[1.089s] [ 25%] [32mBuilding CXX object CMakeFiles/service_server.dir/src/service_server.cpp.o[0m
+[1.089s] [ 50%] [32mBuilding CXX object CMakeFiles/service_client.dir/src/service_client.cpp.o[0m
+[8.402s] gmake[2]: *** wait: No child processes.  Stop.
+[8.402s] gmake[2]: *** Waiting for unfinished jobs....
+[8.403s] gmake[2]: *** wait: No child processes.  Stop.
+[8.403s] gmake[2]: *** wait: No child processes.  Stop.
+[8.403s] gmake[2]: *** Waiting for unfinished jobs....
+[8.403s] gmake[2]: *** wait: No child processes.  Stop.
+[8.403s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/service_server.dir/all] Error 2
+[8.404s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/service_client.dir/all] Error 2
+[8.404s] gmake: *** [Makefile:146: all] Interrupt

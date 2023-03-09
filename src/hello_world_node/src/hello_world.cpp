@@ -2,7 +2,8 @@
 #include <rclcpp/rclcpp.hpp>
 
 
-/* int main(int argc, char ** argv)
+/* 
+int main(int argc, char ** argv)
 {
     rclcpp::init(argc,argv);
 	// 创建节点指针

@@ -1,0 +1,9 @@
+/home/gdtr/ros2/colcon_mk/build/meta_package_demo/CMakeFiles/uninstall.dir
+/home/gdtr/ros2/colcon_mk/build/meta_package_demo/CMakeFiles/meta_package_demo_uninstall.dir
+/home/gdtr/ros2/colcon_mk/build/meta_package_demo/CMakeFiles/test.dir
+/home/gdtr/ros2/colcon_mk/build/meta_package_demo/CMakeFiles/edit_cache.dir
+/home/gdtr/ros2/colcon_mk/build/meta_package_demo/CMakeFiles/rebuild_cache.dir
+/home/gdtr/ros2/colcon_mk/build/meta_package_demo/CMakeFiles/list_install_components.dir
+/home/gdtr/ros2/colcon_mk/build/meta_package_demo/CMakeFiles/install.dir
+/home/gdtr/ros2/colcon_mk/build/meta_package_demo/CMakeFiles/install/local.dir
+/home/gdtr/ros2/colcon_mk/build/meta_package_demo/CMakeFiles/install/strip.dir

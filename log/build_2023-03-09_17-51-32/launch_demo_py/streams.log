@@ -1,0 +1,30 @@
+[1.066s] Invoking command in '/home/gdtr/ros2/colcon_mk/src/launch_demo_py': PYTHONPATH=/home/gdtr/ros2/colcon_mk/build/launch_demo_py/prefix_override:/home/gdtr/ros2/colcon_mk/install/launch_demo_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/launch_demo_py build --build-base /home/gdtr/ros2/colcon_mk/build/launch_demo_py/build install --record /home/gdtr/ros2/colcon_mk/build/launch_demo_py/install.log --single-version-externally-managed
+[1.474s] running egg_info
+[1.475s] creating ../../build/launch_demo_py/launch_demo_py.egg-info
+[1.475s] writing ../../build/launch_demo_py/launch_demo_py.egg-info/PKG-INFO
+[1.475s] writing dependency_links to ../../build/launch_demo_py/launch_demo_py.egg-info/dependency_links.txt
+[1.476s] writing entry points to ../../build/launch_demo_py/launch_demo_py.egg-info/entry_points.txt
+[1.476s] writing requirements to ../../build/launch_demo_py/launch_demo_py.egg-info/requires.txt
+[1.476s] writing top-level names to ../../build/launch_demo_py/launch_demo_py.egg-info/top_level.txt
+[1.476s] writing manifest file '../../build/launch_demo_py/launch_demo_py.egg-info/SOURCES.txt'
+[1.479s] reading manifest file '../../build/launch_demo_py/launch_demo_py.egg-info/SOURCES.txt'
+[1.479s] writing manifest file '../../build/launch_demo_py/launch_demo_py.egg-info/SOURCES.txt'
+[1.480s] running build
+[1.480s] running build_py
+[1.480s] creating /home/gdtr/ros2/colcon_mk/build/launch_demo_py/build
+[1.480s] creating /home/gdtr/ros2/colcon_mk/build/launch_demo_py/build/lib
+[1.480s] creating /home/gdtr/ros2/colcon_mk/build/launch_demo_py/build/lib/launch_demo_py
+[1.480s] copying launch_demo_py/__init__.py -> /home/gdtr/ros2/colcon_mk/build/launch_demo_py/build/lib/launch_demo_py
+[1.480s] running install
+[1.481s] running install_lib
+[1.482s] creating /home/gdtr/ros2/colcon_mk/install/launch_demo_py/lib/python3.10/site-packages/launch_demo_py
+[1.482s] copying /home/gdtr/ros2/colcon_mk/build/launch_demo_py/build/lib/launch_demo_py/__init__.py -> /home/gdtr/ros2/colcon_mk/install/launch_demo_py/lib/python3.10/site-packages/launch_demo_py
+[1.482s] byte-compiling /home/gdtr/ros2/colcon_mk/install/launch_demo_py/lib/python3.10/site-packages/launch_demo_py/__init__.py to __init__.cpython-310.pyc
+[1.483s] running install_data
+[1.483s] creating /home/gdtr/ros2/colcon_mk/install/launch_demo_py/share/ament_index
+[1.483s] creating /home/gdtr/ros2/colcon_mk/install/launch_demo_py/share/ament_index/resource_index
+[1.483s] creating /home/gdtr/ros2/colcon_mk/install/launch_demo_py/share/ament_index/resource_index/packages
+[1.484s] copying resource/launch_demo_py -> /home/gdtr/ros2/colcon_mk/install/launch_demo_py/share/ament_index/resource_index/packages
+[1.484s] copying package.xml -> /home/gdtr/ros2/colcon_mk/install/launch_demo_py/share/launch_demo_py
+[1.484s] error: can't copy 'launch/launch_demo.py': doesn't exist or not a regular file
+[1.507s] Invoked command in '/home/gdtr/ros2/colcon_mk/src/launch_demo_py' returned '1': PYTHONPATH=/home/gdtr/ros2/colcon_mk/build/launch_demo_py/prefix_override:/home/gdtr/ros2/colcon_mk/install/launch_demo_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/launch_demo_py build --build-base /home/gdtr/ros2/colcon_mk/build/launch_demo_py/build install --record /home/gdtr/ros2/colcon_mk/build/launch_demo_py/install.log --single-version-externally-managed

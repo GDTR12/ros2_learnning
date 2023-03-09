@@ -1,0 +1,58 @@
+[0.015s] Invoking command in '/home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --build /home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo -- -j8 -l8
+[0.042s] -- Found ament_cmake: 1.5.2 (/opt/ros/rolling/share/ament_cmake/cmake)
+[0.206s] -- Found rclcpp: 19.0.0 (/opt/ros/rolling/share/rclcpp/cmake)
+[0.242s] -- Found rosidl_generator_c: 3.3.1 (/opt/ros/rolling/share/rosidl_generator_c/cmake)
+[0.250s] -- Found rosidl_generator_cpp: 3.3.1 (/opt/ros/rolling/share/rosidl_generator_cpp/cmake)
+[0.264s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.288s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.366s] -- Found rmw_implementation_cmake: 6.4.0 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)
+[0.369s] -- Found rmw_fastrtps_cpp: 6.5.0 (/opt/ros/rolling/share/rmw_fastrtps_cpp/cmake)
+[0.577s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.764s] -- Found std_msgs: 4.6.1 (/opt/ros/rolling/share/std_msgs/cmake)
+[0.800s] -- Found rosidl_default_generators: 1.4.0 (/opt/ros/rolling/share/rosidl_default_generators/cmake)
+[0.809s] -- Found rosidl_adapter: 3.3.1 (/opt/ros/rolling/share/rosidl_adapter/cmake)
+[0.960s] [31mCMake Error at /opt/ros/rolling/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[0.960s]   execute_process(/usr/bin/python3.10 -m rosidl_adapter --package-name
+[0.960s]   plumbing_interface_demo --arguments-file
+[0.960s]   /home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/rosidl_adapter__arguments__plumbing_interface_demo.json
+[0.960s]   --output-dir
+[0.960s]   /home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/rosidl_adapter/plumbing_interface_demo
+[0.960s]   --output-file
+[0.960s]   /home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/rosidl_adapter/plumbing_interface_demo.idls)
+[0.960s]   returned error code 1:
+[0.960s] 
+[0.961s]   Traceback (most recent call last):
+[0.961s] 
+[0.961s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[0.961s]       return _run_code(code, main_globals, None,
+[0.961s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[0.961s]       exec(code, run_globals)
+[0.961s]     File "/opt/ros/rolling/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.961s]       sys.exit(main())
+[0.961s]     File "/opt/ros/rolling/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[0.961s]       abs_idl_file = convert_to_idl(
+[0.961s]     File "/opt/ros/rolling/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl
+[0.961s]       return convert_srv_to_idl(
+[0.961s]     File "/opt/ros/rolling/local/lib/python3.10/dist-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl
+[0.961s]       srv = parse_service_string(package_name, input_file.stem, content)
+[0.962s]     File "/opt/ros/rolling/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 859, in parse_service_string
+[0.962s]       request_message = parse_message_string(
+[0.962s]     File "/opt/ros/rolling/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 544, in parse_message_string
+[0.962s]       msg = MessageSpecification(pkg_name, msg_name, fields, constants)
+[0.962s]     File "/opt/ros/rolling/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 388, in __init__
+[0.962s]       self.base_type = BaseType(
+[0.962s]     File "/opt/ros/rolling/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 205, in __init__
+[0.962s]       raise InvalidResourceName(
+[0.962s] 
+[0.962s]   rosidl_adapter.parser.InvalidResourceName: 'eService_demo_Request' is an
+[0.962s]   invalid message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[0.962s] 
+[0.962s] Call Stack (most recent call first):
+[0.962s]   /opt/ros/rolling/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:132 (rosidl_adapt_interfaces)
+[0.963s]   CMakeLists.txt:15 (rosidl_generate_interfaces)
+[0.963s] 
+[0.963s] [0m
+[0.963s] -- Configuring incomplete, errors occurred!
+[0.963s] See also "/home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles/CMakeOutput.log".
+[0.968s] gmake: *** [Makefile:1220: cmake_check_build_system] Error 1
+[0.970s] Invoked command in '/home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo' returned '2': CMAKE_PREFIX_PATH=/opt/ros/rolling /usr/bin/cmake --build /home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo -- -j8 -l8

@@ -1,0 +1,26 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/service_client.dir/src/service_client.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/service_server.dir/src/service_server.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable service_server[0m
+[100%] [32m[1mLinking CXX executable service_client[0m
+[100%] Built target service_server
+[100%] Built target service_client
+-- Install configuration: ""
+-- Installing: /home/gdtr/ros2/colcon_mk/install/service_demo/lib/service_demo/service_server
+-- Set runtime path of "/home/gdtr/ros2/colcon_mk/install/service_demo/lib/service_demo/service_server" to ""
+-- Installing: /home/gdtr/ros2/colcon_mk/install/service_demo/lib/service_demo/service_client
+-- Set runtime path of "/home/gdtr/ros2/colcon_mk/install/service_demo/lib/service_demo/service_client" to ""
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/service_demo/share/ament_index/resource_index/package_run_dependencies/service_demo
+-- Installing: /home/gdtr/ros2/colcon_mk/install/service_demo/share/ament_index/resource_index/parent_prefix_path/service_demo
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/service_demo/share/service_demo/environment/ament_prefix_path.sh
+-- Installing: /home/gdtr/ros2/colcon_mk/install/service_demo/share/service_demo/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/service_demo/share/service_demo/environment/path.sh
+-- Installing: /home/gdtr/ros2/colcon_mk/install/service_demo/share/service_demo/environment/path.dsv
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/service_demo/share/service_demo/local_setup.bash
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/service_demo/share/service_demo/local_setup.sh
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/service_demo/share/service_demo/local_setup.zsh
+-- Installing: /home/gdtr/ros2/colcon_mk/install/service_demo/share/service_demo/local_setup.dsv
+-- Installing: /home/gdtr/ros2/colcon_mk/install/service_demo/share/service_demo/package.dsv
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/service_demo/share/ament_index/resource_index/packages/service_demo
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/service_demo/share/service_demo/cmake/service_demoConfig.cmake
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/service_demo/share/service_demo/cmake/service_demoConfig-version.cmake
+-- Up-to-date: /home/gdtr/ros2/colcon_mk/install/service_demo/share/service_demo/package.xml

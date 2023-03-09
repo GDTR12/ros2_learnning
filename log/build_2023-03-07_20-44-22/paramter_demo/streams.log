@@ -1,0 +1,76 @@
+[0.017s] Invoking command in '/home/gdtr/ros2/colcon_mk/build/paramter_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gdtr/ros2/colcon_mk/install/topic_demo_py:/opt/ros/rolling /usr/bin/cmake /home/gdtr/ros2/colcon_mk/src/paramter_demo -DCMAKE_INSTALL_PREFIX=/home/gdtr/ros2/colcon_mk/install/paramter_demo
+[0.118s] -- The C compiler identification is GNU 11.3.0
+[0.194s] -- The CXX compiler identification is GNU 11.3.0
+[0.204s] -- Detecting C compiler ABI info
+[0.284s] -- Detecting C compiler ABI info - done
+[0.294s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.295s] -- Detecting C compile features
+[0.295s] -- Detecting C compile features - done
+[0.300s] -- Detecting CXX compiler ABI info
+[0.418s] -- Detecting CXX compiler ABI info - done
+[0.437s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.438s] -- Detecting CXX compile features
+[0.439s] -- Detecting CXX compile features - done
+[0.451s] -- Found ament_cmake: 1.5.2 (/opt/ros/rolling/share/ament_cmake/cmake)
+[0.779s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.929s] -- Found rclcpp: 19.0.0 (/opt/ros/rolling/share/rclcpp/cmake)
+[1.041s] -- Found rosidl_generator_c: 3.3.1 (/opt/ros/rolling/share/rosidl_generator_c/cmake)
+[1.055s] -- Found rosidl_generator_cpp: 3.3.1 (/opt/ros/rolling/share/rosidl_generator_cpp/cmake)
+[1.078s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.107s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.277s] -- Found rmw_implementation_cmake: 6.4.0 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)
+[1.286s] -- Found rmw_fastrtps_cpp: 6.5.0 (/opt/ros/rolling/share/rmw_fastrtps_cpp/cmake)
+[1.455s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.494s] -- Found FastRTPS: /opt/ros/rolling/include  
+[1.571s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.589s] -- Looking for pthread.h
+[1.716s] -- Looking for pthread.h - found
+[1.717s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.817s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.818s] -- Found Threads: TRUE  
+[1.979s] -- Found ament_lint_auto: 0.13.2 (/opt/ros/rolling/share/ament_lint_auto/cmake)
+[2.095s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.095s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/gdtr/ros2/colcon_mk/src/paramter_demo/include>
+[2.095s] -- Configured cppcheck exclude dirs and/or files: 
+[2.096s] -- Added test 'lint_cmake' to check CMake code style
+[2.098s] -- Added test 'uncrustify' to check C / C++ code style
+[2.098s] -- Configured uncrustify additional arguments: 
+[2.099s] -- Added test 'xmllint' to check XML markup files
+[2.101s] -- Configuring done
+[2.113s] -- Generating done
+[2.114s] -- Build files have been written to: /home/gdtr/ros2/colcon_mk/build/paramter_demo
+[2.123s] Invoked command in '/home/gdtr/ros2/colcon_mk/build/paramter_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gdtr/ros2/colcon_mk/install/topic_demo_py:/opt/ros/rolling /usr/bin/cmake /home/gdtr/ros2/colcon_mk/src/paramter_demo -DCMAKE_INSTALL_PREFIX=/home/gdtr/ros2/colcon_mk/install/paramter_demo
+[2.127s] Invoking command in '/home/gdtr/ros2/colcon_mk/build/paramter_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gdtr/ros2/colcon_mk/install/topic_demo_py:/opt/ros/rolling /usr/bin/cmake --build /home/gdtr/ros2/colcon_mk/build/paramter_demo -- -j8 -l8
+[2.181s] [ 50%] [32mBuilding CXX object CMakeFiles/param_demo0.dir/src/param_demo0.cpp.o[0m
+[5.009s] In file included from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[5.010s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[5.010s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[5.010s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[5.010s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[5.010s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[5.010s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[5.010s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[5.010s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.010s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.011s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.011s]                  from [01m[K/home/gdtr/ros2/colcon_mk/src/paramter_demo/src/param_demo0.cpp:17[m[K:
+[5.011s] [01m[K/home/gdtr/ros2/colcon_mk/src/paramter_demo/src/param_demo0.cpp:[m[K In constructor ‘[01m[KMyParamter::MyParamter()[m[K’:
+[5.011s] [01m[K/home/gdtr/ros2/colcon_mk/src/paramter_demo/src/param_demo0.cpp:28:105:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kconst _CharT* std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::c_str() const [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>][m[K’
+[5.011s]    28 |      RCLCPP_INFO(this->get_logger(),"param1:{key:%s\tvalue:%s}",p1.get_name().c_str(),[01;31m[Kp1.as_string().c_str[m[K);
+[5.011s]       |                                                                                       [01;31m[K~~~~~~~~~~~~~~~^~~~~[m[K
+[5.011s] 
+[5.011s] In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+[5.011s]                  from [01m[K/usr/include/c++/11/stdexcept:39[m[K,
+[5.012s]                  from [01m[K/usr/include/c++/11/system_error:41[m[K,
+[5.012s]                  from [01m[K/usr/include/c++/11/mutex:42[m[K,
+[5.012s]                  from [01m[K/usr/include/c++/11/future:38[m[K,
+[5.012s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+[5.012s]                  from [01m[K/opt/ros/rolling/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.012s]                  from [01m[K/home/gdtr/ros2/colcon_mk/src/paramter_demo/src/param_demo0.cpp:17[m[K:
+[5.012s] [01m[K/usr/include/c++/11/bits/basic_string.h:2320:7:[m[K [01;36m[Knote: [m[Kdeclared here
+[5.012s]  2320 |       [01;36m[Kc_str[m[K() const _GLIBCXX_NOEXCEPT
+[5.013s]       |       [01;36m[K^~~~~[m[K
+[5.513s] gmake[2]: *** [CMakeFiles/param_demo0.dir/build.make:76: CMakeFiles/param_demo0.dir/src/param_demo0.cpp.o] Error 1
+[5.513s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/param_demo0.dir/all] Error 2
+[5.513s] gmake: *** [Makefile:146: all] Error 2
+[5.517s] Invoked command in '/home/gdtr/ros2/colcon_mk/build/paramter_demo' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gdtr/ros2/colcon_mk/install/topic_demo_py:/opt/ros/rolling /usr/bin/cmake --build /home/gdtr/ros2/colcon_mk/build/paramter_demo -- -j8 -l8

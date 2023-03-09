@@ -1,0 +1,13 @@
+[ 12%] [32mBuilding CXX object CMakeFiles/topic_talker.dir/src/topic_talker.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/topic_talker_custom.dir/src/topic_talker_custom.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/topic_listener_custom.dir/src/topic_listener_custom.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/topic_listener.dir/src/topic_listener.cpp.o[0m
+gmake[2]: *** [CMakeFiles/topic_listener_custom.dir/build.make:76: CMakeFiles/topic_listener_custom.dir/src/topic_listener_custom.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/topic_listener_custom.dir/all] Interrupt
+gmake[2]: *** [CMakeFiles/topic_talker.dir/build.make:76: CMakeFiles/topic_talker.dir/src/topic_talker.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/topic_talker_custom.dir/build.make:76: CMakeFiles/topic_talker_custom.dir/src/topic_talker_custom.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/topic_listener.dir/build.make:76: CMakeFiles/topic_listener.dir/src/topic_listener.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/topic_talker.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/topic_talker_custom.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/topic_listener.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

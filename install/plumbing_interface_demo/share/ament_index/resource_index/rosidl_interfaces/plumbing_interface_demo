@@ -1,7 +1,13 @@
+action/ActionExercise.action
+action/ActionExercise.idl
 action/ActionMsg.action
 action/ActionMsg.idl
 msg/CustomMsg.idl
 msg/CustomMsg.msg
+srv/ServiceExercise.idl
+srv/ServiceExercise.srv
+srv/ServiceExercise_Request.msg
+srv/ServiceExercise_Response.msg
 srv/ServiceMsg.idl
 srv/ServiceMsg.srv
 srv/ServiceMsg_Request.msg

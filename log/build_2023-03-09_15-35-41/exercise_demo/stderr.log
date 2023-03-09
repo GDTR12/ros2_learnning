@@ -1,0 +1,4 @@
+[01m[K/home/gdtr/ros2/colcon_mk/src/exercise_demo/src/eActionServer.cpp:[m[K In member function ‘[01m[Kvoid EActionServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<plumbing_interface_demo::action::ActionExercise> >)[m[K’:
+[01m[K/home/gdtr/ros2/colcon_mk/src/exercise_demo/src/eActionServer.cpp:67:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfeedback[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   67 |     void execute([01;35m[Kstd::shared_ptr<rclcpp_action::ServerGoalHandle<ActionExercise>> feedback[m[K)
+      |                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K

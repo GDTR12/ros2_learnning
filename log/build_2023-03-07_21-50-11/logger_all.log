@@ -1,0 +1,797 @@
+[0.396s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.396s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f0bd09b4dc0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f0bd09b4850>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f0bd09b4850>>)
+[0.426s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.426s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.426s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.426s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.426s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.426s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.426s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/gdtr/ros2/colcon_mk'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_demo) by extension 'ignore'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_demo) by extension 'ignore_ament_install'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_demo) by extensions ['colcon_pkg']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_demo) by extension 'colcon_pkg'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_demo) by extensions ['colcon_meta']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_demo) by extension 'colcon_meta'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_demo) by extensions ['ros']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_demo) by extension 'ros'
+[0.445s] DEBUG:colcon.colcon_core.package_identification:Package 'src/action_demo' with type 'ros.ament_cmake' and name 'action_demo'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_demo_py) by extensions ['ignore', 'ignore_ament_install']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_demo_py) by extension 'ignore'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_demo_py) by extension 'ignore_ament_install'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_demo_py) by extensions ['colcon_pkg']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_demo_py) by extension 'colcon_pkg'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_demo_py) by extensions ['colcon_meta']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_demo_py) by extension 'colcon_meta'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_demo_py) by extensions ['ros']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_demo_py) by extension 'ros'
+[0.446s] DEBUG:colcon.colcon_core.package_identification:Package 'src/action_demo_py' with type 'ros.ament_python' and name 'action_demo_py'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_world_node) by extensions ['ignore', 'ignore_ament_install']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_world_node) by extension 'ignore'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_world_node) by extension 'ignore_ament_install'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_world_node) by extensions ['colcon_pkg']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_world_node) by extension 'colcon_pkg'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_world_node) by extensions ['colcon_meta']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_world_node) by extension 'colcon_meta'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_world_node) by extensions ['ros']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/hello_world_node) by extension 'ros'
+[0.447s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hello_world_node' with type 'ros.ament_cmake' and name 'hello_world_node'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/parameter_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/parameter_demo) by extension 'ignore'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/parameter_demo) by extension 'ignore_ament_install'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/parameter_demo) by extensions ['colcon_pkg']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/parameter_demo) by extension 'colcon_pkg'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/parameter_demo) by extensions ['colcon_meta']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/parameter_demo) by extension 'colcon_meta'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/parameter_demo) by extensions ['ros']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/parameter_demo) by extension 'ros'
+[0.449s] DEBUG:colcon.colcon_core.package_identification:Package 'src/parameter_demo' with type 'ros.ament_cmake' and name 'paramter_demo'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/plumbing_interface_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/plumbing_interface_demo) by extension 'ignore'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/plumbing_interface_demo) by extension 'ignore_ament_install'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/plumbing_interface_demo) by extensions ['colcon_pkg']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/plumbing_interface_demo) by extension 'colcon_pkg'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/plumbing_interface_demo) by extensions ['colcon_meta']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/plumbing_interface_demo) by extension 'colcon_meta'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/plumbing_interface_demo) by extensions ['ros']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/plumbing_interface_demo) by extension 'ros'
+[0.450s] DEBUG:colcon.colcon_core.package_identification:Package 'src/plumbing_interface_demo' with type 'ros.ament_cmake' and name 'plumbing_interface_demo'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_demo) by extension 'ignore'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_demo) by extension 'ignore_ament_install'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_demo) by extensions ['colcon_pkg']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_demo) by extension 'colcon_pkg'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_demo) by extensions ['colcon_meta']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_demo) by extension 'colcon_meta'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_demo) by extensions ['ros']
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_demo) by extension 'ros'
+[0.451s] DEBUG:colcon.colcon_core.package_identification:Package 'src/service_demo' with type 'ros.ament_cmake' and name 'service_demo'
+[0.451s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_demo_py) by extensions ['ignore', 'ignore_ament_install']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_demo_py) by extension 'ignore'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_demo_py) by extension 'ignore_ament_install'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_demo_py) by extensions ['colcon_pkg']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_demo_py) by extension 'colcon_pkg'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_demo_py) by extensions ['colcon_meta']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_demo_py) by extension 'colcon_meta'
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_demo_py) by extensions ['ros']
+[0.452s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_demo_py) by extension 'ros'
+[0.454s] DEBUG:colcon.colcon_core.package_identification:Package 'src/service_demo_py' with type 'ros.ament_python' and name 'service_demo_py'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_demo) by extension 'ignore'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_demo) by extension 'ignore_ament_install'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_demo) by extensions ['colcon_pkg']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_demo) by extension 'colcon_pkg'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_demo) by extensions ['colcon_meta']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_demo) by extension 'colcon_meta'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_demo) by extensions ['ros']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_demo) by extension 'ros'
+[0.455s] DEBUG:colcon.colcon_core.package_identification:Package 'src/topic_demo' with type 'ros.ament_cmake' and name 'topic_demo'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_demo_py) by extensions ['ignore', 'ignore_ament_install']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_demo_py) by extension 'ignore'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_demo_py) by extension 'ignore_ament_install'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_demo_py) by extensions ['colcon_pkg']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_demo_py) by extension 'colcon_pkg'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_demo_py) by extensions ['colcon_meta']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_demo_py) by extension 'colcon_meta'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_demo_py) by extensions ['ros']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/topic_demo_py) by extension 'ros'
+[0.456s] DEBUG:colcon.colcon_core.package_identification:Package 'src/topic_demo_py' with type 'ros.ament_python' and name 'topic_demo_py'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂) by extensions ['ignore', 'ignore_ament_install']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂) by extension 'ignore'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂) by extension 'ignore_ament_install'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂) by extensions ['colcon_pkg']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂) by extension 'colcon_pkg'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂) by extensions ['colcon_meta']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂) by extension 'colcon_meta'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂) by extensions ['ros']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂) by extension 'ros'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂) by extensions ['cmake', 'python']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂) by extension 'cmake'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂) by extension 'python'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂) by extensions ['python_setup_py']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂) by extension 'python_setup_py'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/Apollo之CyberRT) by extensions ['ignore', 'ignore_ament_install']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/Apollo之CyberRT) by extension 'ignore'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/Apollo之CyberRT) by extension 'ignore_ament_install'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/Apollo之CyberRT) by extensions ['colcon_pkg']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/Apollo之CyberRT) by extension 'colcon_pkg'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/Apollo之CyberRT) by extensions ['colcon_meta']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/Apollo之CyberRT) by extension 'colcon_meta'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/Apollo之CyberRT) by extensions ['ros']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/Apollo之CyberRT) by extension 'ros'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/Apollo之CyberRT) by extensions ['cmake', 'python']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/Apollo之CyberRT) by extension 'cmake'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/Apollo之CyberRT) by extension 'python'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/Apollo之CyberRT) by extensions ['python_setup_py']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/Apollo之CyberRT) by extension 'python_setup_py'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件) by extensions ['ignore', 'ignore_ament_install']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件) by extension 'ignore'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件) by extension 'ignore_ament_install'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件) by extensions ['colcon_pkg']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件) by extension 'colcon_pkg'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件) by extensions ['colcon_meta']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件) by extension 'colcon_meta'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件) by extensions ['ros']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件) by extension 'ros'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件) by extensions ['cmake', 'python']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件) by extension 'cmake'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件) by extension 'python'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件) by extensions ['python_setup_py']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件) by extension 'python_setup_py'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book) by extensions ['ignore', 'ignore_ament_install']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book) by extension 'ignore'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book) by extension 'ignore_ament_install'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book) by extensions ['colcon_pkg']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book) by extension 'colcon_pkg'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book) by extensions ['colcon_meta']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book) by extension 'colcon_meta'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book) by extensions ['ros']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book) by extension 'ros'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book) by extensions ['cmake', 'python']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book) by extension 'cmake'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book) by extension 'python'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book) by extensions ['python_setup_py']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book) by extension 'python_setup_py'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/assets) by extensions ['ignore', 'ignore_ament_install']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/assets) by extension 'ignore'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/assets) by extension 'ignore_ament_install'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/assets) by extensions ['colcon_pkg']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/assets) by extension 'colcon_pkg'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/assets) by extensions ['colcon_meta']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/assets) by extension 'colcon_meta'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/assets) by extensions ['ros']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/assets) by extension 'ros'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/assets) by extensions ['cmake', 'python']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/assets) by extension 'cmake'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/assets) by extension 'python'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/assets) by extensions ['python_setup_py']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/assets) by extension 'python_setup_py'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1) by extensions ['ignore', 'ignore_ament_install']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1) by extension 'ignore'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1) by extension 'ignore_ament_install'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1) by extensions ['colcon_pkg']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1) by extension 'colcon_pkg'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1) by extensions ['colcon_meta']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1) by extension 'colcon_meta'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1) by extensions ['ros']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1) by extension 'ros'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1) by extensions ['cmake', 'python']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1) by extension 'cmake'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1) by extension 'python'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1) by extensions ['python_setup_py']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1) by extension 'python_setup_py'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1/11-ros2jian-jie) by extensions ['ignore', 'ignore_ament_install']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1/11-ros2jian-jie) by extension 'ignore'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1/11-ros2jian-jie) by extension 'ignore_ament_install'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1/11-ros2jian-jie) by extensions ['colcon_pkg']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1/11-ros2jian-jie) by extension 'colcon_pkg'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1/11-ros2jian-jie) by extensions ['colcon_meta']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1/11-ros2jian-jie) by extension 'colcon_meta'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1/11-ros2jian-jie) by extensions ['ros']
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1/11-ros2jian-jie) by extension 'ros'
+[0.462s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1/11-ros2jian-jie) by extensions ['cmake', 'python']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1/11-ros2jian-jie) by extension 'cmake'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1/11-ros2jian-jie) by extension 'python'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1/11-ros2jian-jie) by extensions ['python_setup_py']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1/11-ros2jian-jie) by extension 'python_setup_py'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1/12-ros2an-zhuang) by extensions ['ignore', 'ignore_ament_install']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1/12-ros2an-zhuang) by extension 'ignore'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1/12-ros2an-zhuang) by extension 'ignore_ament_install'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1/12-ros2an-zhuang) by extensions ['colcon_pkg']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1/12-ros2an-zhuang) by extension 'colcon_pkg'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1/12-ros2an-zhuang) by extensions ['colcon_meta']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1/12-ros2an-zhuang) by extension 'colcon_meta'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1/12-ros2an-zhuang) by extensions ['ros']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1/12-ros2an-zhuang) by extension 'ros'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1/12-ros2an-zhuang) by extensions ['cmake', 'python']
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1/12-ros2an-zhuang) by extension 'cmake'
+[0.463s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1/12-ros2an-zhuang) by extension 'python'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1/12-ros2an-zhuang) by extensions ['python_setup_py']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1/12-ros2an-zhuang) by extension 'python_setup_py'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1/13-ros2kuai-su-ti-yan) by extensions ['ignore', 'ignore_ament_install']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1/13-ros2kuai-su-ti-yan) by extension 'ignore'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1/13-ros2kuai-su-ti-yan) by extension 'ignore_ament_install'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1/13-ros2kuai-su-ti-yan) by extensions ['colcon_pkg']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1/13-ros2kuai-su-ti-yan) by extension 'colcon_pkg'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1/13-ros2kuai-su-ti-yan) by extensions ['colcon_meta']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1/13-ros2kuai-su-ti-yan) by extension 'colcon_meta'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1/13-ros2kuai-su-ti-yan) by extensions ['ros']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1/13-ros2kuai-su-ti-yan) by extension 'ros'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1/13-ros2kuai-su-ti-yan) by extensions ['cmake', 'python']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1/13-ros2kuai-su-ti-yan) by extension 'cmake'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1/13-ros2kuai-su-ti-yan) by extension 'python'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1/13-ros2kuai-su-ti-yan) by extensions ['python_setup_py']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1/13-ros2kuai-su-ti-yan) by extension 'python_setup_py'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1/14-ros2ji-cheng-kai-fa-huan-jing-da-jian) by extensions ['ignore', 'ignore_ament_install']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1/14-ros2ji-cheng-kai-fa-huan-jing-da-jian) by extension 'ignore'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1/14-ros2ji-cheng-kai-fa-huan-jing-da-jian) by extension 'ignore_ament_install'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1/14-ros2ji-cheng-kai-fa-huan-jing-da-jian) by extensions ['colcon_pkg']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1/14-ros2ji-cheng-kai-fa-huan-jing-da-jian) by extension 'colcon_pkg'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1/14-ros2ji-cheng-kai-fa-huan-jing-da-jian) by extensions ['colcon_meta']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1/14-ros2ji-cheng-kai-fa-huan-jing-da-jian) by extension 'colcon_meta'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1/14-ros2ji-cheng-kai-fa-huan-jing-da-jian) by extensions ['ros']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1/14-ros2ji-cheng-kai-fa-huan-jing-da-jian) by extension 'ros'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1/14-ros2ji-cheng-kai-fa-huan-jing-da-jian) by extensions ['cmake', 'python']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1/14-ros2ji-cheng-kai-fa-huan-jing-da-jian) by extension 'cmake'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1/14-ros2ji-cheng-kai-fa-huan-jing-da-jian) by extension 'python'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1/14-ros2ji-cheng-kai-fa-huan-jing-da-jian) by extensions ['python_setup_py']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1/14-ros2ji-cheng-kai-fa-huan-jing-da-jian) by extension 'python_setup_py'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1/15-ros2ti-xi-kuang-jia) by extensions ['ignore', 'ignore_ament_install']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1/15-ros2ti-xi-kuang-jia) by extension 'ignore'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1/15-ros2ti-xi-kuang-jia) by extension 'ignore_ament_install'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1/15-ros2ti-xi-kuang-jia) by extensions ['colcon_pkg']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1/15-ros2ti-xi-kuang-jia) by extension 'colcon_pkg'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1/15-ros2ti-xi-kuang-jia) by extensions ['colcon_meta']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1/15-ros2ti-xi-kuang-jia) by extension 'colcon_meta'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1/15-ros2ti-xi-kuang-jia) by extensions ['ros']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1/15-ros2ti-xi-kuang-jia) by extension 'ros'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1/15-ros2ti-xi-kuang-jia) by extensions ['cmake', 'python']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1/15-ros2ti-xi-kuang-jia) by extension 'cmake'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1/15-ros2ti-xi-kuang-jia) by extension 'python'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1/15-ros2ti-xi-kuang-jia) by extensions ['python_setup_py']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/chapter1/15-ros2ti-xi-kuang-jia) by extension 'python_setup_py'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin) by extensions ['ignore', 'ignore_ament_install']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin) by extension 'ignore'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin) by extension 'ignore_ament_install'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin) by extensions ['colcon_pkg']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin) by extension 'colcon_pkg'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin) by extensions ['colcon_meta']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin) by extension 'colcon_meta'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin) by extensions ['ros']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin) by extension 'ros'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin) by extensions ['cmake', 'python']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin) by extension 'cmake'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin) by extension 'python'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin) by extensions ['python_setup_py']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin) by extension 'python_setup_py'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/21-jie-kou-xiao-xi) by extensions ['ignore', 'ignore_ament_install']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/21-jie-kou-xiao-xi) by extension 'ignore'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/21-jie-kou-xiao-xi) by extension 'ignore_ament_install'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/21-jie-kou-xiao-xi) by extensions ['colcon_pkg']
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/21-jie-kou-xiao-xi) by extension 'colcon_pkg'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/21-jie-kou-xiao-xi) by extensions ['colcon_meta']
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/21-jie-kou-xiao-xi) by extension 'colcon_meta'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/21-jie-kou-xiao-xi) by extensions ['ros']
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/21-jie-kou-xiao-xi) by extension 'ros'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/21-jie-kou-xiao-xi) by extensions ['cmake', 'python']
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/21-jie-kou-xiao-xi) by extension 'cmake'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/21-jie-kou-xiao-xi) by extension 'python'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/21-jie-kou-xiao-xi) by extensions ['python_setup_py']
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/21-jie-kou-xiao-xi) by extension 'python_setup_py'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/22-hua-ti-tong-xin) by extensions ['ignore', 'ignore_ament_install']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/22-hua-ti-tong-xin) by extension 'ignore'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/22-hua-ti-tong-xin) by extension 'ignore_ament_install'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/22-hua-ti-tong-xin) by extensions ['colcon_pkg']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/22-hua-ti-tong-xin) by extension 'colcon_pkg'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/22-hua-ti-tong-xin) by extensions ['colcon_meta']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/22-hua-ti-tong-xin) by extension 'colcon_meta'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/22-hua-ti-tong-xin) by extensions ['ros']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/22-hua-ti-tong-xin) by extension 'ros'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/22-hua-ti-tong-xin) by extensions ['cmake', 'python']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/22-hua-ti-tong-xin) by extension 'cmake'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/22-hua-ti-tong-xin) by extension 'python'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/22-hua-ti-tong-xin) by extensions ['python_setup_py']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/22-hua-ti-tong-xin) by extension 'python_setup_py'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/23-fu-wu-tong-xin) by extensions ['ignore', 'ignore_ament_install']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/23-fu-wu-tong-xin) by extension 'ignore'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/23-fu-wu-tong-xin) by extension 'ignore_ament_install'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/23-fu-wu-tong-xin) by extensions ['colcon_pkg']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/23-fu-wu-tong-xin) by extension 'colcon_pkg'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/23-fu-wu-tong-xin) by extensions ['colcon_meta']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/23-fu-wu-tong-xin) by extension 'colcon_meta'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/23-fu-wu-tong-xin) by extensions ['ros']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/23-fu-wu-tong-xin) by extension 'ros'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/23-fu-wu-tong-xin) by extensions ['cmake', 'python']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/23-fu-wu-tong-xin) by extension 'cmake'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/23-fu-wu-tong-xin) by extension 'python'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/23-fu-wu-tong-xin) by extensions ['python_setup_py']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/23-fu-wu-tong-xin) by extension 'python_setup_py'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/24-dong-zuo-tong-xin) by extensions ['ignore', 'ignore_ament_install']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/24-dong-zuo-tong-xin) by extension 'ignore'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/24-dong-zuo-tong-xin) by extension 'ignore_ament_install'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/24-dong-zuo-tong-xin) by extensions ['colcon_pkg']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/24-dong-zuo-tong-xin) by extension 'colcon_pkg'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/24-dong-zuo-tong-xin) by extensions ['colcon_meta']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/24-dong-zuo-tong-xin) by extension 'colcon_meta'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/24-dong-zuo-tong-xin) by extensions ['ros']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/24-dong-zuo-tong-xin) by extension 'ros'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/24-dong-zuo-tong-xin) by extensions ['cmake', 'python']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/24-dong-zuo-tong-xin) by extension 'cmake'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/24-dong-zuo-tong-xin) by extension 'python'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/24-dong-zuo-tong-xin) by extensions ['python_setup_py']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/24-dong-zuo-tong-xin) by extension 'python_setup_py'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/25-can-shu-fu-wu) by extensions ['ignore', 'ignore_ament_install']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/25-can-shu-fu-wu) by extension 'ignore'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/25-can-shu-fu-wu) by extension 'ignore_ament_install'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/25-can-shu-fu-wu) by extensions ['colcon_pkg']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/25-can-shu-fu-wu) by extension 'colcon_pkg'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/25-can-shu-fu-wu) by extensions ['colcon_meta']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/25-can-shu-fu-wu) by extension 'colcon_meta'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/25-can-shu-fu-wu) by extensions ['ros']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/25-can-shu-fu-wu) by extension 'ros'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/25-can-shu-fu-wu) by extensions ['cmake', 'python']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/25-can-shu-fu-wu) by extension 'cmake'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/25-can-shu-fu-wu) by extension 'python'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/25-can-shu-fu-wu) by extensions ['python_setup_py']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/25-can-shu-fu-wu) by extension 'python_setup_py'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/26-chang-yong-ming-ling) by extensions ['ignore', 'ignore_ament_install']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/26-chang-yong-ming-ling) by extension 'ignore'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/26-chang-yong-ming-ling) by extension 'ignore_ament_install'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/26-chang-yong-ming-ling) by extensions ['colcon_pkg']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/26-chang-yong-ming-ling) by extension 'colcon_pkg'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/26-chang-yong-ming-ling) by extensions ['colcon_meta']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/26-chang-yong-ming-ling) by extension 'colcon_meta'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/26-chang-yong-ming-ling) by extensions ['ros']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/26-chang-yong-ming-ling) by extension 'ros'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/26-chang-yong-ming-ling) by extensions ['cmake', 'python']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/26-chang-yong-ming-ling) by extension 'cmake'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/26-chang-yong-ming-ling) by extension 'python'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/26-chang-yong-ming-ling) by extensions ['python_setup_py']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/26-chang-yong-ming-ling) by extension 'python_setup_py'
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/27-tong-xin-ji-zhi-jin-jie) by extensions ['ignore', 'ignore_ament_install']
+[0.473s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/27-tong-xin-ji-zhi-jin-jie) by extension 'ignore'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/27-tong-xin-ji-zhi-jin-jie) by extension 'ignore_ament_install'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/27-tong-xin-ji-zhi-jin-jie) by extensions ['colcon_pkg']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/27-tong-xin-ji-zhi-jin-jie) by extension 'colcon_pkg'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/27-tong-xin-ji-zhi-jin-jie) by extensions ['colcon_meta']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/27-tong-xin-ji-zhi-jin-jie) by extension 'colcon_meta'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/27-tong-xin-ji-zhi-jin-jie) by extensions ['ros']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/27-tong-xin-ji-zhi-jin-jie) by extension 'ros'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/27-tong-xin-ji-zhi-jin-jie) by extensions ['cmake', 'python']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/27-tong-xin-ji-zhi-jin-jie) by extension 'cmake'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/27-tong-xin-ji-zhi-jin-jie) by extension 'python'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/27-tong-xin-ji-zhi-jin-jie) by extensions ['python_setup_py']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/27-tong-xin-ji-zhi-jin-jie) by extension 'python_setup_py'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/zi-liao-ff1a-api-wen-dang) by extensions ['ignore', 'ignore_ament_install']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/zi-liao-ff1a-api-wen-dang) by extension 'ignore'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/zi-liao-ff1a-api-wen-dang) by extension 'ignore_ament_install'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/zi-liao-ff1a-api-wen-dang) by extensions ['colcon_pkg']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/zi-liao-ff1a-api-wen-dang) by extension 'colcon_pkg'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/zi-liao-ff1a-api-wen-dang) by extensions ['colcon_meta']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/zi-liao-ff1a-api-wen-dang) by extension 'colcon_meta'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/zi-liao-ff1a-api-wen-dang) by extensions ['ros']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/zi-liao-ff1a-api-wen-dang) by extension 'ros'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/zi-liao-ff1a-api-wen-dang) by extensions ['cmake', 'python']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/zi-liao-ff1a-api-wen-dang) by extension 'cmake'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/zi-liao-ff1a-api-wen-dang) by extension 'python'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/zi-liao-ff1a-api-wen-dang) by extensions ['python_setup_py']
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-2-zhang-ros2-tong-xin-ji-zhi-he-xin/zi-liao-ff1a-api-wen-dang) by extension 'python_setup_py'
+[0.475s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong) by extensions ['ignore', 'ignore_ament_install']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong) by extension 'ignore'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong) by extension 'ignore_ament_install'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong) by extensions ['colcon_pkg']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong) by extension 'colcon_pkg'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong) by extensions ['colcon_meta']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong) by extension 'colcon_meta'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong) by extensions ['ros']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong) by extension 'ros'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong) by extensions ['cmake', 'python']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong) by extension 'cmake'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong) by extension 'python'
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong) by extensions ['python_setup_py']
+[0.476s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong) by extension 'python_setup_py'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong/34-jie-dian-zhong-ming) by extensions ['ignore', 'ignore_ament_install']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong/34-jie-dian-zhong-ming) by extension 'ignore'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong/34-jie-dian-zhong-ming) by extension 'ignore_ament_install'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong/34-jie-dian-zhong-ming) by extensions ['colcon_pkg']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong/34-jie-dian-zhong-ming) by extension 'colcon_pkg'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong/34-jie-dian-zhong-ming) by extensions ['colcon_meta']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong/34-jie-dian-zhong-ming) by extension 'colcon_meta'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong/34-jie-dian-zhong-ming) by extensions ['ros']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong/34-jie-dian-zhong-ming) by extension 'ros'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong/34-jie-dian-zhong-ming) by extensions ['cmake', 'python']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong/34-jie-dian-zhong-ming) by extension 'cmake'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong/34-jie-dian-zhong-ming) by extension 'python'
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong/34-jie-dian-zhong-ming) by extensions ['python_setup_py']
+[0.477s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong/34-jie-dian-zhong-ming) by extension 'python_setup_py'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong/35-hua-ti-zhong-ming) by extensions ['ignore', 'ignore_ament_install']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong/35-hua-ti-zhong-ming) by extension 'ignore'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong/35-hua-ti-zhong-ming) by extension 'ignore_ament_install'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong/35-hua-ti-zhong-ming) by extensions ['colcon_pkg']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong/35-hua-ti-zhong-ming) by extension 'colcon_pkg'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong/35-hua-ti-zhong-ming) by extensions ['colcon_meta']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong/35-hua-ti-zhong-ming) by extension 'colcon_meta'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong/35-hua-ti-zhong-ming) by extensions ['ros']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong/35-hua-ti-zhong-ming) by extension 'ros'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong/35-hua-ti-zhong-ming) by extensions ['cmake', 'python']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong/35-hua-ti-zhong-ming) by extension 'cmake'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong/35-hua-ti-zhong-ming) by extension 'python'
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong/35-hua-ti-zhong-ming) by extensions ['python_setup_py']
+[0.478s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong/35-hua-ti-zhong-ming) by extension 'python_setup_py'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong/36-chang-yong-api) by extensions ['ignore', 'ignore_ament_install']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong/36-chang-yong-api) by extension 'ignore'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong/36-chang-yong-api) by extension 'ignore_ament_install'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong/36-chang-yong-api) by extensions ['colcon_pkg']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong/36-chang-yong-api) by extension 'colcon_pkg'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong/36-chang-yong-api) by extensions ['colcon_meta']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong/36-chang-yong-api) by extension 'colcon_meta'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong/36-chang-yong-api) by extensions ['ros']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong/36-chang-yong-api) by extension 'ros'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong/36-chang-yong-api) by extensions ['cmake', 'python']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong/36-chang-yong-api) by extension 'cmake'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong/36-chang-yong-api) by extension 'python'
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong/36-chang-yong-api) by extensions ['python_setup_py']
+[0.479s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong/36-chang-yong-api) by extension 'python_setup_py'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong/37-tong-xin-ji-zhi-ming-ling) by extensions ['ignore', 'ignore_ament_install']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong/37-tong-xin-ji-zhi-ming-ling) by extension 'ignore'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong/37-tong-xin-ji-zhi-ming-ling) by extension 'ignore_ament_install'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong/37-tong-xin-ji-zhi-ming-ling) by extensions ['colcon_pkg']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong/37-tong-xin-ji-zhi-ming-ling) by extension 'colcon_pkg'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong/37-tong-xin-ji-zhi-ming-ling) by extensions ['colcon_meta']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong/37-tong-xin-ji-zhi-ming-ling) by extension 'colcon_meta'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong/37-tong-xin-ji-zhi-ming-ling) by extensions ['ros']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong/37-tong-xin-ji-zhi-ming-ling) by extension 'ros'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong/37-tong-xin-ji-zhi-ming-ling) by extensions ['cmake', 'python']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong/37-tong-xin-ji-zhi-ming-ling) by extension 'cmake'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong/37-tong-xin-ji-zhi-ming-ling) by extension 'python'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong/37-tong-xin-ji-zhi-ming-ling) by extensions ['python_setup_py']
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong/37-tong-xin-ji-zhi-ming-ling) by extension 'python_setup_py'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong/38-tong-xin-ji-zhi-lian-xi) by extensions ['ignore', 'ignore_ament_install']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong/38-tong-xin-ji-zhi-lian-xi) by extension 'ignore'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong/38-tong-xin-ji-zhi-lian-xi) by extension 'ignore_ament_install'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong/38-tong-xin-ji-zhi-lian-xi) by extensions ['colcon_pkg']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong/38-tong-xin-ji-zhi-lian-xi) by extension 'colcon_pkg'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong/38-tong-xin-ji-zhi-lian-xi) by extensions ['colcon_meta']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong/38-tong-xin-ji-zhi-lian-xi) by extension 'colcon_meta'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong/38-tong-xin-ji-zhi-lian-xi) by extensions ['ros']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong/38-tong-xin-ji-zhi-lian-xi) by extension 'ros'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong/38-tong-xin-ji-zhi-lian-xi) by extensions ['cmake', 'python']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong/38-tong-xin-ji-zhi-lian-xi) by extension 'cmake'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong/38-tong-xin-ji-zhi-lian-xi) by extension 'python'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong/38-tong-xin-ji-zhi-lian-xi) by extensions ['python_setup_py']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/di-3-zhang-ros2-tong-xin-ji-zhi-bu-chong/38-tong-xin-ji-zhi-lian-xi) by extension 'python_setup_py'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook) by extensions ['ignore', 'ignore_ament_install']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook) by extension 'ignore'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook) by extension 'ignore_ament_install'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook) by extensions ['colcon_pkg']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook) by extension 'colcon_pkg'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook) by extensions ['colcon_meta']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook) by extension 'colcon_meta'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook) by extensions ['ros']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook) by extension 'ros'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook) by extensions ['cmake', 'python']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook) by extension 'cmake'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook) by extension 'python'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook) by extensions ['python_setup_py']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook) by extension 'python_setup_py'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/fonts) by extensions ['ignore', 'ignore_ament_install']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/fonts) by extension 'ignore'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/fonts) by extension 'ignore_ament_install'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/fonts) by extensions ['colcon_pkg']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/fonts) by extension 'colcon_pkg'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/fonts) by extensions ['colcon_meta']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/fonts) by extension 'colcon_meta'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/fonts) by extensions ['ros']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/fonts) by extension 'ros'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/fonts) by extensions ['cmake', 'python']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/fonts) by extension 'cmake'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/fonts) by extension 'python'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/fonts) by extensions ['python_setup_py']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/fonts) by extension 'python_setup_py'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/fonts/fontawesome) by extensions ['ignore', 'ignore_ament_install']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/fonts/fontawesome) by extension 'ignore'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/fonts/fontawesome) by extension 'ignore_ament_install'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/fonts/fontawesome) by extensions ['colcon_pkg']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/fonts/fontawesome) by extension 'colcon_pkg'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/fonts/fontawesome) by extensions ['colcon_meta']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/fonts/fontawesome) by extension 'colcon_meta'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/fonts/fontawesome) by extensions ['ros']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/fonts/fontawesome) by extension 'ros'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/fonts/fontawesome) by extensions ['cmake', 'python']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/fonts/fontawesome) by extension 'cmake'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/fonts/fontawesome) by extension 'python'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/fonts/fontawesome) by extensions ['python_setup_py']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/fonts/fontawesome) by extension 'python_setup_py'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-expandable-chapters) by extensions ['ignore', 'ignore_ament_install']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-expandable-chapters) by extension 'ignore'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-expandable-chapters) by extension 'ignore_ament_install'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-expandable-chapters) by extensions ['colcon_pkg']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-expandable-chapters) by extension 'colcon_pkg'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-expandable-chapters) by extensions ['colcon_meta']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-expandable-chapters) by extension 'colcon_meta'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-expandable-chapters) by extensions ['ros']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-expandable-chapters) by extension 'ros'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-expandable-chapters) by extensions ['cmake', 'python']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-expandable-chapters) by extension 'cmake'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-expandable-chapters) by extension 'python'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-expandable-chapters) by extensions ['python_setup_py']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-expandable-chapters) by extension 'python_setup_py'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-fontsettings) by extensions ['ignore', 'ignore_ament_install']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-fontsettings) by extension 'ignore'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-fontsettings) by extension 'ignore_ament_install'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-fontsettings) by extensions ['colcon_pkg']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-fontsettings) by extension 'colcon_pkg'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-fontsettings) by extensions ['colcon_meta']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-fontsettings) by extension 'colcon_meta'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-fontsettings) by extensions ['ros']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-fontsettings) by extension 'ros'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-fontsettings) by extensions ['cmake', 'python']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-fontsettings) by extension 'cmake'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-fontsettings) by extension 'python'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-fontsettings) by extensions ['python_setup_py']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-fontsettings) by extension 'python_setup_py'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-highlight) by extensions ['ignore', 'ignore_ament_install']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-highlight) by extension 'ignore'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-highlight) by extension 'ignore_ament_install'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-highlight) by extensions ['colcon_pkg']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-highlight) by extension 'colcon_pkg'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-highlight) by extensions ['colcon_meta']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-highlight) by extension 'colcon_meta'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-highlight) by extensions ['ros']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-highlight) by extension 'ros'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-highlight) by extensions ['cmake', 'python']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-highlight) by extension 'cmake'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-highlight) by extension 'python'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-highlight) by extensions ['python_setup_py']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-highlight) by extension 'python_setup_py'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-lunr) by extensions ['ignore', 'ignore_ament_install']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-lunr) by extension 'ignore'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-lunr) by extension 'ignore_ament_install'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-lunr) by extensions ['colcon_pkg']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-lunr) by extension 'colcon_pkg'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-lunr) by extensions ['colcon_meta']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-lunr) by extension 'colcon_meta'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-lunr) by extensions ['ros']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-lunr) by extension 'ros'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-lunr) by extensions ['cmake', 'python']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-lunr) by extension 'cmake'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-lunr) by extension 'python'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-lunr) by extensions ['python_setup_py']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-lunr) by extension 'python_setup_py'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-search) by extensions ['ignore', 'ignore_ament_install']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-search) by extension 'ignore'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-search) by extension 'ignore_ament_install'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-search) by extensions ['colcon_pkg']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-search) by extension 'colcon_pkg'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-search) by extensions ['colcon_meta']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-search) by extension 'colcon_meta'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-search) by extensions ['ros']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-search) by extension 'ros'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-search) by extensions ['cmake', 'python']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-search) by extension 'cmake'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-search) by extension 'python'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-search) by extensions ['python_setup_py']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-search) by extension 'python_setup_py'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-sharing) by extensions ['ignore', 'ignore_ament_install']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-sharing) by extension 'ignore'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-sharing) by extension 'ignore_ament_install'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-sharing) by extensions ['colcon_pkg']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-sharing) by extension 'colcon_pkg'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-sharing) by extensions ['colcon_meta']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-sharing) by extension 'colcon_meta'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-sharing) by extensions ['ros']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-sharing) by extension 'ros'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-sharing) by extensions ['cmake', 'python']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-sharing) by extension 'cmake'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-sharing) by extension 'python'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-sharing) by extensions ['python_setup_py']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/gitbook-plugin-sharing) by extension 'python_setup_py'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/images) by extensions ['ignore', 'ignore_ament_install']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/images) by extension 'ignore'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/images) by extension 'ignore_ament_install'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/images) by extensions ['colcon_pkg']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/images) by extension 'colcon_pkg'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/images) by extensions ['colcon_meta']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/images) by extension 'colcon_meta'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/images) by extensions ['ros']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/images) by extension 'ros'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/images) by extensions ['cmake', 'python']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/images) by extension 'cmake'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/images) by extension 'python'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/images) by extensions ['python_setup_py']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(大木学堂/ROS2理论与实践课件/_book/gitbook/images) by extension 'python_setup_py'
+[0.491s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.491s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.491s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.491s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.491s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.519s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.519s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.522s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/gdtr/ros2/colcon_mk/install
+[0.525s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 276 installed packages in /opt/ros/rolling
+[0.526s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.605s] Level 5:colcon.colcon_core.verb:set package 'hello_world_node' build argument 'cmake_args' from command line to 'None'
+[0.605s] Level 5:colcon.colcon_core.verb:set package 'hello_world_node' build argument 'cmake_target' from command line to 'None'
+[0.606s] Level 5:colcon.colcon_core.verb:set package 'hello_world_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.606s] Level 5:colcon.colcon_core.verb:set package 'hello_world_node' build argument 'cmake_clean_cache' from command line to 'False'
+[0.606s] Level 5:colcon.colcon_core.verb:set package 'hello_world_node' build argument 'cmake_clean_first' from command line to 'False'
+[0.606s] Level 5:colcon.colcon_core.verb:set package 'hello_world_node' build argument 'cmake_force_configure' from command line to 'False'
+[0.606s] Level 5:colcon.colcon_core.verb:set package 'hello_world_node' build argument 'ament_cmake_args' from command line to 'None'
+[0.606s] Level 5:colcon.colcon_core.verb:set package 'hello_world_node' build argument 'catkin_cmake_args' from command line to 'None'
+[0.606s] Level 5:colcon.colcon_core.verb:set package 'hello_world_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.606s] DEBUG:colcon.colcon_core.verb:Building package 'hello_world_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gdtr/ros2/colcon_mk/build/hello_world_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gdtr/ros2/colcon_mk/install/hello_world_node', 'merge_install': False, 'path': '/home/gdtr/ros2/colcon_mk/src/hello_world_node', 'symlink_install': False, 'test_result_base': None}
+[0.607s] Level 5:colcon.colcon_core.verb:set package 'paramter_demo' build argument 'cmake_args' from command line to 'None'
+[0.607s] Level 5:colcon.colcon_core.verb:set package 'paramter_demo' build argument 'cmake_target' from command line to 'None'
+[0.607s] Level 5:colcon.colcon_core.verb:set package 'paramter_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.607s] Level 5:colcon.colcon_core.verb:set package 'paramter_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.607s] Level 5:colcon.colcon_core.verb:set package 'paramter_demo' build argument 'cmake_clean_first' from command line to 'False'
+[0.607s] Level 5:colcon.colcon_core.verb:set package 'paramter_demo' build argument 'cmake_force_configure' from command line to 'False'
+[0.607s] Level 5:colcon.colcon_core.verb:set package 'paramter_demo' build argument 'ament_cmake_args' from command line to 'None'
+[0.607s] Level 5:colcon.colcon_core.verb:set package 'paramter_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.607s] Level 5:colcon.colcon_core.verb:set package 'paramter_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.607s] DEBUG:colcon.colcon_core.verb:Building package 'paramter_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gdtr/ros2/colcon_mk/build/paramter_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gdtr/ros2/colcon_mk/install/paramter_demo', 'merge_install': False, 'path': '/home/gdtr/ros2/colcon_mk/src/parameter_demo', 'symlink_install': False, 'test_result_base': None}
+[0.608s] Level 5:colcon.colcon_core.verb:set package 'plumbing_interface_demo' build argument 'cmake_args' from command line to 'None'
+[0.609s] Level 5:colcon.colcon_core.verb:set package 'plumbing_interface_demo' build argument 'cmake_target' from command line to 'None'
+[0.609s] Level 5:colcon.colcon_core.verb:set package 'plumbing_interface_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.609s] Level 5:colcon.colcon_core.verb:set package 'plumbing_interface_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.609s] Level 5:colcon.colcon_core.verb:set package 'plumbing_interface_demo' build argument 'cmake_clean_first' from command line to 'False'
+[0.609s] Level 5:colcon.colcon_core.verb:set package 'plumbing_interface_demo' build argument 'cmake_force_configure' from command line to 'False'
+[0.609s] Level 5:colcon.colcon_core.verb:set package 'plumbing_interface_demo' build argument 'ament_cmake_args' from command line to 'None'
+[0.609s] Level 5:colcon.colcon_core.verb:set package 'plumbing_interface_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.609s] Level 5:colcon.colcon_core.verb:set package 'plumbing_interface_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.609s] DEBUG:colcon.colcon_core.verb:Building package 'plumbing_interface_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo', 'merge_install': False, 'path': '/home/gdtr/ros2/colcon_mk/src/plumbing_interface_demo', 'symlink_install': False, 'test_result_base': None}
+[0.610s] Level 5:colcon.colcon_core.verb:set package 'action_demo' build argument 'cmake_args' from command line to 'None'
+[0.610s] Level 5:colcon.colcon_core.verb:set package 'action_demo' build argument 'cmake_target' from command line to 'None'
+[0.610s] Level 5:colcon.colcon_core.verb:set package 'action_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.610s] Level 5:colcon.colcon_core.verb:set package 'action_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.610s] Level 5:colcon.colcon_core.verb:set package 'action_demo' build argument 'cmake_clean_first' from command line to 'False'
+[0.610s] Level 5:colcon.colcon_core.verb:set package 'action_demo' build argument 'cmake_force_configure' from command line to 'False'
+[0.610s] Level 5:colcon.colcon_core.verb:set package 'action_demo' build argument 'ament_cmake_args' from command line to 'None'
+[0.610s] Level 5:colcon.colcon_core.verb:set package 'action_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.610s] Level 5:colcon.colcon_core.verb:set package 'action_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.610s] DEBUG:colcon.colcon_core.verb:Building package 'action_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gdtr/ros2/colcon_mk/build/action_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gdtr/ros2/colcon_mk/install/action_demo', 'merge_install': False, 'path': '/home/gdtr/ros2/colcon_mk/src/action_demo', 'symlink_install': False, 'test_result_base': None}
+[0.611s] Level 5:colcon.colcon_core.verb:set package 'action_demo_py' build argument 'cmake_args' from command line to 'None'
+[0.611s] Level 5:colcon.colcon_core.verb:set package 'action_demo_py' build argument 'cmake_target' from command line to 'None'
+[0.612s] Level 5:colcon.colcon_core.verb:set package 'action_demo_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.612s] Level 5:colcon.colcon_core.verb:set package 'action_demo_py' build argument 'cmake_clean_cache' from command line to 'False'
+[0.612s] Level 5:colcon.colcon_core.verb:set package 'action_demo_py' build argument 'cmake_clean_first' from command line to 'False'
+[0.612s] Level 5:colcon.colcon_core.verb:set package 'action_demo_py' build argument 'cmake_force_configure' from command line to 'False'
+[0.612s] Level 5:colcon.colcon_core.verb:set package 'action_demo_py' build argument 'ament_cmake_args' from command line to 'None'
+[0.612s] Level 5:colcon.colcon_core.verb:set package 'action_demo_py' build argument 'catkin_cmake_args' from command line to 'None'
+[0.612s] Level 5:colcon.colcon_core.verb:set package 'action_demo_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.612s] DEBUG:colcon.colcon_core.verb:Building package 'action_demo_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gdtr/ros2/colcon_mk/build/action_demo_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gdtr/ros2/colcon_mk/install/action_demo_py', 'merge_install': False, 'path': '/home/gdtr/ros2/colcon_mk/src/action_demo_py', 'symlink_install': False, 'test_result_base': None}
+[0.613s] Level 5:colcon.colcon_core.verb:set package 'service_demo' build argument 'cmake_args' from command line to 'None'
+[0.613s] Level 5:colcon.colcon_core.verb:set package 'service_demo' build argument 'cmake_target' from command line to 'None'
+[0.613s] Level 5:colcon.colcon_core.verb:set package 'service_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.613s] Level 5:colcon.colcon_core.verb:set package 'service_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.613s] Level 5:colcon.colcon_core.verb:set package 'service_demo' build argument 'cmake_clean_first' from command line to 'False'
+[0.613s] Level 5:colcon.colcon_core.verb:set package 'service_demo' build argument 'cmake_force_configure' from command line to 'False'
+[0.613s] Level 5:colcon.colcon_core.verb:set package 'service_demo' build argument 'ament_cmake_args' from command line to 'None'
+[0.613s] Level 5:colcon.colcon_core.verb:set package 'service_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.613s] Level 5:colcon.colcon_core.verb:set package 'service_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.613s] DEBUG:colcon.colcon_core.verb:Building package 'service_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gdtr/ros2/colcon_mk/build/service_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gdtr/ros2/colcon_mk/install/service_demo', 'merge_install': False, 'path': '/home/gdtr/ros2/colcon_mk/src/service_demo', 'symlink_install': False, 'test_result_base': None}
+[0.615s] Level 5:colcon.colcon_core.verb:set package 'service_demo_py' build argument 'cmake_args' from command line to 'None'
+[0.615s] Level 5:colcon.colcon_core.verb:set package 'service_demo_py' build argument 'cmake_target' from command line to 'None'
+[0.615s] Level 5:colcon.colcon_core.verb:set package 'service_demo_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.615s] Level 5:colcon.colcon_core.verb:set package 'service_demo_py' build argument 'cmake_clean_cache' from command line to 'False'
+[0.615s] Level 5:colcon.colcon_core.verb:set package 'service_demo_py' build argument 'cmake_clean_first' from command line to 'False'
+[0.615s] Level 5:colcon.colcon_core.verb:set package 'service_demo_py' build argument 'cmake_force_configure' from command line to 'False'
+[0.615s] Level 5:colcon.colcon_core.verb:set package 'service_demo_py' build argument 'ament_cmake_args' from command line to 'None'
+[0.615s] Level 5:colcon.colcon_core.verb:set package 'service_demo_py' build argument 'catkin_cmake_args' from command line to 'None'
+[0.615s] Level 5:colcon.colcon_core.verb:set package 'service_demo_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.615s] DEBUG:colcon.colcon_core.verb:Building package 'service_demo_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gdtr/ros2/colcon_mk/build/service_demo_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gdtr/ros2/colcon_mk/install/service_demo_py', 'merge_install': False, 'path': '/home/gdtr/ros2/colcon_mk/src/service_demo_py', 'symlink_install': False, 'test_result_base': None}
+[0.616s] Level 5:colcon.colcon_core.verb:set package 'topic_demo' build argument 'cmake_args' from command line to 'None'
+[0.616s] Level 5:colcon.colcon_core.verb:set package 'topic_demo' build argument 'cmake_target' from command line to 'None'
+[0.616s] Level 5:colcon.colcon_core.verb:set package 'topic_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.616s] Level 5:colcon.colcon_core.verb:set package 'topic_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.616s] Level 5:colcon.colcon_core.verb:set package 'topic_demo' build argument 'cmake_clean_first' from command line to 'False'
+[0.617s] Level 5:colcon.colcon_core.verb:set package 'topic_demo' build argument 'cmake_force_configure' from command line to 'False'
+[0.617s] Level 5:colcon.colcon_core.verb:set package 'topic_demo' build argument 'ament_cmake_args' from command line to 'None'
+[0.617s] Level 5:colcon.colcon_core.verb:set package 'topic_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.617s] Level 5:colcon.colcon_core.verb:set package 'topic_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.617s] DEBUG:colcon.colcon_core.verb:Building package 'topic_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gdtr/ros2/colcon_mk/build/topic_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gdtr/ros2/colcon_mk/install/topic_demo', 'merge_install': False, 'path': '/home/gdtr/ros2/colcon_mk/src/topic_demo', 'symlink_install': False, 'test_result_base': None}
+[0.618s] Level 5:colcon.colcon_core.verb:set package 'topic_demo_py' build argument 'cmake_args' from command line to 'None'
+[0.618s] Level 5:colcon.colcon_core.verb:set package 'topic_demo_py' build argument 'cmake_target' from command line to 'None'
+[0.618s] Level 5:colcon.colcon_core.verb:set package 'topic_demo_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.618s] Level 5:colcon.colcon_core.verb:set package 'topic_demo_py' build argument 'cmake_clean_cache' from command line to 'False'
+[0.618s] Level 5:colcon.colcon_core.verb:set package 'topic_demo_py' build argument 'cmake_clean_first' from command line to 'False'
+[0.618s] Level 5:colcon.colcon_core.verb:set package 'topic_demo_py' build argument 'cmake_force_configure' from command line to 'False'
+[0.618s] Level 5:colcon.colcon_core.verb:set package 'topic_demo_py' build argument 'ament_cmake_args' from command line to 'None'
+[0.618s] Level 5:colcon.colcon_core.verb:set package 'topic_demo_py' build argument 'catkin_cmake_args' from command line to 'None'
+[0.618s] Level 5:colcon.colcon_core.verb:set package 'topic_demo_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.618s] DEBUG:colcon.colcon_core.verb:Building package 'topic_demo_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gdtr/ros2/colcon_mk/build/topic_demo_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gdtr/ros2/colcon_mk/install/topic_demo_py', 'merge_install': False, 'path': '/home/gdtr/ros2/colcon_mk/src/topic_demo_py', 'symlink_install': False, 'test_result_base': None}
+[0.619s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.623s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.623s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/gdtr/ros2/colcon_mk/src/plumbing_interface_demo' with build type 'ament_cmake'
+[0.623s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/gdtr/ros2/colcon_mk/src/plumbing_interface_demo'
+[0.629s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.629s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.629s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.641s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/gdtr/ros2/colcon_mk/src/hello_world_node' with build type 'ament_cmake'
+[0.642s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/gdtr/ros2/colcon_mk/src/hello_world_node'
+[0.643s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.643s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.649s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/gdtr/ros2/colcon_mk/src/parameter_demo' with build type 'ament_cmake'
+[0.649s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/gdtr/ros2/colcon_mk/src/parameter_demo'
+[0.651s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.651s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.670s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gdtr/ros2/colcon_mk/install/topic_demo_py:/opt/ros/rolling /usr/bin/cmake --build /home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo -- -j8 -l8
+[0.681s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gdtr/ros2/colcon_mk/build/hello_world_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gdtr/ros2/colcon_mk/install/topic_demo_py:/opt/ros/rolling /usr/bin/cmake --build /home/gdtr/ros2/colcon_mk/build/hello_world_node -- -j8 -l8
+[0.691s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gdtr/ros2/colcon_mk/build/paramter_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gdtr/ros2/colcon_mk/install/topic_demo_py:/opt/ros/rolling /usr/bin/cmake --build /home/gdtr/ros2/colcon_mk/build/paramter_demo -- -j8 -l8
+[0.719s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gdtr/ros2/colcon_mk/build/paramter_demo' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gdtr/ros2/colcon_mk/install/topic_demo_py:/opt/ros/rolling /usr/bin/cmake --build /home/gdtr/ros2/colcon_mk/build/paramter_demo -- -j8 -l8
+[0.767s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(paramter_demo)
+[0.784s] Level 1:colcon.colcon_core.environment:checking '/home/gdtr/ros2/colcon_mk/install/paramter_demo' for CMake module files
+[0.785s] Level 1:colcon.colcon_core.environment:checking '/home/gdtr/ros2/colcon_mk/install/paramter_demo' for CMake config files
+[0.786s] Level 1:colcon.colcon_core.shell:create_environment_hook('paramter_demo', 'cmake_prefix_path')
+[0.789s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gdtr/ros2/colcon_mk/install/paramter_demo/share/paramter_demo/hook/cmake_prefix_path.ps1'
+[0.791s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gdtr/ros2/colcon_mk/install/paramter_demo/share/paramter_demo/hook/cmake_prefix_path.dsv'
+[0.793s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gdtr/ros2/colcon_mk/install/paramter_demo/share/paramter_demo/hook/cmake_prefix_path.sh'
+[0.794s] Level 1:colcon.colcon_core.environment:checking '/home/gdtr/ros2/colcon_mk/install/paramter_demo/lib'
+[0.795s] Level 1:colcon.colcon_core.environment:checking '/home/gdtr/ros2/colcon_mk/install/paramter_demo/bin'
+[0.795s] Level 1:colcon.colcon_core.environment:checking '/home/gdtr/ros2/colcon_mk/install/paramter_demo/lib/pkgconfig/paramter_demo.pc'
+[0.795s] Level 1:colcon.colcon_core.environment:checking '/home/gdtr/ros2/colcon_mk/install/paramter_demo/lib/python3.10/site-packages'
+[0.796s] Level 1:colcon.colcon_core.environment:checking '/home/gdtr/ros2/colcon_mk/install/paramter_demo/bin'
+[0.799s] INFO:colcon.colcon_core.shell:Creating package script '/home/gdtr/ros2/colcon_mk/install/paramter_demo/share/paramter_demo/package.ps1'
+[0.802s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gdtr/ros2/colcon_mk/install/paramter_demo/share/paramter_demo/package.dsv'
+[0.803s] INFO:colcon.colcon_core.shell:Creating package script '/home/gdtr/ros2/colcon_mk/install/paramter_demo/share/paramter_demo/package.sh'
+[0.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/gdtr/ros2/colcon_mk/install/paramter_demo/share/paramter_demo/package.bash'
+[0.807s] INFO:colcon.colcon_core.shell:Creating package script '/home/gdtr/ros2/colcon_mk/install/paramter_demo/share/paramter_demo/package.zsh'
+[0.808s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gdtr/ros2/colcon_mk/install/paramter_demo/share/colcon-core/packages/paramter_demo)
+[1.363s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.363s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.363s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[1.363s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.373s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[1.373s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.373s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.373s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.376s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[1.376s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.380s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gdtr/ros2/colcon_mk/install/local_setup.ps1'
+[1.381s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/gdtr/ros2/colcon_mk/install/_local_setup_util_ps1.py'
+[1.384s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gdtr/ros2/colcon_mk/install/setup.ps1'
+[1.387s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gdtr/ros2/colcon_mk/install/local_setup.sh'
+[1.388s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/gdtr/ros2/colcon_mk/install/_local_setup_util_sh.py'
+[1.390s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gdtr/ros2/colcon_mk/install/setup.sh'
+[1.395s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gdtr/ros2/colcon_mk/install/local_setup.bash'
+[1.396s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gdtr/ros2/colcon_mk/install/setup.bash'
+[1.399s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gdtr/ros2/colcon_mk/install/local_setup.zsh'
+[1.400s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gdtr/ros2/colcon_mk/install/setup.zsh'

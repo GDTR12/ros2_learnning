@@ -1,0 +1,15 @@
+/home/gdtr/ros2/colcon_mk/install/meta_package_demo/share/ament_index/resource_index/package_run_dependencies/meta_package_demo
+/home/gdtr/ros2/colcon_mk/install/meta_package_demo/share/ament_index/resource_index/parent_prefix_path/meta_package_demo
+/home/gdtr/ros2/colcon_mk/install/meta_package_demo/share/meta_package_demo/environment/ament_prefix_path.sh
+/home/gdtr/ros2/colcon_mk/install/meta_package_demo/share/meta_package_demo/environment/ament_prefix_path.dsv
+/home/gdtr/ros2/colcon_mk/install/meta_package_demo/share/meta_package_demo/environment/path.sh
+/home/gdtr/ros2/colcon_mk/install/meta_package_demo/share/meta_package_demo/environment/path.dsv
+/home/gdtr/ros2/colcon_mk/install/meta_package_demo/share/meta_package_demo/local_setup.bash
+/home/gdtr/ros2/colcon_mk/install/meta_package_demo/share/meta_package_demo/local_setup.sh
+/home/gdtr/ros2/colcon_mk/install/meta_package_demo/share/meta_package_demo/local_setup.zsh
+/home/gdtr/ros2/colcon_mk/install/meta_package_demo/share/meta_package_demo/local_setup.dsv
+/home/gdtr/ros2/colcon_mk/install/meta_package_demo/share/meta_package_demo/package.dsv
+/home/gdtr/ros2/colcon_mk/install/meta_package_demo/share/ament_index/resource_index/packages/meta_package_demo
+/home/gdtr/ros2/colcon_mk/install/meta_package_demo/share/meta_package_demo/cmake/meta_package_demoConfig.cmake
+/home/gdtr/ros2/colcon_mk/install/meta_package_demo/share/meta_package_demo/cmake/meta_package_demoConfig-version.cmake
+/home/gdtr/ros2/colcon_mk/install/meta_package_demo/share/meta_package_demo/package.xml

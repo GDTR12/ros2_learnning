@@ -1,0 +1,8 @@
+[01m[K/home/gdtr/ros2/colcon_mk/src/parameter_demo/src/param_server.cpp:[m[K In member function ‘[01m[Kvoid ParamServer::get_parameter()[m[K’:
+[01m[K/home/gdtr/ros2/colcon_mk/src/parameter_demo/src/param_server.cpp:40:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kthis[m[K’
+   40 |         [01;31m[Kthis[m[K->has_parameter
+      |         [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/param_server.dir/build.make:76: CMakeFiles/param_server.dir/src/param_server.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/param_server.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

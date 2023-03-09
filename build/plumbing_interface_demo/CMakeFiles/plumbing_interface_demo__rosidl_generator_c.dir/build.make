@@ -84,7 +84,9 @@ rosidl_generator_c/plumbing_interface_demo/msg/custom_msg.h: /opt/ros/rolling/sh
 rosidl_generator_c/plumbing_interface_demo/msg/custom_msg.h: /opt/ros/rolling/share/rosidl_generator_c/resource/srv__type_support.h.em
 rosidl_generator_c/plumbing_interface_demo/msg/custom_msg.h: rosidl_adapter/plumbing_interface_demo/msg/CustomMsg.idl
 rosidl_generator_c/plumbing_interface_demo/msg/custom_msg.h: rosidl_adapter/plumbing_interface_demo/srv/ServiceMsg.idl
+rosidl_generator_c/plumbing_interface_demo/msg/custom_msg.h: rosidl_adapter/plumbing_interface_demo/srv/ServiceExercise.idl
 rosidl_generator_c/plumbing_interface_demo/msg/custom_msg.h: rosidl_adapter/plumbing_interface_demo/action/ActionMsg.idl
+rosidl_generator_c/plumbing_interface_demo/msg/custom_msg.h: rosidl_adapter/plumbing_interface_demo/action/ActionExercise.idl
 rosidl_generator_c/plumbing_interface_demo/msg/custom_msg.h: /opt/ros/rolling/share/action_msgs/msg/GoalInfo.idl
 rosidl_generator_c/plumbing_interface_demo/msg/custom_msg.h: /opt/ros/rolling/share/action_msgs/msg/GoalStatus.idl
 rosidl_generator_c/plumbing_interface_demo/msg/custom_msg.h: /opt/ros/rolling/share/action_msgs/msg/GoalStatusArray.idl
@@ -116,6 +118,18 @@ rosidl_generator_c/plumbing_interface_demo/srv/detail/service_msg__struct.h: ros
 rosidl_generator_c/plumbing_interface_demo/srv/detail/service_msg__type_support.h: rosidl_generator_c/plumbing_interface_demo/msg/custom_msg.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/plumbing_interface_demo/srv/detail/service_msg__type_support.h
 
+rosidl_generator_c/plumbing_interface_demo/srv/service_exercise.h: rosidl_generator_c/plumbing_interface_demo/msg/custom_msg.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/plumbing_interface_demo/srv/service_exercise.h
+
+rosidl_generator_c/plumbing_interface_demo/srv/detail/service_exercise__functions.h: rosidl_generator_c/plumbing_interface_demo/msg/custom_msg.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/plumbing_interface_demo/srv/detail/service_exercise__functions.h
+
+rosidl_generator_c/plumbing_interface_demo/srv/detail/service_exercise__struct.h: rosidl_generator_c/plumbing_interface_demo/msg/custom_msg.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/plumbing_interface_demo/srv/detail/service_exercise__struct.h
+
+rosidl_generator_c/plumbing_interface_demo/srv/detail/service_exercise__type_support.h: rosidl_generator_c/plumbing_interface_demo/msg/custom_msg.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/plumbing_interface_demo/srv/detail/service_exercise__type_support.h
+
 rosidl_generator_c/plumbing_interface_demo/action/action_msg.h: rosidl_generator_c/plumbing_interface_demo/msg/custom_msg.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/plumbing_interface_demo/action/action_msg.h
 
@@ -128,14 +142,32 @@ rosidl_generator_c/plumbing_interface_demo/action/detail/action_msg__struct.h: r
 rosidl_generator_c/plumbing_interface_demo/action/detail/action_msg__type_support.h: rosidl_generator_c/plumbing_interface_demo/msg/custom_msg.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/plumbing_interface_demo/action/detail/action_msg__type_support.h
 
+rosidl_generator_c/plumbing_interface_demo/action/action_exercise.h: rosidl_generator_c/plumbing_interface_demo/msg/custom_msg.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/plumbing_interface_demo/action/action_exercise.h
+
+rosidl_generator_c/plumbing_interface_demo/action/detail/action_exercise__functions.h: rosidl_generator_c/plumbing_interface_demo/msg/custom_msg.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/plumbing_interface_demo/action/detail/action_exercise__functions.h
+
+rosidl_generator_c/plumbing_interface_demo/action/detail/action_exercise__struct.h: rosidl_generator_c/plumbing_interface_demo/msg/custom_msg.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/plumbing_interface_demo/action/detail/action_exercise__struct.h
+
+rosidl_generator_c/plumbing_interface_demo/action/detail/action_exercise__type_support.h: rosidl_generator_c/plumbing_interface_demo/msg/custom_msg.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/plumbing_interface_demo/action/detail/action_exercise__type_support.h
+
 rosidl_generator_c/plumbing_interface_demo/msg/detail/custom_msg__functions.c: rosidl_generator_c/plumbing_interface_demo/msg/custom_msg.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/plumbing_interface_demo/msg/detail/custom_msg__functions.c
 
 rosidl_generator_c/plumbing_interface_demo/srv/detail/service_msg__functions.c: rosidl_generator_c/plumbing_interface_demo/msg/custom_msg.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/plumbing_interface_demo/srv/detail/service_msg__functions.c
 
+rosidl_generator_c/plumbing_interface_demo/srv/detail/service_exercise__functions.c: rosidl_generator_c/plumbing_interface_demo/msg/custom_msg.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/plumbing_interface_demo/srv/detail/service_exercise__functions.c
+
 rosidl_generator_c/plumbing_interface_demo/action/detail/action_msg__functions.c: rosidl_generator_c/plumbing_interface_demo/msg/custom_msg.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/plumbing_interface_demo/action/detail/action_msg__functions.c
+
+rosidl_generator_c/plumbing_interface_demo/action/detail/action_exercise__functions.c: rosidl_generator_c/plumbing_interface_demo/msg/custom_msg.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/plumbing_interface_demo/action/detail/action_exercise__functions.c
 
 CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/rosidl_generator_c/plumbing_interface_demo/msg/detail/custom_msg__functions.c.o: CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/flags.make
 CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/rosidl_generator_c/plumbing_interface_demo/msg/detail/custom_msg__functions.c.o: rosidl_generator_c/plumbing_interface_demo/msg/detail/custom_msg__functions.c
@@ -165,10 +197,24 @@ CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/rosidl_generator_c/pl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/rosidl_generator_c/plumbing_interface_demo/srv/detail/service_msg__functions.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/rosidl_generator_c/plumbing_interface_demo/srv/detail/service_msg__functions.c -o CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/rosidl_generator_c/plumbing_interface_demo/srv/detail/service_msg__functions.c.s
 
+CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/rosidl_generator_c/plumbing_interface_demo/srv/detail/service_exercise__functions.c.o: CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/flags.make
+CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/rosidl_generator_c/plumbing_interface_demo/srv/detail/service_exercise__functions.c.o: rosidl_generator_c/plumbing_interface_demo/srv/detail/service_exercise__functions.c
+CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/rosidl_generator_c/plumbing_interface_demo/srv/detail/service_exercise__functions.c.o: CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/rosidl_generator_c/plumbing_interface_demo/srv/detail/service_exercise__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/rosidl_generator_c/plumbing_interface_demo/srv/detail/service_exercise__functions.c.o -MF CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/rosidl_generator_c/plumbing_interface_demo/srv/detail/service_exercise__functions.c.o.d -o CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/rosidl_generator_c/plumbing_interface_demo/srv/detail/service_exercise__functions.c.o -c /home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/rosidl_generator_c/plumbing_interface_demo/srv/detail/service_exercise__functions.c
+
+CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/rosidl_generator_c/plumbing_interface_demo/srv/detail/service_exercise__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/rosidl_generator_c/plumbing_interface_demo/srv/detail/service_exercise__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/rosidl_generator_c/plumbing_interface_demo/srv/detail/service_exercise__functions.c > CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/rosidl_generator_c/plumbing_interface_demo/srv/detail/service_exercise__functions.c.i
+
+CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/rosidl_generator_c/plumbing_interface_demo/srv/detail/service_exercise__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/rosidl_generator_c/plumbing_interface_demo/srv/detail/service_exercise__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/rosidl_generator_c/plumbing_interface_demo/srv/detail/service_exercise__functions.c -o CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/rosidl_generator_c/plumbing_interface_demo/srv/detail/service_exercise__functions.c.s
+
 CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/rosidl_generator_c/plumbing_interface_demo/action/detail/action_msg__functions.c.o: CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/flags.make
 CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/rosidl_generator_c/plumbing_interface_demo/action/detail/action_msg__functions.c.o: rosidl_generator_c/plumbing_interface_demo/action/detail/action_msg__functions.c
 CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/rosidl_generator_c/plumbing_interface_demo/action/detail/action_msg__functions.c.o: CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/rosidl_generator_c/plumbing_interface_demo/action/detail/action_msg__functions.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/rosidl_generator_c/plumbing_interface_demo/action/detail/action_msg__functions.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/rosidl_generator_c/plumbing_interface_demo/action/detail/action_msg__functions.c.o -MF CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/rosidl_generator_c/plumbing_interface_demo/action/detail/action_msg__functions.c.o.d -o CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/rosidl_generator_c/plumbing_interface_demo/action/detail/action_msg__functions.c.o -c /home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/rosidl_generator_c/plumbing_interface_demo/action/detail/action_msg__functions.c
 
 CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/rosidl_generator_c/plumbing_interface_demo/action/detail/action_msg__functions.c.i: cmake_force
@@ -179,18 +225,36 @@ CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/rosidl_generator_c/pl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/rosidl_generator_c/plumbing_interface_demo/action/detail/action_msg__functions.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/rosidl_generator_c/plumbing_interface_demo/action/detail/action_msg__functions.c -o CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/rosidl_generator_c/plumbing_interface_demo/action/detail/action_msg__functions.c.s
 
+CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/rosidl_generator_c/plumbing_interface_demo/action/detail/action_exercise__functions.c.o: CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/flags.make
+CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/rosidl_generator_c/plumbing_interface_demo/action/detail/action_exercise__functions.c.o: rosidl_generator_c/plumbing_interface_demo/action/detail/action_exercise__functions.c
+CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/rosidl_generator_c/plumbing_interface_demo/action/detail/action_exercise__functions.c.o: CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/rosidl_generator_c/plumbing_interface_demo/action/detail/action_exercise__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/rosidl_generator_c/plumbing_interface_demo/action/detail/action_exercise__functions.c.o -MF CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/rosidl_generator_c/plumbing_interface_demo/action/detail/action_exercise__functions.c.o.d -o CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/rosidl_generator_c/plumbing_interface_demo/action/detail/action_exercise__functions.c.o -c /home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/rosidl_generator_c/plumbing_interface_demo/action/detail/action_exercise__functions.c
+
+CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/rosidl_generator_c/plumbing_interface_demo/action/detail/action_exercise__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/rosidl_generator_c/plumbing_interface_demo/action/detail/action_exercise__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/rosidl_generator_c/plumbing_interface_demo/action/detail/action_exercise__functions.c > CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/rosidl_generator_c/plumbing_interface_demo/action/detail/action_exercise__functions.c.i
+
+CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/rosidl_generator_c/plumbing_interface_demo/action/detail/action_exercise__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/rosidl_generator_c/plumbing_interface_demo/action/detail/action_exercise__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/rosidl_generator_c/plumbing_interface_demo/action/detail/action_exercise__functions.c -o CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/rosidl_generator_c/plumbing_interface_demo/action/detail/action_exercise__functions.c.s
+
 # Object files for target plumbing_interface_demo__rosidl_generator_c
 plumbing_interface_demo__rosidl_generator_c_OBJECTS = \
 "CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/rosidl_generator_c/plumbing_interface_demo/msg/detail/custom_msg__functions.c.o" \
 "CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/rosidl_generator_c/plumbing_interface_demo/srv/detail/service_msg__functions.c.o" \
-"CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/rosidl_generator_c/plumbing_interface_demo/action/detail/action_msg__functions.c.o"
+"CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/rosidl_generator_c/plumbing_interface_demo/srv/detail/service_exercise__functions.c.o" \
+"CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/rosidl_generator_c/plumbing_interface_demo/action/detail/action_msg__functions.c.o" \
+"CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/rosidl_generator_c/plumbing_interface_demo/action/detail/action_exercise__functions.c.o"
 
 # External object files for target plumbing_interface_demo__rosidl_generator_c
 plumbing_interface_demo__rosidl_generator_c_EXTERNAL_OBJECTS =
 
 libplumbing_interface_demo__rosidl_generator_c.so: CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/rosidl_generator_c/plumbing_interface_demo/msg/detail/custom_msg__functions.c.o
 libplumbing_interface_demo__rosidl_generator_c.so: CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/rosidl_generator_c/plumbing_interface_demo/srv/detail/service_msg__functions.c.o
+libplumbing_interface_demo__rosidl_generator_c.so: CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/rosidl_generator_c/plumbing_interface_demo/srv/detail/service_exercise__functions.c.o
 libplumbing_interface_demo__rosidl_generator_c.so: CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/rosidl_generator_c/plumbing_interface_demo/action/detail/action_msg__functions.c.o
+libplumbing_interface_demo__rosidl_generator_c.so: CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/rosidl_generator_c/plumbing_interface_demo/action/detail/action_exercise__functions.c.o
 libplumbing_interface_demo__rosidl_generator_c.so: CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/build.make
 libplumbing_interface_demo__rosidl_generator_c.so: /opt/ros/rolling/lib/libaction_msgs__rosidl_generator_c.so
 libplumbing_interface_demo__rosidl_generator_c.so: /opt/ros/rolling/lib/libbuiltin_interfaces__rosidl_generator_c.so
@@ -198,7 +262,7 @@ libplumbing_interface_demo__rosidl_generator_c.so: /opt/ros/rolling/lib/libuniqu
 libplumbing_interface_demo__rosidl_generator_c.so: /opt/ros/rolling/lib/librosidl_runtime_c.so
 libplumbing_interface_demo__rosidl_generator_c.so: /opt/ros/rolling/lib/librcutils.so
 libplumbing_interface_demo__rosidl_generator_c.so: CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C shared library libplumbing_interface_demo__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C shared library libplumbing_interface_demo__rosidl_generator_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -209,7 +273,12 @@ CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/clean
 
+CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/depend: rosidl_generator_c/plumbing_interface_demo/action/action_exercise.h
 CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/depend: rosidl_generator_c/plumbing_interface_demo/action/action_msg.h
+CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/depend: rosidl_generator_c/plumbing_interface_demo/action/detail/action_exercise__functions.c
+CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/depend: rosidl_generator_c/plumbing_interface_demo/action/detail/action_exercise__functions.h
+CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/depend: rosidl_generator_c/plumbing_interface_demo/action/detail/action_exercise__struct.h
+CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/depend: rosidl_generator_c/plumbing_interface_demo/action/detail/action_exercise__type_support.h
 CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/depend: rosidl_generator_c/plumbing_interface_demo/action/detail/action_msg__functions.c
 CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/depend: rosidl_generator_c/plumbing_interface_demo/action/detail/action_msg__functions.h
 CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/depend: rosidl_generator_c/plumbing_interface_demo/action/detail/action_msg__struct.h
@@ -219,10 +288,15 @@ CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/depend: rosidl_genera
 CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/depend: rosidl_generator_c/plumbing_interface_demo/msg/detail/custom_msg__functions.h
 CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/depend: rosidl_generator_c/plumbing_interface_demo/msg/detail/custom_msg__struct.h
 CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/depend: rosidl_generator_c/plumbing_interface_demo/msg/detail/custom_msg__type_support.h
+CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/depend: rosidl_generator_c/plumbing_interface_demo/srv/detail/service_exercise__functions.c
+CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/depend: rosidl_generator_c/plumbing_interface_demo/srv/detail/service_exercise__functions.h
+CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/depend: rosidl_generator_c/plumbing_interface_demo/srv/detail/service_exercise__struct.h
+CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/depend: rosidl_generator_c/plumbing_interface_demo/srv/detail/service_exercise__type_support.h
 CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/depend: rosidl_generator_c/plumbing_interface_demo/srv/detail/service_msg__functions.c
 CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/depend: rosidl_generator_c/plumbing_interface_demo/srv/detail/service_msg__functions.h
 CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/depend: rosidl_generator_c/plumbing_interface_demo/srv/detail/service_msg__struct.h
 CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/depend: rosidl_generator_c/plumbing_interface_demo/srv/detail/service_msg__type_support.h
+CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/depend: rosidl_generator_c/plumbing_interface_demo/srv/service_exercise.h
 CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/depend: rosidl_generator_c/plumbing_interface_demo/srv/service_msg.h
 	cd /home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gdtr/ros2/colcon_mk/src/plumbing_interface_demo /home/gdtr/ros2/colcon_mk/src/plumbing_interface_demo /home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo /home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo /home/gdtr/ros2/colcon_mk/build/plumbing_interface_demo/CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/plumbing_interface_demo__rosidl_generator_c.dir/depend

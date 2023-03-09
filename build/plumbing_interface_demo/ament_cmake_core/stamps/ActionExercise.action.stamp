@@ -1,0 +1,9 @@
+float32 goal_x
+float32 goal_y
+float32 goal_theta
+---
+float32 finally_x
+float32 finally_y
+float32 finally_theta
+---
+float32 distance

@@ -1,0 +1,199 @@
+[0.000000] (-) TimerEvent: {}
+[0.000505] (-) JobUnselected: {'identifier': 'action_demo'}
+[0.000637] (-) JobUnselected: {'identifier': 'action_demo_py'}
+[0.000682] (-) JobUnselected: {'identifier': 'hello_world_node'}
+[0.000904] (-) JobUnselected: {'identifier': 'launch_demo'}
+[0.000937] (-) JobUnselected: {'identifier': 'meta_package_demo'}
+[0.001262] (-) JobUnselected: {'identifier': 'parameter_demo'}
+[0.001825] (-) JobUnselected: {'identifier': 'plumbing_interface_demo'}
+[0.001871] (-) JobUnselected: {'identifier': 'service_demo'}
+[0.001898] (-) JobUnselected: {'identifier': 'service_demo_py'}
+[0.001920] (-) JobUnselected: {'identifier': 'time_demo'}
+[0.001950] (-) JobUnselected: {'identifier': 'topic_demo'}
+[0.003042] (-) JobUnselected: {'identifier': 'topic_demo_py'}
+[0.003313] (exercise_demo) JobQueued: {'identifier': 'exercise_demo', 'dependencies': OrderedDict([('plumbing_interface_demo', '/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo')])}
+[0.003440] (exercise_demo) JobStarted: {'identifier': 'exercise_demo'}
+[0.019957] (exercise_demo) JobProgress: {'identifier': 'exercise_demo', 'progress': 'cmake'}
+[0.021282] (exercise_demo) JobProgress: {'identifier': 'exercise_demo', 'progress': 'build'}
+[0.021327] (exercise_demo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/gdtr/ros2/colcon_mk/build/exercise_demo', '--', '-j8', '-l8'], 'cwd': '/home/gdtr/ros2/colcon_mk/build/exercise_demo', 'env': OrderedDict([('TMUX', '/tmp/tmux-1000/default,986,0'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_CLIENT', '172.17.0.1 54792 22'), ('USER', 'gdtr'), ('LD_LIBRARY_PATH', '/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/lib'), ('SHLVL', '2'), ('HOME', '/home/gdtr'), ('LESS', '-R'), ('MOTD_SHOWN', 'pam'), ('OLDPWD', '/home/gdtr/ros2/colcon_mk'), ('SSH_TTY', '/dev/pts/1'), ('TERM_PROGRAM_VERSION', '3.2a'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('ZSH', '/home/gdtr/.oh-my-zsh'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('_ZSH_TMUX_FIXED_CONFIG', '/home/gdtr/.oh-my-zsh/plugins/tmux/tmux.extra.conf'), ('LC_MONETARY', 'en_US.UTF-8'), ('P9K_TTY', 'old'), ('ROS_DISTRO', 'rolling'), ('COLCON_PREFIX_PATH', '/home/gdtr/ros2/colcon_mk/install'), ('LOGNAME', 'gdtr'), ('_', '/usr/bin/colcon'), ('_P9K_SSH_TTY', '/dev/pts/4'), ('ROS_VERSION', '2'), ('TERM', 'screen'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LC_ADDRESS', 'en_US.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'tmux'), ('ZSH_TMUX_TERM', 'screen'), ('AMENT_PREFIX_PATH', '/home/gdtr/ros2/colcon_mk/install/meta_package_demo:/home/gdtr/ros2/colcon_mk/install/topic_demo_py:/home/gdtr/ros2/colcon_mk/install/topic_demo:/home/gdtr/ros2/colcon_mk/install/time_demo:/home/gdtr/ros2/colcon_mk/install/service_demo_py:/home/gdtr/ros2/colcon_mk/install/service_demo:/home/gdtr/ros2/colcon_mk/install/exercise_demo:/home/gdtr/ros2/colcon_mk/install/action_demo_py:/home/gdtr/ros2/colcon_mk/install/action_demo:/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo:/home/gdtr/ros2/colcon_mk/install/parameter_demo:/home/gdtr/ros2/colcon_mk/install/launch_demo:/home/gdtr/ros2/colcon_mk/install/hello_world_node:/opt/ros/rolling'), ('LC_NAME', 'en_US.UTF-8'), ('SHELL', '/usr/bin/zsh'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('P9K_SSH', '1'), ('PWD', '/home/gdtr/ros2/colcon_mk/build/exercise_demo'), ('SSH_CONNECTION', '172.17.0.1 54792 172.17.0.2 22'), ('ZSH_TMUX_CONFIG', '/home/gdtr/.tmux.conf'), ('_P9K_TTY', '/dev/pts/4'), ('LC_NUMERIC', 'en_US.UTF-8'), ('PYTHONPATH', '/home/gdtr/ros2/colcon_mk/install/topic_demo_py/lib/python3.10/site-packages:/home/gdtr/ros2/colcon_mk/install/service_demo_py/lib/python3.10/site-packages:/home/gdtr/ros2/colcon_mk/install/action_demo_py/lib/python3.10/site-packages:/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/local/lib/python3.10/dist-packages:/opt/ros/rolling/lib/python3.10/site-packages:/opt/ros/rolling/local/lib/python3.10/dist-packages'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('TMUX_PANE', '%1'), ('CMAKE_PREFIX_PATH', '/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo:/home/gdtr/ros2/colcon_mk/install/meta_package_demo:/home/gdtr/ros2/colcon_mk/install/topic_demo:/home/gdtr/ros2/colcon_mk/install/time_demo:/home/gdtr/ros2/colcon_mk/install/service_demo_py:/home/gdtr/ros2/colcon_mk/install/service_demo:/home/gdtr/ros2/colcon_mk/install/exercise_demo:/home/gdtr/ros2/colcon_mk/install/action_demo:/home/gdtr/ros2/colcon_mk/install/parameter_demo:/home/gdtr/ros2/colcon_mk/install/launch_demo:/home/gdtr/ros2/colcon_mk/install/hello_world_node:/home/gdtr/ros2/colcon_mk/install/topic_demo_py:/home/gdtr/ros2/colcon_mk/install/action_demo_py:/opt/ros/rolling')]), 'shell': False}
+[0.053917] (exercise_demo) StdoutLine: {'line': b'-- Found ament_cmake: 1.5.2 (/opt/ros/rolling/share/ament_cmake/cmake)\n'}
+[0.100038] (-) TimerEvent: {}
+[0.200383] (-) TimerEvent: {}
+[0.224640] (exercise_demo) StdoutLine: {'line': b'-- Found rclcpp: 19.0.0 (/opt/ros/rolling/share/rclcpp/cmake)\n'}
+[0.259330] (exercise_demo) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.3.1 (/opt/ros/rolling/share/rosidl_generator_c/cmake)\n'}
+[0.267509] (exercise_demo) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.3.1 (/opt/ros/rolling/share/rosidl_generator_cpp/cmake)\n'}
+[0.280447] (exercise_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.300560] (-) TimerEvent: {}
+[0.314842] (exercise_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.391417] (exercise_demo) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.4.0 (/opt/ros/rolling/share/rmw_implementation_cmake/cmake)\n'}
+[0.393516] (exercise_demo) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.5.0 (/opt/ros/rolling/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.400616] (-) TimerEvent: {}
+[0.500912] (-) TimerEvent: {}
+[0.601286] (-) TimerEvent: {}
+[0.640728] (exercise_demo) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.701415] (-) TimerEvent: {}
+[0.793880] (exercise_demo) StdoutLine: {'line': b'-- Found turtlesim: 1.5.0 (/opt/ros/rolling/share/turtlesim/cmake)\n'}
+[0.801569] (-) TimerEvent: {}
+[0.901955] (-) TimerEvent: {}
+[0.972239] (exercise_demo) StdoutLine: {'line': b'-- Found plumbing_interface_demo: 0.0.0 (/home/gdtr/ros2/colcon_mk/install/plumbing_interface_demo/share/plumbing_interface_demo/cmake)\n'}
+[1.002091] (-) TimerEvent: {}
+[1.036661] (exercise_demo) StdoutLine: {'line': b'-- Found geometry_msgs: 4.6.1 (/opt/ros/rolling/share/geometry_msgs/cmake)\n'}
+[1.102233] (-) TimerEvent: {}
+[1.146284] (exercise_demo) StdoutLine: {'line': b'-- Found rclcpp_action: 19.0.0 (/opt/ros/rolling/share/rclcpp_action/cmake)\n'}
+[1.196741] (exercise_demo) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.13.2 (/opt/ros/rolling/share/ament_lint_auto/cmake)\n'}
+[1.202330] (-) TimerEvent: {}
+[1.287874] (exercise_demo) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.288296] (exercise_demo) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/gdtr/ros2/colcon_mk/src/exercise_demo/include>\n'}
+[1.288438] (exercise_demo) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.288790] (exercise_demo) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.289437] (exercise_demo) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.289910] (exercise_demo) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.291256] (exercise_demo) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.291399] (exercise_demo) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.291701] (exercise_demo) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.292955] (exercise_demo) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.302465] (-) TimerEvent: {}
+[1.331561] (exercise_demo) StdoutLine: {'line': b'-- Generating done\n'}
+[1.334137] (exercise_demo) StdoutLine: {'line': b'-- Build files have been written to: /home/gdtr/ros2/colcon_mk/build/exercise_demo\n'}
+[1.364041] (exercise_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target eServiceClient\x1b[0m\n'}
+[1.364350] (exercise_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target eServiceServer\x1b[0m\n'}
+[1.367672] (exercise_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target eTopic_talker\x1b[0m\n'}
+[1.374392] (exercise_demo) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/eActionClient.dir/src/eActionClient.cpp.o\x1b[0m\n'}
+[1.377921] (exercise_demo) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/eActionServer.dir/src/eActionServer.cpp.o\x1b[0m\n'}
+[1.392819] (exercise_demo) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/eServiceServer.dir/src/eServiceServer.cpp.o\x1b[0m\n'}
+[1.393292] (exercise_demo) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/eServiceClient.dir/src/eServiceClient.cpp.o\x1b[0m\n'}
+[1.398002] (exercise_demo) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable eTopic_talker\x1b[0m\n'}
+[1.399369] (exercise_demo) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX executable eActionClient\x1b[0m\n'}
+[1.402584] (-) TimerEvent: {}
+[1.502965] (-) TimerEvent: {}
+[1.586018] (exercise_demo) StderrLine: {'line': b"/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n"}
+[1.586353] (exercise_demo) StderrLine: {'line': b"(.text+0x1b): undefined reference to `main'\n"}
+[1.590392] (exercise_demo) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[1.593380] (exercise_demo) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/eActionClient.dir/build.make:201: eActionClient] Error 1\n'}
+[1.593610] (exercise_demo) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/eActionClient.dir/all] Error 2\n'}
+[1.593743] (exercise_demo) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[1.603090] (-) TimerEvent: {}
+[1.704137] (-) TimerEvent: {}
+[1.804501] (-) TimerEvent: {}
+[1.904923] (-) TimerEvent: {}
+[2.005296] (-) TimerEvent: {}
+[2.105686] (-) TimerEvent: {}
+[2.141813] (exercise_demo) StdoutLine: {'line': b'[ 70%] Built target eTopic_talker\n'}
+[2.205800] (-) TimerEvent: {}
+[2.306156] (-) TimerEvent: {}
+[2.406690] (-) TimerEvent: {}
+[2.507053] (-) TimerEvent: {}
+[2.607421] (-) TimerEvent: {}
+[2.707808] (-) TimerEvent: {}
+[2.808169] (-) TimerEvent: {}
+[2.908566] (-) TimerEvent: {}
+[3.008920] (-) TimerEvent: {}
+[3.109295] (-) TimerEvent: {}
+[3.209674] (-) TimerEvent: {}
+[3.310033] (-) TimerEvent: {}
+[3.410403] (-) TimerEvent: {}
+[3.510799] (-) TimerEvent: {}
+[3.611145] (-) TimerEvent: {}
+[3.711510] (-) TimerEvent: {}
+[3.811869] (-) TimerEvent: {}
+[3.912233] (-) TimerEvent: {}
+[4.012668] (-) TimerEvent: {}
+[4.113055] (-) TimerEvent: {}
+[4.213442] (-) TimerEvent: {}
+[4.313814] (-) TimerEvent: {}
+[4.414224] (-) TimerEvent: {}
+[4.514699] (-) TimerEvent: {}
+[4.615114] (-) TimerEvent: {}
+[4.715476] (-) TimerEvent: {}
+[4.815822] (-) TimerEvent: {}
+[4.845265] (exercise_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gdtr/ros2/colcon_mk/src/exercise_demo/src/eServiceClient.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool EServiceClient::connect_server()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.845633] (exercise_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gdtr/ros2/colcon_mk/src/exercise_demo/src/eServiceClient.cpp:19:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kthis \xe2\x80\x98\x1b[01m\x1b[Kwhile\x1b[m\x1b[K\xe2\x80\x99 clause does not guard... [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmisleading-indentation\x07-Wmisleading-indentation\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.845784] (exercise_demo) StderrLine: {'line': b'   19 |         \x1b[01;35m\x1b[Kwhile\x1b[m\x1b[K(!client->wait_for_service(1s));\n'}
+[4.845889] (exercise_demo) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.846003] (exercise_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gdtr/ros2/colcon_mk/src/exercise_demo/src/eServiceClient.cpp:20:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K...this statement, but the latter is misleadingly indented as if it were guarded by the \xe2\x80\x98\x1b[01m\x1b[Kwhile\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.846105] (exercise_demo) StderrLine: {'line': b'   20 |         \x1b[01;36m\x1b[K{\x1b[m\x1b[K\n'}
+[4.846199] (exercise_demo) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[4.915921] (-) TimerEvent: {}
+[5.016208] (-) TimerEvent: {}
+[5.116558] (-) TimerEvent: {}
+[5.216858] (-) TimerEvent: {}
+[5.317183] (-) TimerEvent: {}
+[5.417533] (-) TimerEvent: {}
+[5.454561] (exercise_demo) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX executable eActionServer\x1b[0m\n'}
+[5.517653] (-) TimerEvent: {}
+[5.618026] (-) TimerEvent: {}
+[5.649096] (exercise_demo) StdoutLine: {'line': b'[ 80%] Built target eActionServer\n'}
+[5.718170] (-) TimerEvent: {}
+[5.818631] (-) TimerEvent: {}
+[5.919077] (-) TimerEvent: {}
+[6.019436] (-) TimerEvent: {}
+[6.119793] (-) TimerEvent: {}
+[6.220131] (-) TimerEvent: {}
+[6.320490] (-) TimerEvent: {}
+[6.420832] (-) TimerEvent: {}
+[6.503341] (exercise_demo) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable eServiceClient\x1b[0m\n'}
+[6.520962] (-) TimerEvent: {}
+[6.621284] (-) TimerEvent: {}
+[6.721646] (-) TimerEvent: {}
+[6.744210] (exercise_demo) StdoutLine: {'line': b'[ 90%] Built target eServiceClient\n'}
+[6.821807] (-) TimerEvent: {}
+[6.922159] (-) TimerEvent: {}
+[7.022538] (-) TimerEvent: {}
+[7.122852] (-) TimerEvent: {}
+[7.223214] (-) TimerEvent: {}
+[7.323619] (-) TimerEvent: {}
+[7.424101] (-) TimerEvent: {}
+[7.524469] (-) TimerEvent: {}
+[7.624843] (-) TimerEvent: {}
+[7.725228] (-) TimerEvent: {}
+[7.825620] (-) TimerEvent: {}
+[7.925994] (-) TimerEvent: {}
+[8.026345] (-) TimerEvent: {}
+[8.126735] (-) TimerEvent: {}
+[8.227129] (-) TimerEvent: {}
+[8.327549] (-) TimerEvent: {}
+[8.427888] (-) TimerEvent: {}
+[8.528231] (-) TimerEvent: {}
+[8.628597] (-) TimerEvent: {}
+[8.728948] (-) TimerEvent: {}
+[8.829336] (-) TimerEvent: {}
+[8.929750] (-) TimerEvent: {}
+[9.030163] (-) TimerEvent: {}
+[9.130548] (-) TimerEvent: {}
+[9.230949] (-) TimerEvent: {}
+[9.331302] (-) TimerEvent: {}
+[9.431642] (-) TimerEvent: {}
+[9.531983] (-) TimerEvent: {}
+[9.632342] (-) TimerEvent: {}
+[9.732701] (-) TimerEvent: {}
+[9.833041] (-) TimerEvent: {}
+[9.933383] (-) TimerEvent: {}
+[10.033729] (-) TimerEvent: {}
+[10.134070] (-) TimerEvent: {}
+[10.234403] (-) TimerEvent: {}
+[10.334751] (-) TimerEvent: {}
+[10.435134] (-) TimerEvent: {}
+[10.535472] (-) TimerEvent: {}
+[10.635843] (-) TimerEvent: {}
+[10.736164] (-) TimerEvent: {}
+[10.836497] (-) TimerEvent: {}
+[10.936839] (-) TimerEvent: {}
+[11.037187] (-) TimerEvent: {}
+[11.137574] (-) TimerEvent: {}
+[11.237922] (-) TimerEvent: {}
+[11.338265] (-) TimerEvent: {}
+[11.438610] (-) TimerEvent: {}
+[11.538953] (-) TimerEvent: {}
+[11.639406] (-) TimerEvent: {}
+[11.659339] (exercise_demo) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable eServiceServer\x1b[0m\n'}
+[11.739530] (-) TimerEvent: {}
+[11.839890] (-) TimerEvent: {}
+[11.940230] (-) TimerEvent: {}
+[12.040538] (-) TimerEvent: {}
+[12.140788] (-) TimerEvent: {}
+[12.213463] (exercise_demo) StdoutLine: {'line': b'[100%] Built target eServiceServer\n'}
+[12.214872] (exercise_demo) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[12.217226] (exercise_demo) CommandEnded: {'returncode': 2}
+[12.240905] (-) TimerEvent: {}
+[12.282425] (exercise_demo) JobEnded: {'identifier': 'exercise_demo', 'rc': 2}
+[12.293768] (-) EventReactorShutdown: {}
