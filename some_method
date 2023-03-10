@@ -60,3 +60,9 @@ rqt_graph           : 查看计算图点以指定名称启动
 ros2 doctor
 
 ros2 launch [包名] [launch文件名]
+
+ros2 bag record [话题名称] -o [文件夹路径]
+ros2 bag play [文件夹路径]
+ros2 bag info [文件夹路径]
+ros2 bag list
+ros2 bag convert

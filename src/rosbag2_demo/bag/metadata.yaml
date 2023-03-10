@@ -1,0 +1,27 @@
+rosbag2_bagfile_information:
+  version: 6
+  storage_identifier: mcap
+  duration:
+    nanoseconds: 6416852564
+  starting_time:
+    nanoseconds_since_epoch: 1678438808493461834
+  message_count: 61
+  topics_with_message_count:
+    - topic_metadata:
+        name: /turtle1/cmd_vel
+        type: geometry_msgs/msg/Twist
+        serialization_format: cdr
+        offered_qos_profiles: ""
+      message_count: 61
+  compression_format: ""
+  compression_mode: ""
+  relative_file_paths:
+    - bag_0.mcap
+  files:
+    - path: bag_0.mcap
+      starting_time:
+        nanoseconds_since_epoch: 1678438808493461834
+      duration:
+        nanoseconds: 6416852564
+      message_count: 61
+  custom_data: ~
