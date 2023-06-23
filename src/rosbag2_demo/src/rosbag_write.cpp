@@ -19,7 +19,6 @@ public:
     RosbagWriteDemo():Node("RosbagWriteDemo"){
         RCLCPP_INFO(this->get_logger(),"Create node of RosbagWriteDemo!");
         writer_ = std::make_unique<rosbag2_cpp::Writer>();
-
         std::string name;
         name = "src/rosbag2_demo/bag";
         writer_->open(name);

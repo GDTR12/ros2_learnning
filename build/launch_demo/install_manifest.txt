@@ -2,7 +2,7 @@
 /home/gdtr/ros2/colcon_mk/install/launch_demo/share/launch_demo/launch/launch_demo.py
 /home/gdtr/ros2/colcon_mk/install/launch_demo/share/launch_demo/launch/launch_demo.xml
 /home/gdtr/ros2/colcon_mk/install/launch_demo/share/launch_demo/launch/launch_demo.yaml
-/home/gdtr/ros2/colcon_mk/install/launch_demo/share/launch_demo/parameters/turtlesim.yaml
+/home/gdtr/ros2/colcon_mk/install/launch_demo/share/launch_demo/param/turtlesim.yaml
 /home/gdtr/ros2/colcon_mk/install/launch_demo/share/ament_index/resource_index/package_run_dependencies/launch_demo
 /home/gdtr/ros2/colcon_mk/install/launch_demo/share/ament_index/resource_index/parent_prefix_path/launch_demo
 /home/gdtr/ros2/colcon_mk/install/launch_demo/share/launch_demo/environment/ament_prefix_path.sh

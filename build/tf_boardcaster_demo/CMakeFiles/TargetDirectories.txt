@@ -1,0 +1,13 @@
+/home/gdtr/ros2/colcon_mk/build/tf_boardcaster_demo/CMakeFiles/uninstall.dir
+/home/gdtr/ros2/colcon_mk/build/tf_boardcaster_demo/CMakeFiles/tf_boardcaster_demo_uninstall.dir
+/home/gdtr/ros2/colcon_mk/build/tf_boardcaster_demo/CMakeFiles/static_tf_boardcaster.dir
+/home/gdtr/ros2/colcon_mk/build/tf_boardcaster_demo/CMakeFiles/dynamic_tf_boardcaster.dir
+/home/gdtr/ros2/colcon_mk/build/tf_boardcaster_demo/CMakeFiles/point_tf_broadcaster.dir
+/home/gdtr/ros2/colcon_mk/build/tf_boardcaster_demo/CMakeFiles/listenser_tf.dir
+/home/gdtr/ros2/colcon_mk/build/tf_boardcaster_demo/CMakeFiles/test.dir
+/home/gdtr/ros2/colcon_mk/build/tf_boardcaster_demo/CMakeFiles/edit_cache.dir
+/home/gdtr/ros2/colcon_mk/build/tf_boardcaster_demo/CMakeFiles/rebuild_cache.dir
+/home/gdtr/ros2/colcon_mk/build/tf_boardcaster_demo/CMakeFiles/list_install_components.dir
+/home/gdtr/ros2/colcon_mk/build/tf_boardcaster_demo/CMakeFiles/install.dir
+/home/gdtr/ros2/colcon_mk/build/tf_boardcaster_demo/CMakeFiles/install/local.dir
+/home/gdtr/ros2/colcon_mk/build/tf_boardcaster_demo/CMakeFiles/install/strip.dir

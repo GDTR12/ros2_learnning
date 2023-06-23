@@ -1,0 +1,16 @@
+/home/gdtr/ros2/colcon_mk/install/my_tools/lib/my_tools/param_bind
+/home/gdtr/ros2/colcon_mk/install/my_tools/share/ament_index/resource_index/package_run_dependencies/my_tools
+/home/gdtr/ros2/colcon_mk/install/my_tools/share/ament_index/resource_index/parent_prefix_path/my_tools
+/home/gdtr/ros2/colcon_mk/install/my_tools/share/my_tools/environment/ament_prefix_path.sh
+/home/gdtr/ros2/colcon_mk/install/my_tools/share/my_tools/environment/ament_prefix_path.dsv
+/home/gdtr/ros2/colcon_mk/install/my_tools/share/my_tools/environment/path.sh
+/home/gdtr/ros2/colcon_mk/install/my_tools/share/my_tools/environment/path.dsv
+/home/gdtr/ros2/colcon_mk/install/my_tools/share/my_tools/local_setup.bash
+/home/gdtr/ros2/colcon_mk/install/my_tools/share/my_tools/local_setup.sh
+/home/gdtr/ros2/colcon_mk/install/my_tools/share/my_tools/local_setup.zsh
+/home/gdtr/ros2/colcon_mk/install/my_tools/share/my_tools/local_setup.dsv
+/home/gdtr/ros2/colcon_mk/install/my_tools/share/my_tools/package.dsv
+/home/gdtr/ros2/colcon_mk/install/my_tools/share/ament_index/resource_index/packages/my_tools
+/home/gdtr/ros2/colcon_mk/install/my_tools/share/my_tools/cmake/my_toolsConfig.cmake
+/home/gdtr/ros2/colcon_mk/install/my_tools/share/my_tools/cmake/my_toolsConfig-version.cmake
+/home/gdtr/ros2/colcon_mk/install/my_tools/share/my_tools/package.xml

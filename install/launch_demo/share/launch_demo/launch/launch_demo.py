@@ -100,25 +100,27 @@ def generate_launch_description():
     # return ld([g1,g2]) 
 
     #------------------------添加事件------------------------
-    turtle = Node(package="turtlesim",executable="turtlesim_node")
-    spawn = ExecuteProcess(
-        cmd=["ros2 service call /spawn turtlesim/srv/Spawn \"{'x': 8,'y':3.0}\""],
-        output="both",
-        shell=True
-    )
+    # turtle = Node(package="turtlesim",executable="turtlesim_node")
+    # spawn = ExecuteProcess(
+    #     cmd=["ros2 service call /spawn turtlesim/srv/Spawn \"{'x': 8,'y':3.0}\""],
+    #     output="both",
+    #     shell=True
+    # )
 
-    event_start = RegisterEventHandler(
-        event_handler=OnProcessStart(
-            target_action=turtle,
-            on_start=spawn
-        )
-    )
+    # event_start = RegisterEventHandler(
+    #     event_handler=OnProcessStart(
+    #         target_action=turtle,
+    #         on_start=spawn
+    #     )
+    # )
 
-    event_exit = RegisterEventHandler(
-        event_handler=OnProcessExit(
-            target_action=turtle,
-            on_exit=[LogInfo(msg="Turtlesim_node Exit")]
-        )
-    )
-    return ld([turtle,event_start,event_exit])
+    # event_exit = RegisterEventHandler(
+    #     event_handler=OnProcessExit(
+    #         target_action=turtle,
+    #         on_exit=[LogInfo(msg="Turtlesim_node Exit")]
+    #     )
+    # )
+    # return ld([turtle,event_start,event_exit])
+
+    
 

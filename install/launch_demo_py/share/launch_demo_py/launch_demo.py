@@ -15,5 +15,6 @@ def generate_launch_description():
         arguments: Optional[Iterable[SomeSubstitutionsType]] = None, 
     """
     return ld([
-        Node(package="turtlesim",executable="turtlesim_node")
+        Node(package="turtlesim",executable="turtlesim_node",
+             parameters=[])
     ]) 

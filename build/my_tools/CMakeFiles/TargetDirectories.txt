@@ -1,0 +1,10 @@
+/home/gdtr/ros2/colcon_mk/build/my_tools/CMakeFiles/uninstall.dir
+/home/gdtr/ros2/colcon_mk/build/my_tools/CMakeFiles/my_tools_uninstall.dir
+/home/gdtr/ros2/colcon_mk/build/my_tools/CMakeFiles/param_bind.dir
+/home/gdtr/ros2/colcon_mk/build/my_tools/CMakeFiles/test.dir
+/home/gdtr/ros2/colcon_mk/build/my_tools/CMakeFiles/edit_cache.dir
+/home/gdtr/ros2/colcon_mk/build/my_tools/CMakeFiles/rebuild_cache.dir
+/home/gdtr/ros2/colcon_mk/build/my_tools/CMakeFiles/list_install_components.dir
+/home/gdtr/ros2/colcon_mk/build/my_tools/CMakeFiles/install.dir
+/home/gdtr/ros2/colcon_mk/build/my_tools/CMakeFiles/install/local.dir
+/home/gdtr/ros2/colcon_mk/build/my_tools/CMakeFiles/install/strip.dir

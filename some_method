@@ -66,3 +66,8 @@ ros2 bag play [文件夹路径]
 ros2 bag info [文件夹路径]
 ros2 bag list
 ros2 bag convert
+
+
+ros2 interface show geometry_msgs/msg/TransformStamped  :查看TransformStamped坐标变换
+ros2 interface show geometry_msgs/msg/Point     
+rr tf2_ros static_transform_publisher --frame-id [base_link] --child-frame-id [laser] --x []

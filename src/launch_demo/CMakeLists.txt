@@ -22,7 +22,7 @@ ament_target_dependencies(
 install(TARGETS exec_multiName
   DESTINATION lib/${PROJECT_NAME})
 
-install(DIRECTORY launch parameters DESTINATION share/${PROJECT_NAME})
+install(DIRECTORY launch param DESTINATION share/${PROJECT_NAME})
 
 
 if(BUILD_TESTING)

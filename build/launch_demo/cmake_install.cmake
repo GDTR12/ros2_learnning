@@ -65,7 +65,7 @@ endif()
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/launch_demo" TYPE DIRECTORY FILES
     "/home/gdtr/ros2/colcon_mk/src/launch_demo/launch"
-    "/home/gdtr/ros2/colcon_mk/src/launch_demo/parameters"
+    "/home/gdtr/ros2/colcon_mk/src/launch_demo/param"
     )
 endif()
 

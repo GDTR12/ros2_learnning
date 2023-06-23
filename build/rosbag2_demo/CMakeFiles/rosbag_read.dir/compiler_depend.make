@@ -667,8 +667,161 @@ CMakeFiles/rosbag_read.dir/src/rosbag_read.cpp.o: /home/gdtr/ros2/colcon_mk/src/
   /opt/ros/rolling/include/rclcpp/rclcpp/wait_set_policies/static_storage.hpp \
   /opt/ros/rolling/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
   /opt/ros/rolling/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
-  /opt/ros/rolling/include/rclcpp/rclcpp/wait_set_template.hpp
+  /opt/ros/rolling/include/rclcpp/rclcpp/wait_set_template.hpp \
+  /opt/ros/rolling/include/rosbag2_cpp/rosbag2_cpp/reader.hpp \
+  /opt/ros/rolling/include/rclcpp/rclcpp/serialization.hpp \
+  /opt/ros/rolling/include/rosbag2_cpp/rosbag2_cpp/bag_events.hpp \
+  /opt/ros/rolling/include/rosbag2_cpp/rosbag2_cpp/visibility_control.hpp \
+  /opt/ros/rolling/include/rosbag2_cpp/rosbag2_cpp/converter_options.hpp \
+  /opt/ros/rolling/include/rosbag2_cpp/rosbag2_cpp/readers/sequential_reader.hpp \
+  /opt/ros/rolling/include/rosbag2_cpp/rosbag2_cpp/converter.hpp \
+  /opt/ros/rolling/include/rosbag2_cpp/rosbag2_cpp/converter_interfaces/serialization_format_converter.hpp \
+  /opt/ros/rolling/include/rosbag2_cpp/rosbag2_cpp/converter_interfaces/serialization_format_serializer.hpp \
+  /opt/ros/rolling/include/rosbag2_cpp/rosbag2_cpp/types/introspection_message.hpp \
+  /opt/ros/rolling/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/message_introspection.hpp \
+  /usr/include/c++/11/cstddef \
+  /opt/ros/rolling/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/visibility_control.h \
+  /opt/ros/rolling/include/rosbag2_storage/rosbag2_storage/serialized_bag_message.hpp \
+  /opt/ros/rolling/include/rosbag2_cpp/rosbag2_cpp/converter_interfaces/serialization_format_deserializer.hpp \
+  /opt/ros/rolling/include/rosbag2_cpp/rosbag2_cpp/serialization_format_converter_factory.hpp \
+  /opt/ros/rolling/include/rosbag2_cpp/rosbag2_cpp/serialization_format_converter_factory_interface.hpp \
+  /opt/ros/rolling/include/rosbag2_cpp/rosbag2_cpp/reader_interfaces/base_reader_interface.hpp \
+  /opt/ros/rolling/include/rosbag2_storage/rosbag2_storage/bag_metadata.hpp \
+  /opt/ros/rolling/include/rosbag2_storage/rosbag2_storage/topic_metadata.hpp \
+  /opt/ros/rolling/include/rosbag2_storage/rosbag2_storage/storage_filter.hpp \
+  /opt/ros/rolling/include/rosbag2_storage/rosbag2_storage/storage_interfaces/base_read_interface.hpp \
+  /opt/ros/rolling/include/rosbag2_storage/rosbag2_storage/visibility_control.hpp \
+  /opt/ros/rolling/include/rosbag2_storage/rosbag2_storage/storage_options.hpp \
+  /opt/ros/rolling/include/rosbag2_storage/rosbag2_storage/yaml.hpp \
+  /usr/include/yaml-cpp/yaml.h \
+  /usr/include/yaml-cpp/parser.h \
+  /usr/include/yaml-cpp/dll.h \
+  /usr/include/yaml-cpp/emitter.h \
+  /usr/include/yaml-cpp/binary.h \
+  /usr/include/yaml-cpp/emitterdef.h \
+  /usr/include/yaml-cpp/emittermanip.h \
+  /usr/include/yaml-cpp/null.h \
+  /usr/include/yaml-cpp/ostream_wrapper.h \
+  /usr/include/yaml-cpp/emitterstyle.h \
+  /usr/include/yaml-cpp/stlemitter.h \
+  /usr/include/yaml-cpp/exceptions.h \
+  /usr/include/yaml-cpp/mark.h \
+  /usr/include/yaml-cpp/noexcept.h \
+  /usr/include/yaml-cpp/traits.h \
+  /usr/include/yaml-cpp/node/node.h \
+  /usr/include/yaml-cpp/node/detail/iterator_fwd.h \
+  /usr/include/yaml-cpp/node/ptr.h \
+  /usr/include/yaml-cpp/node/type.h \
+  /usr/include/yaml-cpp/node/impl.h \
+  /usr/include/yaml-cpp/node/detail/memory.h \
+  /usr/include/yaml-cpp/node/detail/node.h \
+  /usr/include/yaml-cpp/node/detail/node_ref.h \
+  /usr/include/yaml-cpp/node/detail/node_data.h \
+  /usr/include/yaml-cpp/node/detail/node_iterator.h \
+  /usr/include/yaml-cpp/node/iterator.h \
+  /usr/include/yaml-cpp/node/detail/iterator.h \
+  /usr/include/yaml-cpp/node/convert.h \
+  /usr/include/yaml-cpp/node/detail/impl.h \
+  /usr/include/yaml-cpp/node/parse.h \
+  /usr/include/yaml-cpp/node/emit.h \
+  /opt/ros/rolling/include/rosbag2_storage/rosbag2_storage/metadata_io.hpp \
+  /opt/ros/rolling/include/rosbag2_storage/rosbag2_storage/storage_factory.hpp \
+  /opt/ros/rolling/include/rosbag2_storage/rosbag2_storage/storage_factory_interface.hpp \
+  /opt/ros/rolling/include/rosbag2_storage/rosbag2_storage/storage_interfaces/read_only_interface.hpp \
+  /opt/ros/rolling/include/rosbag2_storage/rosbag2_storage/storage_interfaces/base_info_interface.hpp \
+  /opt/ros/rolling/include/rosbag2_storage/rosbag2_storage/storage_interfaces/base_io_interface.hpp \
+  /opt/ros/rolling/include/rosbag2_storage/rosbag2_storage/storage_traits.hpp \
+  /opt/ros/rolling/include/rosbag2_storage/rosbag2_storage/storage_interfaces/read_write_interface.hpp \
+  /opt/ros/rolling/include/rosbag2_storage/rosbag2_storage/storage_interfaces/base_write_interface.hpp \
+  /opt/ros/rolling/include/geometry_msgs/geometry_msgs/msg/twist.hpp \
+  /opt/ros/rolling/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
+  /opt/ros/rolling/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp \
+  /opt/ros/rolling/include/geometry_msgs/geometry_msgs/msg/detail/twist__builder.hpp \
+  /opt/ros/rolling/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
+  /opt/ros/rolling/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp
 
+
+/opt/ros/rolling/include/geometry_msgs/geometry_msgs/msg/detail/twist__builder.hpp:
+
+/opt/ros/rolling/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp:
+
+/opt/ros/rolling/include/geometry_msgs/geometry_msgs/msg/twist.hpp:
+
+/opt/ros/rolling/include/rosbag2_storage/rosbag2_storage/storage_traits.hpp:
+
+/opt/ros/rolling/include/rosbag2_storage/rosbag2_storage/storage_interfaces/base_io_interface.hpp:
+
+/opt/ros/rolling/include/rosbag2_storage/rosbag2_storage/storage_interfaces/base_info_interface.hpp:
+
+/opt/ros/rolling/include/rosbag2_storage/rosbag2_storage/storage_interfaces/read_only_interface.hpp:
+
+/usr/include/yaml-cpp/node/parse.h:
+
+/usr/include/yaml-cpp/node/convert.h:
+
+/usr/include/yaml-cpp/node/iterator.h:
+
+/usr/include/yaml-cpp/node/detail/node_data.h:
+
+/usr/include/yaml-cpp/node/detail/node_ref.h:
+
+/usr/include/yaml-cpp/node/detail/node.h:
+
+/usr/include/yaml-cpp/node/type.h:
+
+/usr/include/yaml-cpp/node/detail/iterator_fwd.h:
+
+/usr/include/yaml-cpp/node/node.h:
+
+/usr/include/yaml-cpp/noexcept.h:
+
+/usr/include/yaml-cpp/mark.h:
+
+/usr/include/yaml-cpp/stlemitter.h:
+
+/usr/include/yaml-cpp/ostream_wrapper.h:
+
+/usr/include/yaml-cpp/null.h:
+
+/usr/include/yaml-cpp/emittermanip.h:
+
+/usr/include/yaml-cpp/binary.h:
+
+/usr/include/yaml-cpp/node/detail/iterator.h:
+
+/usr/include/yaml-cpp/yaml.h:
+
+/opt/ros/rolling/include/rosbag2_storage/rosbag2_storage/storage_interfaces/base_read_interface.hpp:
+
+/opt/ros/rolling/include/rosbag2_storage/rosbag2_storage/storage_filter.hpp:
+
+/opt/ros/rolling/include/rosbag2_storage/rosbag2_storage/bag_metadata.hpp:
+
+/opt/ros/rolling/include/rosbag2_cpp/rosbag2_cpp/reader_interfaces/base_reader_interface.hpp:
+
+/opt/ros/rolling/include/rosbag2_cpp/rosbag2_cpp/serialization_format_converter_factory.hpp:
+
+/opt/ros/rolling/include/rosbag2_cpp/rosbag2_cpp/converter_interfaces/serialization_format_deserializer.hpp:
+
+/opt/ros/rolling/include/rosbag2_storage/rosbag2_storage/serialized_bag_message.hpp:
+
+/opt/ros/rolling/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/visibility_control.h:
+
+/usr/include/c++/11/cstddef:
+
+/opt/ros/rolling/include/rosbag2_cpp/rosbag2_cpp/converter_interfaces/serialization_format_serializer.hpp:
+
+/opt/ros/rolling/include/rosbag2_cpp/rosbag2_cpp/converter_interfaces/serialization_format_converter.hpp:
+
+/opt/ros/rolling/include/rosbag2_cpp/rosbag2_cpp/converter.hpp:
+
+/opt/ros/rolling/include/rosbag2_cpp/rosbag2_cpp/converter_options.hpp:
+
+/usr/include/yaml-cpp/node/ptr.h:
+
+/opt/ros/rolling/include/rosbag2_cpp/rosbag2_cpp/bag_events.hpp:
+
+/opt/ros/rolling/include/rclcpp/rclcpp/serialization.hpp:
 
 /opt/ros/rolling/include/rclcpp/rclcpp/wait_set_template.hpp:
 
@@ -708,6 +861,8 @@ CMakeFiles/rosbag_read.dir/src/rosbag_read.cpp.o: /home/gdtr/ros2/colcon_mk/src/
 
 /opt/ros/rolling/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp:
 
+/opt/ros/rolling/include/rosbag2_cpp/rosbag2_cpp/serialization_format_converter_factory_interface.hpp:
+
 /opt/ros/rolling/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__traits.hpp:
 
 /opt/ros/rolling/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__builder.hpp:
@@ -717,6 +872,8 @@ CMakeFiles/rosbag_read.dir/src/rosbag_read.cpp.o: /home/gdtr/ros2/colcon_mk/src/
 /opt/ros/rolling/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__traits.hpp:
 
 /opt/ros/rolling/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__builder.hpp:
+
+/opt/ros/rolling/include/rosbag2_cpp/rosbag2_cpp/reader.hpp:
 
 /opt/ros/rolling/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__struct.hpp:
 
@@ -730,6 +887,8 @@ CMakeFiles/rosbag_read.dir/src/rosbag_read.cpp.o: /home/gdtr/ros2/colcon_mk/src/
 
 /opt/ros/rolling/include/rclcpp/rclcpp/executors/static_single_threaded_executor.hpp:
 
+/usr/include/yaml-cpp/dll.h:
+
 /opt/ros/rolling/include/rclcpp/rclcpp/node_interfaces/node_base_interface_traits.hpp:
 
 /opt/ros/rolling/include/rclcpp/rclcpp/node_interfaces/get_node_base_interface.hpp:
@@ -739,6 +898,8 @@ CMakeFiles/rosbag_read.dir/src/rosbag_read.cpp.o: /home/gdtr/ros2/colcon_mk/src/
 /opt/ros/rolling/include/rclcpp/rclcpp/node_interfaces/node_timers_interface_traits.hpp:
 
 /opt/ros/rolling/include/rclcpp/rclcpp/node_interfaces/get_node_timers_interface.hpp:
+
+/opt/ros/rolling/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:
 
 /opt/ros/rolling/include/rclcpp/rclcpp/detail/resolve_enable_topic_statistics.hpp:
 
@@ -800,6 +961,8 @@ CMakeFiles/rosbag_read.dir/src/rosbag_read.cpp.o: /home/gdtr/ros2/colcon_mk/src/
 
 /opt/ros/rolling/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__struct.hpp:
 
+/usr/include/yaml-cpp/node/detail/impl.h:
+
 /opt/ros/rolling/include/rcl_interfaces/rcl_interfaces/msg/parameter_event.hpp:
 
 /opt/ros/rolling/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__traits.hpp:
@@ -852,6 +1015,8 @@ CMakeFiles/rosbag_read.dir/src/rosbag_read.cpp.o: /home/gdtr/ros2/colcon_mk/src/
 
 /usr/include/c++/11/pstl/execution_defs.h:
 
+/opt/ros/rolling/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp:
+
 /opt/ros/rolling/include/rclcpp/rclcpp/parameter_event_handler.hpp:
 
 /usr/include/c++/11/bits/stl_algo.h:
@@ -900,6 +1065,8 @@ CMakeFiles/rosbag_read.dir/src/rosbag_read.cpp.o: /home/gdtr/ros2/colcon_mk/src/
 
 /usr/include/c++/11/unordered_map:
 
+/usr/include/yaml-cpp/exceptions.h:
+
 /usr/include/c++/11/cctype:
 
 /opt/ros/rolling/include/rclcpp/rclcpp/wait_set_policies/detail/storage_policy_common.hpp:
@@ -907,6 +1074,8 @@ CMakeFiles/rosbag_read.dir/src/rosbag_read.cpp.o: /home/gdtr/ros2/colcon_mk/src/
 /usr/include/c++/11/iomanip:
 
 /usr/include/x86_64-linux-gnu/bits/locale.h:
+
+/usr/include/yaml-cpp/node/emit.h:
 
 /opt/ros/rolling/include/rclcpp/rclcpp/type_support_decl.hpp:
 
@@ -972,6 +1141,10 @@ CMakeFiles/rosbag_read.dir/src/rosbag_read.cpp.o: /home/gdtr/ros2/colcon_mk/src/
 
 /opt/ros/rolling/include/rclcpp/rclcpp/experimental/intra_process_manager.hpp:
 
+/usr/include/yaml-cpp/emitterdef.h:
+
+/usr/include/yaml-cpp/emitter.h:
+
 /usr/include/c++/11/exception:
 
 /opt/ros/rolling/include/rcl/rcl/domain_id.h:
@@ -989,6 +1162,8 @@ CMakeFiles/rosbag_read.dir/src/rosbag_read.cpp.o: /home/gdtr/ros2/colcon_mk/src/
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
 /usr/include/c++/11/typeindex:
+
+/usr/include/yaml-cpp/emitterstyle.h:
 
 /usr/include/time.h:
 
@@ -1052,6 +1227,8 @@ CMakeFiles/rosbag_read.dir/src/rosbag_read.cpp.o: /home/gdtr/ros2/colcon_mk/src/
 
 /usr/include/c++/11/bits/stl_raw_storage_iter.h:
 
+/usr/include/yaml-cpp/node/detail/node_iterator.h:
+
 /opt/ros/rolling/include/rmw/rmw/error_handling.h:
 
 /usr/include/c++/11/bits/basic_string.tcc:
@@ -1069,6 +1246,8 @@ CMakeFiles/rosbag_read.dir/src/rosbag_read.cpp.o: /home/gdtr/ros2/colcon_mk/src/
 /usr/include/c++/11/bits/quoted_string.h:
 
 /usr/include/x86_64-linux-gnu/sys/ucontext.h:
+
+/opt/ros/rolling/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/message_introspection.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h:
 
@@ -1114,6 +1293,8 @@ CMakeFiles/rosbag_read.dir/src/rosbag_read.cpp.o: /home/gdtr/ros2/colcon_mk/src/
 
 /opt/ros/rolling/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:
 
+/opt/ros/rolling/include/rosbag2_storage/rosbag2_storage/storage_options.hpp:
+
 /opt/ros/rolling/include/rclcpp/rclcpp/contexts/default_context.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/environments.h:
@@ -1157,6 +1338,8 @@ CMakeFiles/rosbag_read.dir/src/rosbag_read.cpp.o: /home/gdtr/ros2/colcon_mk/src/
 /opt/ros/rolling/include/rmw/rmw/topic_endpoint_info.h:
 
 /usr/include/pthread.h:
+
+/opt/ros/rolling/include/rosbag2_storage/rosbag2_storage/metadata_io.hpp:
 
 /usr/include/c++/11/limits:
 
@@ -1314,6 +1497,8 @@ CMakeFiles/rosbag_read.dir/src/rosbag_read.cpp.o: /home/gdtr/ros2/colcon_mk/src/
 
 /usr/include/errno.h:
 
+/opt/ros/rolling/include/rosbag2_storage/rosbag2_storage/yaml.hpp:
+
 /opt/ros/rolling/include/rclcpp/rclcpp/experimental/buffers/buffer_implementation_base.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/getopt_core.h:
@@ -1430,6 +1615,8 @@ CMakeFiles/rosbag_read.dir/src/rosbag_read.cpp.o: /home/gdtr/ros2/colcon_mk/src/
 
 /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
 
+/opt/ros/rolling/include/rosbag2_storage/rosbag2_storage/storage_factory_interface.hpp:
+
 /usr/include/c++/11/bits/move.h:
 
 /usr/include/c++/11/bits/hash_bytes.h:
@@ -1448,6 +1635,10 @@ CMakeFiles/rosbag_read.dir/src/rosbag_read.cpp.o: /home/gdtr/ros2/colcon_mk/src/
 
 /opt/ros/rolling/include/rmw/rmw/types.h:
 
+/opt/ros/rolling/include/rosbag2_storage/rosbag2_storage/topic_metadata.hpp:
+
+/opt/ros/rolling/include/rosbag2_cpp/rosbag2_cpp/types/introspection_message.hpp:
+
 /opt/ros/rolling/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp:
 
 /opt/ros/rolling/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h:
@@ -1455,6 +1646,8 @@ CMakeFiles/rosbag_read.dir/src/rosbag_read.cpp.o: /home/gdtr/ros2/colcon_mk/src/
 /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h:
 
 /usr/include/c++/11/tuple:
+
+/usr/include/yaml-cpp/node/detail/memory.h:
 
 /usr/include/x86_64-linux-gnu/bits/sigcontext.h:
 
@@ -1503,6 +1696,8 @@ CMakeFiles/rosbag_read.dir/src/rosbag_read.cpp.o: /home/gdtr/ros2/colcon_mk/src/
 /usr/include/c++/11/bits/atomic_futex.h:
 
 /usr/include/c++/11/cstring:
+
+/opt/ros/rolling/include/rosbag2_cpp/rosbag2_cpp/visibility_control.hpp:
 
 /usr/include/c++/11/bits/charconv.h:
 
@@ -1566,6 +1761,8 @@ CMakeFiles/rosbag_read.dir/src/rosbag_read.cpp.o: /home/gdtr/ros2/colcon_mk/src/
 
 /usr/include/c++/11/codecvt:
 
+/opt/ros/rolling/include/rosbag2_storage/rosbag2_storage/visibility_control.hpp:
+
 /usr/include/c++/11/cwctype:
 
 /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
@@ -1583,6 +1780,8 @@ CMakeFiles/rosbag_read.dir/src/rosbag_read.cpp.o: /home/gdtr/ros2/colcon_mk/src/
 /opt/ros/rolling/include/rmw/rmw/network_flow_endpoint.h:
 
 /usr/include/c++/11/istream:
+
+/opt/ros/rolling/include/rosbag2_storage/rosbag2_storage/storage_interfaces/read_write_interface.hpp:
 
 /usr/include/c++/11/bits/istream.tcc:
 
@@ -1606,6 +1805,8 @@ CMakeFiles/rosbag_read.dir/src/rosbag_read.cpp.o: /home/gdtr/ros2/colcon_mk/src/
 
 /opt/ros/rolling/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:
 
+/usr/include/yaml-cpp/parser.h:
+
 /opt/ros/rolling/include/rclcpp/rclcpp/node_interfaces/node_clock_interface_traits.hpp:
 
 /opt/ros/rolling/include/rcl/rcl/allocator.h:
@@ -1619,6 +1820,8 @@ CMakeFiles/rosbag_read.dir/src/rosbag_read.cpp.o: /home/gdtr/ros2/colcon_mk/src/
 /opt/ros/rolling/include/rcutils/rcutils/types/rcutils_ret.h:
 
 /opt/ros/rolling/include/rcl/rcl/context.h:
+
+/opt/ros/rolling/include/rosbag2_storage/rosbag2_storage/storage_interfaces/base_write_interface.hpp:
 
 /usr/include/stdint.h:
 
@@ -1635,6 +1838,8 @@ CMakeFiles/rosbag_read.dir/src/rosbag_read.cpp.o: /home/gdtr/ros2/colcon_mk/src/
 /opt/ros/rolling/include/rmw/rmw/visibility_control.h:
 
 /usr/include/c++/11/tr1/riemann_zeta.tcc:
+
+/opt/ros/rolling/include/rosbag2_cpp/rosbag2_cpp/readers/sequential_reader.hpp:
 
 /usr/include/c++/11/chrono:
 
@@ -1683,6 +1888,8 @@ CMakeFiles/rosbag_read.dir/src/rosbag_read.cpp.o: /home/gdtr/ros2/colcon_mk/src/
 /opt/ros/rolling/include/rmw/rmw/events_statuses/liveliness_lost.h:
 
 /opt/ros/rolling/include/rmw/rmw/impl/cpp/demangle.hpp:
+
+/usr/include/yaml-cpp/traits.h:
 
 /opt/ros/rolling/include/rmw/rmw/init.h:
 
@@ -1740,6 +1947,10 @@ CMakeFiles/rosbag_read.dir/src/rosbag_read.cpp.o: /home/gdtr/ros2/colcon_mk/src/
 
 /opt/ros/rolling/include/rmw/rmw/event.h:
 
+/opt/ros/rolling/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp:
+
+/usr/include/yaml-cpp/node/impl.h:
+
 /usr/include/c++/11/string_view:
 
 /opt/ros/rolling/include/rmw/rmw/qos_profiles.h:
@@ -1753,6 +1964,8 @@ CMakeFiles/rosbag_read.dir/src/rosbag_read.cpp.o: /home/gdtr/ros2/colcon_mk/src/
 /opt/ros/rolling/include/rcl/rcl/publisher.h:
 
 /opt/ros/rolling/include/rclcpp/rclcpp/experimental/create_intra_process_buffer.hpp:
+
+/opt/ros/rolling/include/rosbag2_storage/rosbag2_storage/storage_factory.hpp:
 
 /opt/ros/rolling/include/rclcpp/rclcpp/parameter_value.hpp:
 
