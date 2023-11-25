@@ -71,3 +71,10 @@ ros2 bag convert
 ros2 interface show geometry_msgs/msg/TransformStamped  :查看TransformStamped坐标变换
 ros2 interface show geometry_msgs/msg/Point     
 rr tf2_ros static_transform_publisher --frame-id [base_link] --child-frame-id [laser] --x []
+
+添加ros2的自动补全
+打开sudo vim /opt/ros/humble/setup.zsh
+末尾添加自动补全指令
+方案一：（笔者方案）
+
+complete -o nospace -o default -F _python_argcomplete “ros2”
